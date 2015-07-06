@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "wt-dirtymaplesyrup", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "wt-maplesyrup",
+    "count" : 1
+  },
+  "groups" : [ "wt-survivalisttable", "wt-plantcraft" ]
+}

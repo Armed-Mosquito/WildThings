@@ -1,0 +1,8 @@
+{
+  "itemName" : "wt-pig-trophy-head",
+  "rarity" : "Rare",
+  "inventoryIcon" : "wt-pig-head.png",
+  "maxStack" : 3,
+  "description" : "A pig's missing head.",
+  "shortdescription" : "Trophy Pig Head"
+}

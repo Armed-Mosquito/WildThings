@@ -1,0 +1,21 @@
+{
+  "itemName" : "wt-cookedleg",
+  "rarity" : "Common",
+  "inventoryIcon" : "wt-cookedleg.png",
+  "maxStack" : 8,
+  "description" : "I'll be kept well fed with this.",
+  "shortdescription" : "Cooked Leg",
+  "effects" : [ [
+    {
+        "effect" : "foodheal25",
+        "duration" : 30
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 180
+    }
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

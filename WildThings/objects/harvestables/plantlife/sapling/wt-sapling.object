@@ -1,0 +1,46 @@
+{
+  "objectName" : "wt-sapling",
+  "rarity" : "Uncommon",
+  "category" : "Plant Species",
+  "description" : "Wild Sapling Tree",
+  "shortdescription" : "Wild Sapling Tree",
+  "maxStack" : 1,
+  "objectType" : "farmable",
+  "printable" : false,
+  "price" : 157,
+  
+  "maximumLiquidLevel" : 0.2,  
+
+  "apexDescription" : "A Wild Sapling Tree these have a better harvest then cloned farmed saplings, breaks if pulled from ground!",
+  "avianDescription" : "A Wild Sapling Tree these have a better harvest then cloned farmed saplings, breaks if pulled from ground!",
+  "floranDescription" : "A Wild Sapling Tree these have a better harvest then cloned farmed saplings, breaks if pulled from ground!",
+  "glitchDescription" : "A Wild Sapling Tree these have a better harvest then cloned farmed saplings, breaks if pulled from ground!",
+  "humanDescription" : "A Wild Sapling Tree these have a better harvest then cloned farmed saplings, breaks if pulled from ground!",
+  "hylotlDescription" : "A Wild Sapling Tree these have a better harvest then cloned farmed saplings, breaks if pulled from ground!",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "wt-sapling.png:<color>.<stage>.<alt>",
+      "imagePosition" : [-14, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "requireTilledAnchors" : false,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "stages" : [
+    {
+      "duration" : [75, 150]
+    },
+    {
+      "alts" : 1,
+      "harvestPool" : "wt-saplingHarvest"
+    }
+  ],
+    "breakDropOptions" : [ ]
+}

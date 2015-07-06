@@ -1,0 +1,20 @@
+{
+  "modId" : 23381,
+  "modName" : "wt-salt",
+  "itemDrop" : "wt-seasalt",
+  "Description" : "Sea Salt",
+  "health" : 5,
+  "harvestLevel" : 1,
+  "breaksWithTile" : true,
+
+  "miningSounds" : [ "/sfx/tools/pickaxe_ore.wav", "/sfx/tools/pickaxe_ore2.wav" ],
+  "miningParticle" : "orespark",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "wt-salt.png",
+    "variants" : 8,
+    "multiColored" : false,
+    "zLevel" : 0
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name" : "body",
+  "category" : "wt-muskrat",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "wt-muskrat.png"
+  }
+}

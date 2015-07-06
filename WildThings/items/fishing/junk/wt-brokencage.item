@@ -1,0 +1,8 @@
+{
+  "itemName" : "wt-brokencage",
+  "rarity" : "Common",
+  "inventoryIcon" : "wt-brokencage.png",
+  "maxStack" : 1,
+  "description" : "Broken fishing trap. Junk!",
+  "shortdescription" : "Broken Fishing Trap"
+}

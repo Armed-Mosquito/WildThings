@@ -1,0 +1,8 @@
+{
+  "itemName" : "wt-rawflank",
+  "rarity" : "Common",
+  "inventoryIcon" : "wt-rawflank.png",
+  "maxStack" : 5,
+  "description" : "Muscular extension of the belly. Ideal for stews and soups, it's a bit tough.",
+  "shortdescription" : "Raw Flank"
+}

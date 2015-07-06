@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "gunpowder", "count" : 2 },
+    { "item" : "plantfibre", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "flare",
+    "count" : 2
+  },
+  "groups" : [ "craftingtable", "tools", "all", "wt-survivalisttable", "wt-campcraft" ]
+}

@@ -1,0 +1,8 @@
+{
+  "itemName" : "wt-feather",
+  "rarity" : "Common",
+  "inventoryIcon" : "wt-feather.png",
+  "maxStack" : 60,
+  "description" : "Feathers from a flying animal.",
+  "shortdescription" : "Feather"
+}

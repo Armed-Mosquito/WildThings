@@ -1,0 +1,8 @@
+{
+  "itemName" : "wt-rawshin",
+  "rarity" : "Common",
+  "inventoryIcon" : "wt-rawshin.png",
+  "maxStack" : 12,
+  "description" : "Foreleg, best cubed for stews and soups.",
+  "shortdescription" : "Raw Shin"
+}

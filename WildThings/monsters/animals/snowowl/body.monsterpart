@@ -1,0 +1,9 @@
+{
+  "name" : "body",
+  "category" : "wt-snowowl",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "wt-snowowl.png"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name" : "body",
+  "category" : "wt-rudolf",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "wt-rudolf.png"
+  }
+}

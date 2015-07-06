@@ -1,0 +1,13 @@
+{
+  "input" : [
+	{ "item" : "darkwoodmaterial", "count" : 12 },
+	{ "item" : "wt-woodenpole", "count" : 2 },
+	{ "item" : "wt-twine", "count" : 1 },
+    { "item" : "bow", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "wt-survivalisttable",
+    "count" : 1
+  },
+  "groups" : [ "plain", "objects" ]
+}

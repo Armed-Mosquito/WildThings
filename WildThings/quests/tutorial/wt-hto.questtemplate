@@ -1,0 +1,27 @@
+{
+  "id" : "wt-hto.wttutorialseries",
+  "title" : "^#9be3d6;Harvesting the Outdoors",
+  "text" : "Try finding a Wild Sapling Tree they are quite useful to harvest for materials that can build some traps and other 
+crafts.
+
+There is other things you can find out in the wild such as Raspberry Bushes. Be careful of some bushes that have very toxic berries.
+
+Find a ^orange;Wild Sapling Tree ^white;and ^orange;Raspberry Bush found in forest or lush biomes ^white;and ^green;harvest the sapling for ^orange;x1 Sturdy Branch ^white;and ^orange;Raspberry Bush ^white;for ^orange;x3 Raspberries^white;.",
+  "completionText" : "^orange;Oceans^white; have abundance of sea salt and other sea life. I can ^green;find quahogs on the bottom of the ocean floor ^white;and^green; sea salt up on the islands around the ocean^white;.",
+  "conditions" : [
+    { "kind" : "gather", "item" : [ "wt-raspberry", 3], "consume" : false },
+	{ "kind" : "gather", "item" : [ "wt-sturdybranch", 1], "consume" : false }
+  ],
+  "rewards" : [
+    [ 
+	[ "wt-raspberry", 12],
+	[ "wt-rawquahogmeat", 5],
+	[ "wt-seasalt", 5]
+	]
+  ],
+  "moneyRange" : [10, 10],
+  "canBeAbandoned" : true,
+  "planetMode" : "none",
+  "questDungeons" : [ ],
+  "followUp" : "wt-cadt.wttutorialseries"
+}

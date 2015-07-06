@@ -1,0 +1,8 @@
+{
+  "itemName" : "wt-rabbit-head",
+  "rarity" : "Uncommon",
+  "inventoryIcon" : "wt-rabbit-head.png",
+  "maxStack" : 3,
+  "description" : "A rabbit's missing head.",
+  "shortdescription" : "Rabbit Head"
+}

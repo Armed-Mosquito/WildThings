@@ -1,0 +1,8 @@
+{
+  "itemName" : "wt-intestines",
+  "rarity" : "Common",
+  "inventoryIcon" : "wt-intestines.png",
+  "maxStack" : 25,
+  "description" : "Intestine consist of lengths of tubes and are best used as sausage skins.",
+  "shortdescription" : "Intestines"
+}

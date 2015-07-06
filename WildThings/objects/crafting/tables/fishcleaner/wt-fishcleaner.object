@@ -1,0 +1,50 @@
+{
+  "objectName" : "wt-fishcleaner",
+  "printable" : false,
+  "rarity" : "Uncommon",
+  "description" : "Clean your fish with this to gain raw fish meat.",
+  "shortdescription" : "Fish Cleaner",
+  "subtitle" : "Prepares Fish",
+  "maxStack" : 1,
+  "race" : "generic",
+  "category" : "crafting",
+  "price" : 100,
+  "objectType" : "container",
+  
+  "maximumLiquidLevel" : 0.2,
+  
+  "learnBlueprintsOnPickup" : [ ],
+  "pickupQuestTemplates" : [ ],
+
+  "apexDescription" : "Well done, good fishing but lots of clean up.",
+  "avianDescription" : "Oh no! Who did this, can I try one?",
+  "floranDescription" : "Floran eat fish. Now! But Floran likesss to cook.",
+  "glitchDescription" : "Idea. I want to make fish oil.",
+  "humanDescription" : "I've always enjoyed fishing and hunting.",
+  "hylotlDescription" : "A fish de-boner, perfect for preparing fish.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "wt-fishcleaner.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "statusEffects" : [ ],
+
+  "recipeGroup" : "wt-fishcleaner",
+  "openSounds" : [ "/sfx/projectiles/spit.wav" ],
+  "slotCount" : 2,
+  "uiConfig" : "/interface/objectcrafting/wt-fishcleaner.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+
+}

@@ -1,0 +1,21 @@
+{
+  "itemName" : "wt-cookedchucknblade",
+  "rarity" : "Common",
+  "inventoryIcon" : "wt-cookedchucknblade.png",
+  "maxStack" : 8,
+  "description" : "I'll be kept well fed with this.",
+  "shortdescription" : "Cooked Chuck n Blade",   
+  "effects" : [ [
+    {
+        "effect" : "foodheal25",
+        "duration" : 16
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 180
+    }
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "itemName" : "wt-fresh-carcass",
+  "rarity" : "Common",
+  "inventoryIcon" : "wt-fresh-carcass.png",
+  "maxStack" : 1,
+  "description" : "I could probably turn this into leather scraps on the Survivalist Table.",
+  "shortdescription" : "Fresh Animal Carcass",
+  "learnBlueprintsOnPickup" : [ ],
+  "pickupQuestTemplates" : [ ]
+}

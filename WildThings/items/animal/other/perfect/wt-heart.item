@@ -1,0 +1,8 @@
+{
+  "itemName" : "wt-heart",
+  "rarity" : "Common",
+  "inventoryIcon" : "wt-heart.png",
+  "maxStack" : 25,
+  "description" : "Heart is tightly packed muscle with little or no fat. Roast it or use its distinctive flavour to liven up stew.",
+  "shortdescription" : "Heart"
+}

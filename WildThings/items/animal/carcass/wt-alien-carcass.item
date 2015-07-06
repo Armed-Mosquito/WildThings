@@ -1,0 +1,10 @@
+{
+  "itemName" : "wt-alien-carcass",
+  "rarity" : "Common",
+  "inventoryIcon" : "wt-alien-carcass.png",
+  "maxStack" : 1,
+  "description" : "This carcass needs to be quartered up using a Jointing Kit.",
+  "shortdescription" : "Alien Carcass",
+  "learnBlueprintsOnPickup" : [ ],
+  "pickupQuestTemplates" : [ ]
+}

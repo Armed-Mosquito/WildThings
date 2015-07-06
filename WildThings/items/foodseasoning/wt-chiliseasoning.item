@@ -1,0 +1,10 @@
+{
+  "itemName" : "wt-chiliseasoning",
+  "rarity" : "Uncommon",
+  "inventoryIcon" : "wt-chiliseasoning.png",
+  "maxStack" : 25,
+  "description" : "Some sea salts, and chili peppers make this wonderful seasoning for other food recipes.",
+  "shortdescription" : "Chili Seasoning",
+  
+  "learnBlueprintsOnPickup" : [ "wt-spicysmokedjerky" ]
+}

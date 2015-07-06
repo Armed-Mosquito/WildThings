@@ -1,0 +1,11 @@
+{
+  "itemName" : "wt-coconutoil",
+  "rarity" : "Uncommon",
+  "inventoryIcon" : "wt-coconutoil.png",
+  "maxStack" : 25,
+  "description" : "Extracted from a coconut, this should be useful.",
+  "shortdescription" : "Coconut Oil",
+  
+  "learnBlueprintsOnPickup" : [ "wt-bandagewithcoconutoil" ],
+  "pickupQuestTemplates" : [ ]
+}

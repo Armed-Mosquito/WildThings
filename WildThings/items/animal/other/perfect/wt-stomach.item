@@ -1,0 +1,8 @@
+{
+  "itemName" : "wt-stomach",
+  "rarity" : "Common",
+  "inventoryIcon" : "wt-stomach.png",
+  "maxStack" : 25,
+  "description" : "Tripe takes a little digesting, quiet a strong taste.",
+  "shortdescription" : "Stomach"
+}

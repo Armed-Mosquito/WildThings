@@ -1,0 +1,25 @@
+{
+  "itemName" : "wt-spicysmokedjerky",
+  "rarity" : "Uncommon",
+  "inventoryIcon" : "wt-spicysmokedjerky.png",
+  "maxStack" : 25,
+  "description" : "Yum. Some spicy chili seasoned smoked jerky it's just a little spicy nothing to bad. Mmm.",
+  "shortdescription" : "Spicy Smoked Jerky",
+  "effects" : [ [
+    {
+        "effect" : "foodheal10",
+        "duration" : 70
+    },
+	    {
+        "effect" : "runboost25",
+        "duration" : 120
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 70
+    }
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

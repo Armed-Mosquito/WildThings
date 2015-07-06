@@ -1,0 +1,21 @@
+{
+  "itemName" : "wt-rawquahogmeat",
+  "rarity" : "Common",
+  "price" : 40,
+  "inventoryIcon" : "wt-rawquahogmeat.png",
+  "description" : "Quahogs can be eaten raw. Also used in many seafood recipes.",
+  "shortdescription" : "Raw Quahog Meat",
+  "effects" : [ [
+    {
+        "effect" : "foodheal10",
+        "duration" : 60
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 150
+    }
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

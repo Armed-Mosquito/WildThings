@@ -1,0 +1,27 @@
+{
+  "id" : "wt-cams.wttutorialseries",
+  "title" : "^#9be3d6;Cooking a Meat Stew",
+  "text" : "I should grow the ^orange;wheat^white;, ^orange;pearl peas^white;, and ^orange;corn^white; seeds I received from the previous reward^white;. ^orange;Terra Marts are known to sell seeds^white; if I need more.
+
+While I grow the seeds for my ^orange;Meat Stew ^white;ingredients I should ^green;cook the x2 Raw Shin cuts^white; butchered earlier.
+
+I need ^orange;x1 Wheat^white;, ^orange;x3 Pearl Peas^white;, ^orange;x2 Corn^white;, and ^orange;x2 Cooked Shins^white;.
+
+Once I have these ingredients I can ^green;combine them all^orange; with my Survivalist Campfire ^white;in the ^orange;Stew^white; menu to ^green;create x1 Meat Stew",
+  "completionText" : "Typically more ingredients make better things but thats not always the truth with food. Be sure to try things perhaps ^green;some seasoned Raw Chuck n Blade with Chili Seasoning^white;.",
+  "conditions" : [
+    { "kind" : "gather", "item" : [ "wt-meatstew", 1], "consume" : false }
+  ],
+  "rewards" : [
+    [ 
+	[ "wt-meatstew", 5],
+	[ "wt-rawchucknblade", 3],
+	[ "wt-chiliseasoning", 3]
+	]
+  ],
+  "moneyRange" : [75, 75],
+  "canBeAbandoned" : true,
+  "planetMode" : "none",
+  "questDungeons" : [ ],
+  "followUp" : "wt-pt.wttutorialseries"
+}

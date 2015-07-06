@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "wt-rawbass", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "rawfish",
+    "count" : 3
+  },
+  "groups" : [ "wt-fishcleaner" ]
+}

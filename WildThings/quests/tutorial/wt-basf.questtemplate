@@ -1,0 +1,27 @@
+{
+  "id" : "wt-basf.wttutorialseries",
+  "title" : "^#9be3d6;Build a Survivalist Fire",
+  "text" : "Its just about that time to create a nice warm fire. ^orange;Survivalist Campfires^white; will keep you warm in dangerously cold biomes and it even will give you a ^orange;Campfire Spirit Buff when nearby it!^white; All camps should have one of these for Camp Spirit alone!
+
+Cook different food like ^orange;stews^white;, make ^orange;roast^white;, ^orange;deep fry^white;, ^orange;boil^white;, ^orange;grill^white;, and ^orange;seasoned ingredients^white;.
+I will need ^orange;x4 Wooden Poles^white;, ^orange;X2 Twine^white;, and ^orange;x1 Campfire ^white;to ^green;create the Survivalist Campfire
+
+Crafted from ^orange;Survivalist Campcraft of the Survivalist Table^white;.",
+  "completionText" : "These ^green;Wheat^white;, ^green;Pearpea^white;, and ^green;Corn have been provided to ^green;farm use your Hoe ^white;also provided from this reward.",
+  "conditions" : [
+    { "kind" : "gather", "item" : [ "wt-survivalistcampfire", 1], "consume" : false }
+  ],
+  "rewards" : [
+    [ 
+	[ "wheatseed", 5],
+	[ "pearlpeaseed", 5],
+	[ "cornseed", 5],
+	[ "hoe", 1]
+	]
+  ],
+  "moneyRange" : [70, 70],
+  "canBeAbandoned" : true,
+  "planetMode" : "none",
+  "questDungeons" : [ ],
+  "followUp" : "wt-cams.wttutorialseries"
+}

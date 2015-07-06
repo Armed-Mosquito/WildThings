@@ -1,0 +1,8 @@
+{
+  "itemName" : "wt-blood-tainted",
+  "rarity" : "Common",
+  "inventoryIcon" : "wt-blood-tainted.png",
+  "maxStack" : 25,
+  "description" : "Blood found from a beast, but this batch is tainted. Can be thrown away.",
+  "shortdescription" : "Tainted Blood"
+}

@@ -1,0 +1,55 @@
+{
+  "objectName" : "wt-smokersrack",
+  "printable" : false,
+  "rarity" : "Uncommon",
+  "description" : "Smoke Raw Meats with this Primitive Smoker Rack -animations coming soon-",
+  "shortdescription" : "Smokers Rack",
+  "maxStack" : 1,
+  "price" : 200,
+  "objectType" : "container",
+  
+  "maximumLiquidLevel" : 0.0,
+  
+  "learnBlueprintsOnPickup" : [ "wt-smokedjerky" ],
+  "pickupQuestTemplates" : [ "wt-pt.wttutorialseries" ],
+
+  "apexDescription" : "A Smokers Rack great tool for smoking my meat cuts I harvest.",
+  "avianDescription" : "A Smokers Rack great tool for smoking my meat cuts I harvest.",
+  "floranDescription" : "A Smokers Rack great tool for smoking my meat cuts I harvest.",
+  "glitchDescription" : "A Smokers Rack great tool for smoking my meat cuts I harvest.",
+  "humanDescription" : "A Smokers Rack great tool for smoking my meat cuts I harvest.",
+  "hylotlDescription" : "A Smokers Rack great tool for smoking my meat cuts I harvest.",
+  
+  "lightColor" : [179, 149, 107],
+  "flickerPeriod" : 0.3,
+  "flickerMinIntensity" : 0.95,
+  "flickerMaxIntensity" : 1,
+  "flickerPeriodVariance" : 0.075,
+  "flickerIntensityVariance" : 0.025,  
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "wt-smokersrack.png:<color>.<frame>",
+
+      "imagePosition" : [-23, 0],
+      "frames" : 4,
+      "animationCyacle" : 0.5,
+
+      "spaceScan" : 0.1,
+	  "requireTilledAnchors" : false,
+      "anchors" : [ "bottom" ]
+
+    }
+  ], 
+
+  "statusEffects" : [ ],
+
+  "recipeGroup" : "wt-smokersrack",
+  "openSounds" : [ "/sfx/projectiles/spit.wav" ],
+  "slotCount" : 2,
+  "uiConfig" : "/interface/objectcrafting/wt-onestep.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+
+}

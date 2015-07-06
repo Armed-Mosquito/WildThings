@@ -1,0 +1,8 @@
+{
+  "itemName" : "wt-spine",
+  "rarity" : "Rare",
+  "inventoryIcon" : "wt-spine.png",
+  "maxStack" : 25,
+  "description" : "The animal spine a rare extract.",
+  "shortdescription" : "Spine"
+}

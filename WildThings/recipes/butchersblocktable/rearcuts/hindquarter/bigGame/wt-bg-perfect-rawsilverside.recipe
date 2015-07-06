@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "wt-bg-hindquarter", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "wt-rawsilverside",
+    "count" : 4
+  },
+  "groups" : [ "wt-butcherblocktable", "wt-rearcuts" ]
+}

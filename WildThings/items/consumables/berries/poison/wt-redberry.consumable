@@ -1,0 +1,16 @@
+{
+  "itemName" : "wt-redberry",
+  "rarity" : "Common",
+  "category" : "Consumable",
+  "price" : 40,
+  "inventoryIcon" : "wt-redberry.png",
+  "description" : "A very toxic berry that can make you ill.",
+  "shortdescription" : "Red Berry",
+  "effects" : [ [
+    {
+        "effect" : "weakpoison",
+        "duration" : 40
+    }
+  ] ],
+  "blockingEffects" : [ ]
+}

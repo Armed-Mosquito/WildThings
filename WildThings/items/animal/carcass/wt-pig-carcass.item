@@ -1,0 +1,10 @@
+{
+  "itemName" : "wt-pig-carcass",
+  "rarity" : "Common",
+  "inventoryIcon" : "wt-pig-carcass.png",
+  "maxStack" : 1,
+  "description" : "This carcass needs to be quartered up using a Jointing Kit.",
+  "shortdescription" : "Pig Carcass",
+  "learnBlueprintsOnPickup" : [ ],
+  "pickupQuestTemplates" : [ ]
+}

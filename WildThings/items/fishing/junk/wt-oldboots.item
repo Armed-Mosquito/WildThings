@@ -1,0 +1,8 @@
+{
+  "itemName" : "wt-oldboots",
+  "rarity" : "Common",
+  "inventoryIcon" : "wt-oldboots.png",
+  "maxStack" : 3,
+  "description" : "Waterlogged old boots. Not useful.",
+  "shortdescription" : "Water Logged Boots"
+}

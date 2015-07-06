@@ -1,0 +1,51 @@
+{
+  "objectName" : "wt-raspberrybush",
+  "rarity" : "Uncommon",
+  "category" : "Harvestable",
+  "price" : 45,
+  "printable" : false,
+  "description" : "This bush contains raspberries, these are safe for consumption.",
+  "shortdescription" : "Raspberry Bush",
+  "race" : "generic",
+  
+  "maximumLiquidLevel" : 0.2,
+  
+  "learnBlueprintsOnPickup" : [ ],
+  "pickupQuestTemplates" : [ ],
+  
+  "apexDescription" : "This bush contains raspberries, these are tasty.",
+  "avianDescription" : "This bush contains raspberries, these are tasty.",
+  "floranDescription" : "This bush contains raspberries, these are tasty.",
+  "glitchDescription" : "This bush contains raspberries, these are tasty.",
+  "humanDescription" : "This bush contains raspberries, these are tasty.",
+  "hylotlDescription" : "This bush contains raspberries, these are tasty.",  
+  
+  "inventoryIcon" : "icon.png",
+  
+  "orientations" : [
+    {
+      "image" : "wt-raspberrybush.png:<color>",
+      "imagePosition" : [0, 0],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "wt-raspberrybush.png:<color>",
+      "imagePosition" : [0, 0],
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  "smashSounds" : [ "/sfx/objects/capsule_break1.wav", "/sfx/objects/capsule_break2.wav", "/sfx/objects/capsule_break3.wav" ],
+  "smashDropOptions" : [
+    [ [ "wt-raspberry", 3, { } ] ]
+  ],
+  "breakDropOptions" : [
+    [ [ "wt-raspberry", 3, { } ] ]
+  ]
+}

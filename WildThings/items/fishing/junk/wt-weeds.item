@@ -1,0 +1,8 @@
+{
+  "itemName" : "wt-weeds",
+  "rarity" : "Common",
+  "inventoryIcon" : "wt-weeds.png",
+  "maxStack" : 5,
+  "description" : "Useless Junk",
+  "shortdescription" : "Water Weeds"
+}

@@ -1,0 +1,8 @@
+{
+  "itemName" : "wt-stomach-tainted",
+  "rarity" : "Common",
+  "inventoryIcon" : "wt-stomach-tainted.png",
+  "maxStack" : 25,
+  "description" : "Tainted tripe, no longer safe. Can be thrown away.",
+  "shortdescription" : "Tainted Stomach"
+}

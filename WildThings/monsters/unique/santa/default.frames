@@ -1,0 +1,1 @@
+{"frameGrid":{"size":[20,20],"dimensions":[5,8],"names":[[null,"idle.1","idle.2",null,"walk.1"],["walk.2","walk.3","walk.4","walk.5","walk.6"],["walk.7","walk.8",null,"jump.1","jump.2"],["jump.3",null,"melee.1","melee.2","melee.3"],["melee.4",null,"run.1","run.2","run.3"],["run.4","run.5","run.6",null,"die.1"],[null,"tele.1","tele.2","tele.3","tele.4"],["tele.5","tele.6"]]}}

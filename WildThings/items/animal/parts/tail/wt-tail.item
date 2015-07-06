@@ -1,0 +1,8 @@
+{
+  "itemName" : "wt-tail",
+  "rarity" : "Uncommon",
+  "inventoryIcon" : "wt-tail.png",
+  "maxStack" : 25,
+  "description" : "A beast tail.",
+  "shortdescription" : "Tail"
+}

@@ -1,0 +1,49 @@
+{
+  "objectName" : "wt-wintergiftbox",
+  "printable" : false,
+  "rarity" : "rare",
+
+  "category" : "storage",
+  "price" : 300,
+  "description" : "A festive pink box with a bow on top. There's something odd about it.",
+  "shortdescription" : "Wild Things Gift Box",
+  "race" : "generic",
+  
+  "maximumLiquidLevel" : 0.2,
+  
+  "learnBlueprintsOnPickup" : [ ],
+  "pickupQuestTemplates" : [ ],
+
+  "apexDescription" : "It's a big gift box.",
+  "avianDescription" : "A pretty red gift box.",
+  "floranDescription" : "Box!",
+  "glitchDescription" : "Curiosity. Is there anything inside?",
+  "humanDescription" : "A gift box. It's pretty big!",
+  "hylotlDescription" : "An impeccably wrapped box.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "/monsters/unique/wildthinggiftbox/wt-wildthinggiftbox.png:idle" } ],
+
+      "imagePosition" : [-6.5, -8],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "animation" : "/monsters/unique/wildthinggiftbox/wt-wildthinggiftbox.animation",
+  "animationParts" : {
+    "body" : "/monsters/unique/wildthinggiftbox/wt-wildthinggiftbox.png"
+  },
+
+  "scripts" : [
+    "/objects/scripts/wt-monsterspawner.lua"
+  ],
+  "scriptDelta" : 5,
+
+  "monsterType" : "wt-wildthinggiftbox"
+}

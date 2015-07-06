@@ -1,0 +1,8 @@
+{
+  "itemName" : "wt-quahogshell",
+  "rarity" : "Common",
+  "inventoryIcon" : "wt-quahogshell.png",
+  "maxStack" : 25,
+  "description" : "Quahogs are a great source of protein!",
+  "shortdescription" : "Quahog Shell"
+}

@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "wt-mg-frontquarter-damaged", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "wt-rawneck",
+    "count" : 1
+  },
+  "groups" : [ "wt-butcherblocktable", "wt-frontcuts" ]
+}

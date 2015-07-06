@@ -1,0 +1,8 @@
+{
+  "itemName" : "wt-scentgland",
+  "rarity" : "Common",
+  "inventoryIcon" : "wt-scentgland.png",
+  "maxStack" : 25,
+  "description" : "Smells like these are useful for some traps and snare oils.",
+  "shortdescription" : "Scent Gland"
+}

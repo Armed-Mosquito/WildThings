@@ -1,0 +1,15 @@
+{
+  "itemName" : "wt-bananaoil",
+  "rarity" : "Uncommon",
+  "inventoryIcon" : "wt-bananaoil.png",
+  "maxStack" : 25,
+  "description" : "Extracted from a banana, this should be useful.",
+  "shortdescription" : "Banana Oil",
+  
+  "effects" : [ [
+    {
+        "effect" : "glow",
+        "duration" : 18
+    }
+  ] ]
+}

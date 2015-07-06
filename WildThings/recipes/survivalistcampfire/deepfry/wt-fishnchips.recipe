@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "cookedfish", "count" : 3 },
+    { "item" : "potato", "count" : 2 },
+    { "item" : "bread", "count" : 1 }
+  ],
+  "output" : { "item" : "fishnchips", "count" : 1 },
+  "groups" : [ "wt-survivalistcampfire", "wt-deepfry" ]
+}

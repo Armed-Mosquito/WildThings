@@ -1,0 +1,8 @@
+{
+  "itemName" : "wt-rabbitpaw",
+  "rarity" : "Common",
+  "inventoryIcon" : "wt-rabbitpaw.png",
+  "maxStack" : 12,
+  "description" : "A rabbit paw. Not a lucky one but still might find some use for this eventually.",
+  "shortdescription" : "Rabbit Paw"
+}

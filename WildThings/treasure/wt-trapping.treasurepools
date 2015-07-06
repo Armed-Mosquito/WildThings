@@ -1,0 +1,160 @@
+{
+// Small, Medium, and Big Game Treasure Pools - non-baited
+  "wt-smallgamePool" : [
+    [1, {
+	  "pool" : [
+        {"weight" : 0.6, "pool" : "wt-muskrat"},
+		{"weight" : 0.6, "pool" : "wt-rabbit"}
+      ],
+      "poolRounds" : [
+        [1, 1]
+      ],
+      "allowDuplication" : false
+    } ]
+  ],
+  "wt-mediumgamePool" : [
+    [1, {
+	  "pool" : [
+		{"weight" : 0.4, "pool" : "wt-smallgamePool"},
+		{"weight" : 0.6, "pool" : "wt-pig"},
+		{"weight" : 0.4, "pool" : "wt-redfox"}
+      ],
+      "poolRounds" : [
+        [1, 1]
+      ],
+      "allowDuplication" : false
+    } ]
+  ],
+  "wt-biggamePool" : [
+    [1, {
+	  "pool" : [
+		{"weight" : 0.4, "pool" : "wt-mediumgamePool"},
+		{"weight" : 0.6, "pool" : "wt-moose"},
+		{"weight" : 0.6, "pool" : "wt-rhino"},
+		{"weight" : 0.6, "pool" : "wt-koala"},
+		{"weight" : 0.6, "pool" : "wt-walrus"},
+		{"weight" : 0.6, "pool" : "wt-brownbear"}
+      ],
+      "poolRounds" : [
+        [1, 1]
+      ],
+      "allowDuplication" : false
+    } ]
+  ],
+// Small, Medium, and Big Game Treasure Pools - baited
+  "wt-smallgameBaitedPool" : [
+    [1, {
+	  "pool" : [
+        {"weight" : 0.6, "pool" : "wt-muskrat"}
+      ],
+      "poolRounds" : [
+        [1, 1]
+      ],
+      "allowDuplication" : false
+    } ]
+  ],
+  "wt-mediumgameBaitedPool" : [
+    [1, {
+	  "pool" : [
+		{"weight" : 0.4, "pool" : "wt-smallgamePool"},
+		{"weight" : 0.6, "pool" : "wt-redfox"}
+      ],
+      "poolRounds" : [
+        [1, 1]
+      ],
+      "allowDuplication" : false
+    } ]
+  ],
+  "wt-biggameBaitedPool" : [
+    [1, {
+	  "pool" : [
+		{"weight" : 0.4, "pool" : "wt-mediumgamePool"},
+		{"weight" : 0.6, "pool" : "wt-brownbear"}
+      ],
+      "poolRounds" : [
+        [1, 1]
+      ],
+      "allowDuplication" : false
+    } ]
+  ],
+// Configuration for specific Snare n Trap Loot Begins Here
+  "wt-deadfalltrap" : [
+    [0, {
+	  "fill" : [
+		{"weight" : 0.5, "item" : [ "wt-notchedwoodenstake", 3] },
+		{"weight" : 0.6, "item" : "plantfibre"}
+      ],
+      "pool" : [
+	    {"weight" : 0.3, "pool" : "wt-smallgamePool"}
+      ],
+      "poolRounds" : [
+        [0.9, 1],
+		[0.02, 2],
+        [0.008, 3]
+      ],
+	  "levelVariance" : [0, 0],
+      "allowDuplication" : false
+    } ]
+  ],  
+  "wt-simplesnare" : [
+    [0, {
+	  "fill" : [
+		{"weight" : 0.3, "item" : "wt-twine"},
+		{"weight" : 0.5, "item" : "wt-woodenstake"},
+		{"weight" : 0.6, "item" : "plantfibre"}
+      ],
+      "pool" : [
+	    {"weight" : 0.3, "pool" : "wt-smallgamePool"}
+      ],
+      "poolRounds" : [
+        [0.9, 1],
+		[0.02, 2],
+        [0.008, 3]
+      ],
+	  "levelVariance" : [0, 0],
+      "allowDuplication" : false
+    } ]
+  ],  
+  "wt-springsnare" : [
+    [0, {
+	  "fill" : [
+	    {"weight" : 0.3, "item" : "wire"},
+		{"weight" : 0.5, "item" : "wt-woodenstake"},		
+		{"weight" : 0.5, "item" : "wt-notchedwoodenstake"},
+		{"weight" : 0.6, "item" : "plantfibre"}
+      ],
+      "pool" : [
+        {"weight" : 0.5, "pool" : "wt-smallgamePool"},
+		{"weight" : 0.4, "pool" : "wt-mediumgamePool"}
+      ],
+      "poolRounds" : [
+        [0.9, 1],
+		[0.02, 2],
+        [0.008, 3]
+      ],
+	  "levelVariance" : [0, 0],
+      "allowDuplication" : false
+    } ]
+  ], 
+  "wt-baitedspringsnare" : [
+    [0, {
+	  "fill" : [
+		{"weight" : 0.3, "item" : "wire"},
+		{"weight" : 0.5, "item" : "wt-woodenstake"},
+		{"weight" : 0.5, "item" : "wt-notchedwoodenstake"},
+		{"weight" : 0.6, "item" : "plantfibre"}
+      ],
+      "pool" : [	     
+		{"weight" : 0.5, "pool" : "wt-smallgameBaitedPool"},
+		{"weight" : 0.4, "pool" : "wt-mediumgameBaitedPool"}
+      ],
+      "poolRounds" : [
+        [0.9, 1],
+		[0.02, 2],
+        [0.008, 3]
+      ],
+	  "levelVariance" : [0, 0],
+      "allowDuplication" : false
+    } ]
+  ]
+}

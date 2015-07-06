@@ -1,0 +1,8 @@
+{
+  "itemName" : "wt-brush",
+  "rarity" : "Common",
+  "inventoryIcon" : "wt-brush.png",
+  "maxStack" : 3,
+  "description" : "Brush, always getting caught in lines.",
+  "shortdescription" : "Drift Wood"
+}

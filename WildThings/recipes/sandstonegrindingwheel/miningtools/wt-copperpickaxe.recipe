@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "copperpickaxe", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "copperpickaxe",
+    "count" : 1
+  },
+  "groups" : [ "wt-sandstonegrindingwheeltable" ]
+}

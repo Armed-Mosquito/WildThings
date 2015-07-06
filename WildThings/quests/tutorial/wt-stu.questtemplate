@@ -1,0 +1,24 @@
+{
+  "id" : "wt-stu.wttutorialseries",
+  "title" : "^#9be3d6;Surviving this Universe",
+  "text" : "Survival is key to exploring with limited supplies. Knowing how to accomplish things as I explore a planets biome is important to survival. Reading more of this book I can learn how to become a true survivalist.
+
+To learn more I should ^green;gather a Plant Fibre from a Vine^white;. I will learn more about ^orange;Woodworking^white;, ^orange;Traps n Snares^white;, ^orange;Plant Craft, Medical^white;, ^orange;Weapons^white;, and even other ^orange;Camp Craft^white; after I prove Im able to survive without a guide.
+
+^green;Gather x1 Plant Fibre^white; to unlock ^orange;Roll of Twine ^white;and start learning more.",
+  "completionText" : "The ^green;Survivalist Table is my main table for establishing camp^white;. I will ^orange;unlock more recipes as I progress^white; and by the time this book is complete I should have better understanding on how to advance on my own.",
+  "conditions" : [
+    { "kind" : "gather", "item" : [ "plantfibre", 1], "consume" : true }
+  ],
+  "rewards" : [
+    [ 
+	[ "wt-survivalisttable", 1],
+	[ "wt-twine", 8]
+	]
+  ],
+  "moneyRange" : [10, 10],
+  "canBeAbandoned" : true,
+  "planetMode" : "none",
+  "questDungeons" : [ ],
+  "followUp" : "wt-pmca.wttutorialseries"
+}

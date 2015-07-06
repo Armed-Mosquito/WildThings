@@ -1,0 +1,8 @@
+{
+  "itemName" : "wt-twig",
+  "rarity" : "Common",
+  "inventoryIcon" : "wt-twig.png",
+  "maxStack" : 25,
+  "description" : "Twigs not the most useful thing but it can be used for setting snares in place.",
+  "shortdescription" : "Twig"
+}

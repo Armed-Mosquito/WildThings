@@ -1,0 +1,8 @@
+{
+  "itemName" : "wt-rawbrisket",
+  "rarity" : "Common",
+  "inventoryIcon" : "wt-rawbrisket.png",
+  "maxStack" : 8,
+  "description" : "Muscular extension of the belly. Ideal for stews and soups, it's a bit tough.",
+  "shortdescription" : "Raw Brisket"
+}

@@ -1,0 +1,9 @@
+{
+  "name" : "body",
+  "category" : "wt-gingerbreadman",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "wt-gingerbreadman.png"
+  }
+}

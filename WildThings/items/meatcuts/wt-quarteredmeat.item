@@ -1,0 +1,8 @@
+{
+  "itemName" : "wt-quarteredmeat",
+  "rarity" : "Common",
+  "inventoryIcon" : "wt-quarteredmeat.png",
+  "maxStack" : 12,
+  "description" : "Quartered Meat. Probably useful for butchering into better cuts.",
+  "shortdescription" : "Quartered Meat"
+}

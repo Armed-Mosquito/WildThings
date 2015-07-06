@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "platinumbar", "count" : 20 }
+  ],
+  "output" : {
+    "item" : "wt-wildthingsstation",
+    "count" : 1
+  },
+  "groups" : [ "plain", "objects", "tools" ]
+}

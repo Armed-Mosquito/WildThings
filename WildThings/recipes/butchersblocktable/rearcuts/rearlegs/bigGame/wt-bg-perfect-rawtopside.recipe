@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "wt-bg-rearlegs", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "wt-rawtopside",
+    "count" : 3
+  },
+  "groups" : [ "wt-butcherblocktable", "wt-rearcuts" ]
+}

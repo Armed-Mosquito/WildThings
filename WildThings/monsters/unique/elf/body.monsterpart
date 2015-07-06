@@ -1,0 +1,9 @@
+{
+  "name" : "body",
+  "category" : "wt-elf",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "wt-elf.png"
+  }
+}

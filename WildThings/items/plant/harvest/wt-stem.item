@@ -1,0 +1,8 @@
+{
+  "itemName" : "wt-stem",
+  "rarity" : "Common",
+  "inventoryIcon" : "wt-stem.png",
+  "maxStack" : 20,
+  "description" : "Strong sturdy sapling stem, this is useful for some snares and even other stuff.",
+  "shortdescription" : "Stem"
+}

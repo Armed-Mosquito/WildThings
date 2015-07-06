@@ -1,0 +1,21 @@
+{
+  "itemName" : "wt-cookedtopside",
+  "rarity" : "Common",
+  "inventoryIcon" : "wt-cookedtopside.png",
+  "maxStack" : 8,
+  "description" : "I'll be kept well fed with this.",
+  "shortdescription" : "Cooked Topside",
+  "effects" : [ [
+    {
+        "effect" : "foodheal25",
+        "duration" : 20
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 180
+    }
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

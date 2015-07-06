@@ -1,0 +1,8 @@
+{
+  "itemName" : "wt-rawrump",
+  "rarity" : "Common",
+  "inventoryIcon" : "wt-rawrump.png",
+  "maxStack" : 8,
+  "description" : "Ideal for frying, little cooking needed. Can also be dried in strips.",
+  "shortdescription" : "Raw Rump"
+}

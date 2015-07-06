@@ -1,0 +1,100 @@
+{
+// Configure Fishing Drops from Junk, Poor, Fair, Average, Good, and Excellent - starts on line ...
+
+// Fishing Junk and Harvest from Poor to Excellent
+    "wt-fishing-junk" : [
+    [1, {		
+        "pool" : [
+          {"weight" : 0.6, "item" : [ "wt-brokencage" ]},
+		  {"weight" : 0.7, "item" : [ "wt-brookenfishinghook" ]},
+		  {"weight" : 0.6, "item" : [ "wt-brush" ]},
+		  {"weight" : 0.7, "item" : [ "wt-weeds" ]},
+		  {"weight" : 0.2, "item" : [ "wt-oldboots" ]},
+		  {"weight" : 0.2, "item" : [ "wt-sickfish" ]},
+		  {"weight" : 0.6, "item" : [ "wt-tangledfishinglines" ]},
+		  {"weight" : 0.4, "item" : [ "wt-torncloth" ]},
+		  {"weight" : 0.7, "item" : [ "wt-trashbag" ]},  
+		  {"weight" : 1, "pool" : "wt-fishing-poor-harvest"}
+        ],
+        "poolRounds" : [
+		  [0.58, 1],
+		  [0.53, 2]
+        ],
+        "allowDuplication" : false
+      } ]
+  ],
+    "wt-fishing-poor-harvest" : [
+    [1, {		
+        "pool" : [
+		  {"weight" : 0.2, "pool" : "wt-fishing-fair-harvest"},		  
+		  {"weight" : 0.25, "item" : [ "wt-rawcatfish" ]},
+		  {"weight" : 0.35, "item" : [ "wt-rawsunfish" ]},
+		  {"weight" : 0.25, "item" : [ "wt-rawtrout" ]}
+        ],
+        "poolRounds" : [
+          [1, 1]
+        ],
+        "allowDuplication" : false
+      } ]
+  ],
+    "wt-fishing-fair-harvest" : [
+    [1, {		
+        "pool" : [
+		  {"weight" : 0.2, "pool" : "wt-fishing-average-harvest"},
+		  {"weight" : 0.25, "pool" : "wt-fishing-poor-harvest"},		  
+		  {"weight" : 0.8, "item" : [ "wt-rawbass" ]},
+		  {"weight" : 0.8, "item" : [ "wt-rawsalmon" ]}
+        ],
+        "poolRounds" : [
+          [0.8, 1],
+          [0.36, 0]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ],
+    "wt-fishing-average-harvest" : [
+    [1, {		
+        "pool" : [
+		  {"weight" : 0.2, "pool" : "wt-fishing-junk"},
+		  {"weight" : 0.18, "pool" : "wt-fishing-fair-harvest"}
+        ],
+        "poolRounds" : [
+          [0.8, 1],
+          [0.36, 0]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ],
+    "wt-fishing-good-harvest" : [
+    [1, {		
+        "pool" : [	 
+		  {"weight" : 0.1, "pool" : "wt-fishing-junk"},
+		  {"weight" : 0.12, "pool" : "wt-fishing-average-harvest"}
+        ],
+        "poolRounds" : [
+          [0.8, 1],
+		  [0.06, 2],
+          [0.36, 0]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ],
+    "wt-fishing-excellent-harvest" : [
+    [1, {		
+        "pool" : [
+		  {"weight" : 0.1, "pool" : "wt-fishing-junk"},
+		  {"weight" : 0.10, "pool" : "wt-fishing-good-harvest"}
+        ],
+        "poolRounds" : [
+          [0.8, 1],
+		  [0.06, 2],
+          [0.36, 0]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ]
+}

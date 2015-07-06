@@ -1,0 +1,8 @@
+{
+  "itemName" : "wt-snowman-trophy-head",
+  "rarity" : "Legendary",
+  "inventoryIcon" : "wt-snowman-head.png",
+  "maxStack" : 3,
+  "description" : "A snowman's missing head.",
+  "shortdescription" : "Trophy Snowman Head"
+}

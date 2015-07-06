@@ -1,0 +1,8 @@
+{
+  "itemName" : "wt-rottinghead",
+  "rarity" : "Common",
+  "inventoryIcon" : "wt-rottinghead.png",
+  "maxStack" : 25,
+  "description" : "There is a good deal of meat to be found on the head.",
+  "shortdescription" : "Spoiled Head"
+}

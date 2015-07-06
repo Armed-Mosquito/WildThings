@@ -1,0 +1,8 @@
+{
+  "itemName" : "wt-snowowl-trophy-head",
+  "rarity" : "Rare",
+  "inventoryIcon" : "wt-snowowl-head.png",
+  "maxStack" : 3,
+  "description" : "A snow owl's missing head.",
+  "shortdescription" : "Trophy Snow Owl Head"
+}

@@ -1,0 +1,29 @@
+{
+  "itemName" : "wt-smokedjerky",
+  "rarity" : "Common",
+  "inventoryIcon" : "wt-smokedjerky.png",
+  "maxStack" : 25,
+  "description" : "Yum. Some smoked jerky it's just a little plain.",
+  "shortdescription" : "Smoked Jerky",  
+  
+  "learnBlueprintsOnPickup" : [ "wt-spicysmokedjerky" ],
+  "pickupQuestTemplates" : [ ],
+  
+  "effects" : [ [
+    {
+        "effect" : "foodheal10",
+        "duration" : 35
+    },
+	    {
+        "effect" : "runboost25",
+        "duration" : 60
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 35
+    }
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "name" : "body",
+  "category" : "wt-alien",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "wt-alien.png"
+  }
+}

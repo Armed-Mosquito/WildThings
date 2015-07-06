@@ -1,0 +1,3 @@
+[
+ {"op":"replace","path":"/dropPools/0","value":{"default":"flyingMonsterTreasure","bow":"wt-huntingflyers","brain":"brain"}}
+]

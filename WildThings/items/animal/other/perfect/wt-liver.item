@@ -1,0 +1,8 @@
+{
+  "itemName" : "wt-liver",
+  "rarity" : "Common",
+  "inventoryIcon" : "wt-liver.png",
+  "maxStack" : 25,
+  "description" : "Liver is a complete food, containing all essential vitamins and minerals. Can be eaten raw.",
+  "shortdescription" : "Liver"
+}

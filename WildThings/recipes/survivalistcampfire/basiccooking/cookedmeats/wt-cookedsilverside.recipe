@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "wt-rawsilverside", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "wt-cookedsilverside",
+    "count" : 1
+  },
+  "groups" : [ "cooking", "wt-survivalistcampfire", "wt-basiccooking" ]
+}

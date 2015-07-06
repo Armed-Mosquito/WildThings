@@ -1,0 +1,8 @@
+{
+  "itemName" : "wt-woodenhandle",
+  "rarity" : "Common",
+  "inventoryIcon" : "wt-woodenhandle.png",
+  "maxStack" : 12,
+  "description" : "Pretty useful for making stuff that requires a handle.",
+  "shortdescription" : "Wooden Handle"
+}

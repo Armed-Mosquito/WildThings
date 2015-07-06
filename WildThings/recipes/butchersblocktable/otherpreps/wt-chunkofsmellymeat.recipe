@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "wt-rotting-carcass", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "wt-chunkofsmellymeat",
+    "count" : 4
+  },
+  "groups" : [ "wt-tanningrack", "wt-animalproducts" ]
+}

@@ -1,0 +1,25 @@
+{
+  "id" : "wt-pt.wttutorialseries",
+  "title" : "^#9be3d6;Preserving Traditions",
+  "text" : "I am ready to learn a bit more about cooking foods that are useful on the go. To start I should learn about ^orange;Smoking my Raw Meats^white;.
+
+I can ^green;create a Smokers Rack^orange; from Survivalist Table ^white;for just ^orange;x3 Wooden Poles^white;, ^orange;x4 Sturdy Branches ^white;and ^orange;x25 Green Leaves^white;.
+
+Ill need some ^orange;Raw Chuck n Blade ^white;to smoke on my ^orange;Smokers Rack ^white; this will ^green;create a Smoked Jerky^white; treat to finish the quest.
+
+^orange;TIP:^white; Try seasoning the ^orange;Raw Chuck n Blade ^white;with ^orange;Chili Seasoning^white;.",
+  "completionText" : "When I get the time I will have to try creating some ^green;Raspberry Jam^white;! 
+
+I will need a different object to create these but I am just not sure what yet hang tight! -^green;armed mosquito",
+  "conditions" : [
+    { "kind" : "gather", "item" : [ "wt-smokedjerky", 1], "consume" : false }
+  ],
+  "rewards" : [
+    [ ]
+  ],
+  "moneyRange" : [80, 80],
+  "canBeAbandoned" : true,
+  "planetMode" : "none",
+  "questDungeons" : [ ],
+  "followUp" : "wt-ssf.wttutorialseries"
+}

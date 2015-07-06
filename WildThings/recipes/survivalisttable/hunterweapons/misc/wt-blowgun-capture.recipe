@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "blowgun", "count" : 1 },
+	{ "item" : "reed", "count" : 1 },
+    { "item" : "petalred", "count" : 1 },
+	{ "item" : "petalyellow", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "wt-blowgun-capture",
+    "count" : 1
+  },
+  "groups" : [ "wt-survivalisttable", "wt-hunterweapons" ]
+}

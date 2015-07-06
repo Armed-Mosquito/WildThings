@@ -1,0 +1,9 @@
+{
+  "name" : "body",
+  "category" : "wt-santa",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "wt-santa.png"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id" : "wt-winterpet-gingerbreadman.gearup",
+  "title" : "^#9be3d6;Wild Things: Collectable Elf Pet",
+  "text" : "You found a collectable holiday pet! ^green;Gather x50 Holiday Spirit to receive your holiday pet. ^white;You will be granted the new recipe to craft your pet at any time after the holiday. ^orange;Gather x50 Holiday Spirit to finish!",
+  "completionText" : "Here is your  new blueprint to craft your collectable holiday pet!",
+  "conditions" : [
+    { "kind" : "gather", "item" : [ "holidayspirit", 50], "consume" : true }
+  ],
+  "rewards" : [
+    [ [ "wt-wildthingsstation-recipe", 1],
+	  [ "wt-winterpet-gingerbreadman-recipe", 1]
+	]
+  ],
+  "moneyRange" : [10, 10],
+  "canBeAbandoned" : true,
+  "planetMode" : "none",
+  "questDungeons" : [ ],
+  "followUp" : "wt-wildthingsstation.gearup",
+  "associatedMission" : ""
+}

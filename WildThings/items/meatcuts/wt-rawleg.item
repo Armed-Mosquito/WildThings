@@ -1,0 +1,8 @@
+{
+  "itemName" : "wt-rawleg",
+  "rarity" : "Common",
+  "inventoryIcon" : "wt-rawleg.png",
+  "maxStack" : 8,
+  "description" : "Tough and sinewy, cut in cubes and stew.",
+  "shortdescription" : "Raw Leg"
+}

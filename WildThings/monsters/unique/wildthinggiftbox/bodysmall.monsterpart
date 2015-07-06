@@ -1,0 +1,9 @@
+{
+  "name" : "body",
+  "category" : "wt-wildthinggiftbox",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "wt-wildthinggiftbox.png"
+  }
+}

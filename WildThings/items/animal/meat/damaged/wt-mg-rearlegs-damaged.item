@@ -1,0 +1,8 @@
+{
+  "itemName" : "wt-mg-rearlegs-damaged",
+  "rarity" : "Common",
+  "inventoryIcon" : "wt-rearlegs-damaged.png",
+  "maxStack" : 25,
+  "description" : "In order to harvest the meat from this I should de bone it with a jointing kit.",
+  "shortdescription" : "Damaged Rear Legs"
+}

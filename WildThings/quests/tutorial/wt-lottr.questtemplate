@@ -1,0 +1,25 @@
+{
+  "id" : "wt-lottr.wttutorialseries",
+  "title" : "^#9be3d6;Leather on the Tanning Rack",
+  "text" : "While hunting animals I may come  upon some Leather Scraps while killing animals. ^green;I can bind x5 Leather Scraps to create x1 Leather that is if I have a Tanning Rack to do that^white;.
+
+I can find leather by trapping, hunting, skinning, etc however its also good to know that ^green;I can use an Animal Carcass to prepare leather scraps ^orange;from the Tanning Rack^white;. 
+
+Try ^green;creating a piece of x3 Leather pieces^white; now.",
+  "completionText" : "^green;Try using this new skinning knife next time when harvesting leather to help you collect leather a bit easier^white;. 
+
+This knife is not to powerful but if you ^green;use it before an animal dies you will get a better leather harvest^white;.",
+  "conditions" : [
+    { "kind" : "gather", "item" : [ "leather", 3], "consume" : false }
+  ],
+  "rewards" : [
+    [ 
+	[ "wt-boneknife-t1", 1]
+	]
+  ],
+  "moneyRange" : [40, 40],
+  "canBeAbandoned" : true,
+  "planetMode" : "none",
+  "questDungeons" : [ ],
+  "followUp" : "wt-sdm.wttutorialseries"
+}

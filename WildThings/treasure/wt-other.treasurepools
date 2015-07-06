@@ -1,0 +1,10 @@
+// Ship Locker Pool - Generates for only new players once.
+{
+  "wildthingsStarterTreasure" : [
+    [0, {
+      "fill" : [
+        {"item" : [ "wt-survivalhandbook", 1]}
+      ]
+    }]
+  ]
+}

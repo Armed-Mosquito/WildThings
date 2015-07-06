@@ -1,0 +1,51 @@
+{
+  "objectName" : "wt-redberrybush",
+  "rarity" : "Uncommon",
+  "category" : "Harvestable",
+  "price" : 45,
+  "printable" : false,
+  "description" : "This bush contains red berries, these are poisonous.",
+  "shortdescription" : "Red Berry Bush",
+  "race" : "generic",
+  
+  "maximumLiquidLevel" : 0.2,
+  
+  "learnBlueprintsOnPickup" : [ ],
+  "pickupQuestTemplates" : [ ],
+  
+  "apexDescription" : "This bush contains red berries, these are poisonous.",
+  "avianDescription" : "This bush contains red berries, these are poisonous.",
+  "floranDescription" : "This bush contains red berries, these are poisonous.",
+  "glitchDescription" : "This bush contains red berries, these are poisonous.",
+  "humanDescription" : "This bush contains red berries, these are poisonous.",
+  "hylotlDescription" : "This bush contains red berries, these are poisonous.",  
+  
+  "inventoryIcon" : "icon.png",
+  
+  "orientations" : [
+    {
+      "image" : "wt-redberrybush.png:<color>",
+      "imagePosition" : [0, 0],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "wt-redberrybush.png:<color>",
+      "imagePosition" : [0, 0],
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  "smashSounds" : [ "/sfx/objects/capsule_break1.wav", "/sfx/objects/capsule_break2.wav", "/sfx/objects/capsule_break3.wav" ],
+  "smashDropOptions" : [
+    [ [ "wt-redberry", 3, { } ] ]
+  ],
+  "breakDropOptions" : [
+    [ [ "wt-redberry", 3, { } ] ]
+  ]
+}

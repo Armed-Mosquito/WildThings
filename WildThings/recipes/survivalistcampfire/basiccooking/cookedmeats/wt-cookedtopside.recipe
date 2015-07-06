@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "wt-rawtopside", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "wt-cookedtopside",
+    "count" : 1
+  },
+  "groups" : [ "cooking", "wt-survivalistcampfire", "wt-basiccooking" ]
+}

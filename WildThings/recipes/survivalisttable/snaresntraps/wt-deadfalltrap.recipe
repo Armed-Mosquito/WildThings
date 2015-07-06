@@ -1,0 +1,11 @@
+{
+  "input" : [
+	{ "item" : "wt-notchedwoodenstake", "count" : 3 },
+	{ "item" : "cobblestonematerial", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "wt-deadfalltrap",
+    "count" : 1
+  },
+  "groups" : [ "wt-survivalisttable", "wt-snaresntraps" ]
+}

@@ -1,0 +1,49 @@
+{
+  "objectName" : "wt-handmill",
+  "printable" : false,
+  "rarity" : "Uncommon",
+  "description" : "Grind up plant grains to create ground materials.",
+  "shortdescription" : "Stone Hand-Mill",
+  "maxStack" : 1,
+  "race" : "generic",
+  "price" : 100,
+  "category" : "Crafting Station",
+  "objectType" : "container",
+  
+  "maximumLiquidLevel" : 0.2,
+  
+  "learnBlueprintsOnPickup" : [ ],
+  "pickupQuestTemplates" : [ ],
+
+  "apexDescription" : "Grind up plant grains to create ground materials.",
+  "avianDescription" : "Grind up plant grains to create ground materials.",
+  "floranDescription" : "Grind up plant grains to create ground materials.",
+  "glitchDescription" : "Grind up plant grains to create ground materials.",
+  "humanDescription" : "Grind up plant grains to create ground materials.",
+  "hylotlDescription" : "Grind up plant grains to create ground materials.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "wt-handmill.png:<color>",
+
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+	  "requireTilledAnchors" : false,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "statusEffects" : [ ],
+
+  "recipeGroup" : "wt-handmill",
+  "openSounds" : [ "/sfx/projectiles/spit.wav" ],
+  "slotCount" : 2,
+  "uiConfig" : "/interface/objectcrafting/wt-onestep.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+}

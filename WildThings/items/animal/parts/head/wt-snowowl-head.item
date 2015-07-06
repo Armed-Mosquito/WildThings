@@ -1,0 +1,8 @@
+{
+  "itemName" : "wt-snowowl-head",
+  "rarity" : "Uncommon",
+  "inventoryIcon" : "wt-snowowl-head.png",
+  "maxStack" : 3,
+  "description" : "A snow owl's missing head.",
+  "shortdescription" : "Snow Owl Head"
+}

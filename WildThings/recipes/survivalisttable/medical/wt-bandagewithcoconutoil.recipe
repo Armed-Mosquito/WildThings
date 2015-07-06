@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "bandage", "count" : 1 },
+	{ "item" : "wt-coconutoil", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "wt-bandagewithcoconutoil",
+    "count" : 1
+  },
+  "groups" : [ "wt-survivalisttable", "wt-medical" ]
+}

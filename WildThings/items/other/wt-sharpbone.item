@@ -1,0 +1,10 @@
+{
+  "itemName" : "wt-sharpbone",
+  "rarity" : "Common",
+  "inventoryIcon" : "wt-sharpbone.png",
+  "maxStack" : 15,
+  "description" : "This Bone has been sharpened.",
+  "shortdescription" : "Sharp Bone",
+  
+  "learnBlueprintsOnPickup" : [ "wt-boneknife-t1" ]
+}

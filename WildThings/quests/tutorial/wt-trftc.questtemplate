@@ -1,0 +1,23 @@
+{
+  "id" : "wt-trftc.wttutorialseries",
+  "title" : "^#9be3d6;Tanning Rack for the Camp",
+  "text" : "^orange;Tanning Racks provide the tools you need to bind leather together and clean trophy pelts^white;.  Leather can have many uses soon I will be able to build new equipment even with leathers.
+
+To ^green;create a Tanning Rack I will need  x4 Rolls of Twine and x2 Wooden Poles ^white;created by using my ^orange;Survivalist Table under Camp Craft.",
+  "completionText" : "^orange;Flying animals like owls drop feathers not leather^white;. You will also stumble by ^orange;trophy animal fur pelts that need more work for cool rewards^white;.
+
+Trophy Parts will require proper hunter weapons to harvest.",
+  "conditions" : [
+    { "kind" : "gather", "item" : [ "wt-tanningrack", 1], "consume" : false }
+  ],
+  "rewards" : [
+    [ 
+	[ "wt-leatherscraps", 5]
+	]
+  ],
+  "moneyRange" : [35, 35],
+  "canBeAbandoned" : true,
+  "planetMode" : "none",
+  "questDungeons" : [ ],
+  "followUp" : "wt-lottr.wttutorialseries"
+}

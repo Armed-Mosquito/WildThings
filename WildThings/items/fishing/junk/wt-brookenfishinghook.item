@@ -1,0 +1,8 @@
+{
+  "itemName" : "wt-brookenfishinghook",
+  "rarity" : "Common",
+  "inventoryIcon" : "wt-brookenfishinghook.png",
+  "maxStack" : 8,
+  "description" : "Broken fishing hook.",
+  "shortdescription" : "Broken Fishing Hook"
+}

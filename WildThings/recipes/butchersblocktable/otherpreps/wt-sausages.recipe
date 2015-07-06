@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "wt-sausagecasings", "count" : 1 },
+	{ "item" : "meatchunks", "count" : 7 }
+  ],
+  "output" : {
+    "item" : "wt-cookedbrisket",
+    "count" : 1
+  },
+  "groups" : [ "cooking" ]
+}

@@ -1,0 +1,11 @@
+{
+  "itemName" : "wt-mapletree-cutend",
+  "rarity" : "Uncommon",
+  "category" : "Harvest",
+  "inventoryIcon" : "wt-freshlycutends.png",
+  "maxStack" : 12,
+  "description" : "I can use this to create a clone, and grow more of these..",
+  "shortdescription" : "Freshly Cut Maple Tree End",
+  
+  "learnBlueprintsOnPickup" : [ "wt-mapletree-clone" ]
+}

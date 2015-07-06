@@ -1,0 +1,10 @@
+{
+  "itemName" : "wt-dirtymaplesyrup",
+  "rarity" : "Uncommon",
+  "category" : "Leather",
+  "inventoryIcon" : "wt-dirtymaplesyrup.png",
+  "maxStack" : 25,
+  "shortdescription" : "Dirty Maple Syrup",
+  "description" : "This maple syrup has to many bugs in it for consumption. I should try cleaning it up on my Survivalist Table.",
+  "learnBlueprintsOnPickup" : [ "wt-maplesyrup" ]
+}

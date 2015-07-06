@@ -1,0 +1,21 @@
+{
+  "itemName" : "wt-cookedrump",
+  "rarity" : "Common",
+  "inventoryIcon" : "wt-cookedrump.png",
+  "maxStack" : 8,
+  "description" : "I'll be kept well fed with this.",
+  "shortdescription" : "Cooked Rump",
+  "effects" : [ [
+    {
+        "effect" : "foodheal25",
+        "duration" : 40
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 180
+    }
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

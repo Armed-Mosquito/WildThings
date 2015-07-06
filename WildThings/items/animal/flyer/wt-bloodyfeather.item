@@ -1,0 +1,10 @@
+{
+  "itemName" : "wt-bloodyfeather",
+  "rarity" : "Common",
+  "inventoryIcon" : "wt-bloodyfeather.png",
+  "maxStack" : 60,
+  "description" : "This feather has blood on it.",
+  "shortdescription" : "Bloody Feather",
+  "learnBlueprintsOnPickup" : [ ],
+  "pickupQuestTemplates" : [ ]
+}

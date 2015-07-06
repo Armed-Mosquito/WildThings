@@ -1,0 +1,19 @@
+{
+  "itemName" : "wt-meatstew",
+  "rarity" : "Common",
+  "price" : 40,
+  "inventoryIcon" : "wt-meatstew.png",
+  "description" : "Cooked shin meat stew how tasty!",
+  "shortdescription" : "Shin Meat Stew",
+  "effects" : [ [
+    {
+        "effect" : "foodheal25",
+        "duration" : 30
+    },	
+    {
+        "effect" : "energyregen",
+        "duration" : 15
+    }
+  ] ],
+  "blockingEffects" : [ ]
+}

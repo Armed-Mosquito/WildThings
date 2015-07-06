@@ -1,0 +1,26 @@
+{
+  "id" : "wt-cadt.wttutorialseries",
+  "title" : "^#9be3d6;Creating a Deadfall Trap",
+  "text" : "^orange;Some traps will catch smaller prey and others larger^white;. It all depends on how the trap or snare is built to begin with and its size. Setting multiple traps is an ideal method while doing other things.
+
+I will need some Sturdy Branches. ^orange;I can harvest those from Wild Sapling Trees found in Lush and Forest biomes ^white;to ^green;create x3 Notched Wooden Stakes and gather x1 Cobblestone ^white;to ^green;create a Deadfall Trap^white;. Remember I will need to craft all of this using my ^orange;Survivalist Table^white;.",
+  "completionText" : "Setting some traps will require wires, baits etc. These ^orange;traps all serve different purposes and will catch from ^green;a variety of different types of animals^white;. 
+
+^green;Trapping is a great way to harvest leather without mele hunting effort or ranged^white;. Remember though animals sit in traps you may get a Rotting Carcass.",
+  "conditions" : [
+    { "kind" : "gather", "item" : [ "wt-deadfalltrap", 1], "consume" : false },
+	{ "kind" : "gather", "item" : [ "wt-sturdybranch", 1], "consume" : false }
+  ],
+  "rewards" : [
+    [ 
+	[ "wt-twine", 8],
+	[ "wt-notchedwoodenstake", 4],
+	[ "wt-woodenstake", 4]
+	]
+  ],
+  "moneyRange" : [30, 30],
+  "canBeAbandoned" : true,
+  "planetMode" : "none",
+  "questDungeons" : [ ],
+  "followUp" : "wt-trftc.wttutorialseries"
+}

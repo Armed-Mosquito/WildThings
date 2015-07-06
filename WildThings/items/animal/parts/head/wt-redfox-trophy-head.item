@@ -1,0 +1,8 @@
+{
+  "itemName" : "wt-redfox-trophy-head",
+  "rarity" : "Rare",
+  "inventoryIcon" : "wt-redfox-head.png",
+  "maxStack" : 3,
+  "description" : "A red fox's missing head.",
+  "shortdescription" : "Trophy Red Fox Head"
+}

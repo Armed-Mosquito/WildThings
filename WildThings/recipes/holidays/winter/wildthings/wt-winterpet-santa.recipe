@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "holidayspirit", "count" : 75 }
+  ],
+  "output" : {
+    "item" : "wt-winterpet-santa",
+    "count" : 1
+  },
+  "groups" : [ "wt-wildthingsstation" ]
+}

@@ -1,0 +1,10 @@
+{
+  "itemName" : "wt-sausagecasings",
+  "rarity" : "Uncommon",
+  "inventoryIcon" : "wt-sausagecasings.png",
+  "maxStack" : 25,
+  "description" : "Using these would make good hot dogs, sausages, and other processed meats..",
+  "shortdescription" : "Sausage Casings",
+  "learnBlueprintsOnPickup" : [ ],
+  "pickupQuestTemplates" : [ ]
+}

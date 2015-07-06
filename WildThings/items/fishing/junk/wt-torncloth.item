@@ -1,0 +1,8 @@
+{
+  "itemName" : "wt-torncloth",
+  "rarity" : "Common",
+  "inventoryIcon" : "wt-torncloth.png",
+  "maxStack" : 4,
+  "description" : "Useless. Junk.",
+  "shortdescription" : "Torn Cloth"
+}

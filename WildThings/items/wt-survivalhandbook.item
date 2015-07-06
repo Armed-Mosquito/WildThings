@@ -1,0 +1,12 @@
+{
+  "itemName" : "wt-survivalhandbook",
+  "rarity" : "Common",
+  "category" : "Quest Item",
+  "inventoryIcon" : "wt-survivalhandbook.png",
+  "description" : "Start the Tutorial Quest Series for Wild Things!",
+  "shortdescription" : "Survival Handbook",
+  
+  "learnBlueprintsOnPickup" : [ "wt-survivalisttable", "wt-twine", "wt-woodenpole" ],
+  "pickupQuestTemplates" : [ "wt-stu.wttutorialseries" ]
+  
+}

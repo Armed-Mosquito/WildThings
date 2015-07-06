@@ -1,0 +1,8 @@
+{
+  "itemName" : "wt-walrus-head",
+  "rarity" : "Uncommon",
+  "inventoryIcon" : "wt-walrus-head.png",
+  "maxStack" : 3,
+  "description" : "A walrus's missing head.",
+  "shortdescription" : "Walrus Head"
+}

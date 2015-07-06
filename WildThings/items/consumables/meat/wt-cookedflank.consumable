@@ -1,0 +1,21 @@
+{
+  "itemName" : "wt-cookedflank",
+  "rarity" : "Common",
+  "inventoryIcon" : "wt-cookedflank.png",
+  "maxStack" : 8,
+  "description" : "I'll be kept well fed with this.",
+  "shortdescription" : "Cooked Flank",
+  "effects" : [ [
+    {
+        "effect" : "foodheal25",
+        "duration" : 50
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 180
+    }
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

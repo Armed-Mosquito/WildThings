@@ -1,0 +1,10 @@
+{
+  "itemName" : "wt-seasalt",
+  "rarity" : "Common",
+  "inventoryIcon" : "wt-seasalt.png",
+  "maxStack" : 25,
+  "description" : "This is maybe the best seasoning ingredient yet.",
+  "shortdescription" : "Sea Salt",
+  "learnBlueprintsOnPickup" : [ ],
+  "pickupQuestTemplates" : [ ]
+}

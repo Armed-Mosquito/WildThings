@@ -1,0 +1,8 @@
+{
+  "itemName" : "wt-eye-tainted",
+  "rarity" : "Common",
+  "inventoryIcon" : "wt-eye-tainted.png",
+  "maxStack" : 25,
+  "description" : "This eye was tainted during the harvest. Should be thrown away.",
+  "shortdescription" : "Tainted Eye"
+}

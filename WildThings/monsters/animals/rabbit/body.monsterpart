@@ -1,0 +1,9 @@
+{
+  "name" : "body",
+  "category" : "wt-rabbit",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "wt-rabbit.png"
+  }
+}

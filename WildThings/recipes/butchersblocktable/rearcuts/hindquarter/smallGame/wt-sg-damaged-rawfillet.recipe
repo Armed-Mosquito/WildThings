@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "wt-sg-hindquarter-damaged", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "wt-rawfillet",
+    "count" : 1
+  },
+  "groups" : [ "wt-butcherblocktable", "wt-rearcuts" ]
+}

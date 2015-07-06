@@ -1,0 +1,8 @@
+{
+  "itemName" : "wt-twine",
+  "rarity" : "Common",
+  "inventoryIcon" : "wt-twine.png",
+  "maxStack" : 25,
+  "description" : "Not quiet as strong as a climbing rope but great for camp craft and even traps.",
+  "shortdescription" : "Roll of Twine"
+}

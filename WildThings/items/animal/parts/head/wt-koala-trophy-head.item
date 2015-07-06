@@ -1,0 +1,8 @@
+{
+  "itemName" : "wt-koala-trophy-head",
+  "rarity" : "Rare",
+  "inventoryIcon" : "wt-koala-head.png",
+  "maxStack" : 3,
+  "description" : "A koala's missing head.",
+  "shortdescription" : "Trophy Koala Head"
+}

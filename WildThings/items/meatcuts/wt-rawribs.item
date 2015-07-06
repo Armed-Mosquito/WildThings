@@ -1,0 +1,8 @@
+{
+  "itemName" : "wt-rawribs",
+  "rarity" : "Common",
+  "inventoryIcon" : "wt-rawribs.png",
+  "maxStack" : 4,
+  "description" : "Ideal for roasting.",
+  "shortdescription" : "Raw Ribs"
+}

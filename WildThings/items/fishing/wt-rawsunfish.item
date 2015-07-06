@@ -1,0 +1,10 @@
+{
+  "itemName" : "wt-rawsunfish",
+  "rarity" : "Common",
+  "inventoryIcon" : "wt-rawsunfish.png",
+  "maxStack" : 12,
+  "description" : "It's a raw fish...slimy. I should at least de-bone this with a fish de-boner.",
+  "shortdescription" : "Sunfish", 
+  
+  "learnBlueprintsOnPickup" : [ "wt-fishcleaner" ]
+}

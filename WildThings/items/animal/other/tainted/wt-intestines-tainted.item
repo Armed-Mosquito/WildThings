@@ -1,0 +1,8 @@
+{
+  "itemName" : "wt-intestines-tainted",
+  "rarity" : "Common",
+  "inventoryIcon" : "wt-intestines-tainted.png",
+  "maxStack" : 25,
+  "description" : "These intestines are tainted, should be thrown away.",
+  "shortdescription" : "Tainted Intestines"
+}

@@ -1,0 +1,22 @@
+{
+  "id" : "wt-ctfic.wttutorialseries",
+  "title" : "^#9be3d6;Cleaning the Fish I Caught",
+  "text" : "Now that I have a bunch of fish caught I should ^green;create the Fish Cleaner^white; table. I can create these ^orange;from Camp Craft of the Survivalist Table as always^white;.
+
+Once I ^green;create a Fish Cleaner^white; I can place the Raw Fish I caught through it to clean it up and harvest the Raw Fish Meat for cooking later. That is if I dont like sushi!",
+  "completionText" : "^green;Try processing the fish rewarded^white; if you want to get a taste of how ^orange;different species of fish sizes will affect the yield^white; you harvest.",
+  "conditions" : [
+    { "kind" : "gather", "item" : [ "wt-fishcleaner", 1], "consume" : false }
+  ],
+  "rewards" : [
+    [ 
+	[ "wt-rawtrout", 6],
+	[ "wt-rawbass", 6]
+	]
+  ],
+  "moneyRange" : [90, 90],
+  "canBeAbandoned" : true,
+  "planetMode" : "none",
+  "questDungeons" : [ ],
+  "followUp" : "wt-fpefc.wttutorialseries"
+}

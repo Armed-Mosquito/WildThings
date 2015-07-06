@@ -1,0 +1,158 @@
+{
+  "type" : "wt-pig",
+
+  "categories" : [ "wt-pig" ],
+  "parts" : [ "body" ],
+
+  "animation" : "/monsters/animals/wildthings.animation",
+  "colors" : "/monsters/colors.config",
+  "reversed" : true,
+
+  "dropPools" : [
+    {
+      "default" : "wt-pig",
+	  "wt-stoneknife-t1" : "wt-pig-sk1",
+	  "wt-boneknife-t1" : "wt-pig-bk1",
+	  "wt-butchersaw" : "wt-butchersaw"
+    }
+  ],
+
+  "baseParameters" : {
+    "scripts" : [
+      "/monsters/capturepod.lua",
+      "/monsters/ground/groundMonster.lua",
+      "/scripts/pathing.lua",
+      "/scripts/stateMachine.lua",
+      "/scripts/util.lua",
+      "/scripts/vec2.lua",
+
+      "/monsters/ground/aggroHopState.lua",
+      "/monsters/ground/approachState.lua",
+      "/monsters/ground/fleeState.lua",
+      "/monsters/ground/captiveState.lua",
+      "/monsters/ground/stunState.lua",
+      "/monsters/ground/socializeState.lua",
+      "/monsters/ground/wanderState.lua",
+
+      "/monsters/ground/skills/createGroundRangedAttack.lua"
+    ],
+
+    "territoryDistance" : 40.0,
+    "territorialTargetRadius" : 20.0,
+    "minimalTargetRadius" : 6.0,
+    "targetSearchTime" : 0.5,
+    "targetHoldTime" : 5.0,
+
+    "closeDistance" : 1.5,
+
+    "wanderTime" : [4.0, 6.0],
+    "wanderMovementTime" : [2.0, 3.0],
+	"wanderJumpProbability" : 0.1,
+
+    "jumpTargetDistance" : 4,
+    "jumpTime" : [0.4, 0.7],
+	
+	"approachTime" : 10,
+	
+	"pathing" : {
+      "canOpenDoors" : false
+    },
+
+    "knockoutTime" : 0.5,
+    "knockoutEffect" : "blink",
+    "knockoutAnimationStates" : {
+      "movement" : "die",
+      "attack" : "idle"
+    },
+    "deathParticles" : "deathPoof",
+    "captureParticles" : "captureParticles",
+    "levelUpParticles" : "levelUp",
+
+    "exhaustionTimer" : 3.0,
+    "exhaustionTimeout" : 3.0,
+    "exhaustionDistanceLimit" : 1.0,
+
+    "captureHealthFraction" : 0.5,
+    "killsPerLevel" : 20
+  },
+
+  "familyParameters" : [
+    [
+      {
+        "baseSkills" : [ "meleeAttack" ],
+        "specialSkills" : [ "chargeAttack" ]
+      },
+      {
+        "baseSkills" : [ "meleeAttack" ],
+        "specialSkills" : [ "pounceAttack" ]
+      }
+    ]
+  ],
+
+  "variantParameters" : [
+    [
+      [1.0, {
+          "scale" : 1.2,
+
+          "movementSettings" : {
+            "collisionPoly" : [ [-1.0, -1.4], [1.0, -1.4], [1.0, 1.0], [-1.0, 1.0] ],
+            "mass" : 1.0,
+            "walkSpeed" : 2.5,
+            "runSpeed" : 6.5
+          },
+
+          "metaBoundBox" : [-2.5, -2.5, 2.5, 2.5],
+
+          "blockedSensors" : [ [1.5, -1.5], [1.5, -1.0], [1.5, -0.2], [1.5, 0.6] ],
+          "fallSensors" : [ [0.5, -2.5], [0.5, -3.5], [0.5, -4.5], [2.0, -2.5], [2.0, -3.5], [2.0, -4.5] ],
+
+          "touchDamage" : {
+            "poly" : [ [-1, -2.6], [1, -2.6], [1, 0], [-1, 0] ],
+            "damage" : 12,
+
+            "teamType" : "enemy",
+            "damageSourceKind" : "slash",
+            "statusEffects" : [ ]
+          },
+
+          "statusSettings" : {
+            "statusProperties" : {
+              "targetMaterialKind" : "organic"
+            },
+
+            "appliesEnvironmentStatusEffects" : false,
+            "minimumLiquidStatusEffectPercentage" : 0.1,
+
+
+            "primaryScriptSources" : [
+              "/stats/monster_primary.lua"
+            ],
+            "primaryScriptDelta" : 5,
+
+            "stats" : {
+              "maxHealth" : {
+                "baseValue" : 64
+              },
+              "protection" : {
+                "baseValue" : 0.0
+              },
+              "healthRegen" : {
+                "baseValue" : 0.0
+              }
+            },
+
+            "resources" : {
+              "health" : {
+                "maxStat" : "maxHealth",
+                "deltaStat" : "healthRegen",
+                "defaultPercentage" : 100
+              }
+            }
+          },
+
+          "mouthOffset" : [0.5, 0],
+          "feetOffset" : [0, -21]
+        } ]
+    ]
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "objectName" : "wt-survivalisttable",
+  "printable" : false,
+  "rarity" : "Uncommon",  
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/wt-survivalisttable.config",
+    "filter" : [ "wt-survivalisttable" ]
+  },
+  "description" : "Becoming a better survivor one recipe at a time.",
+  "shortdescription" : "Survivalist Table",
+  "maxStack" : 1,
+  "race" : "generic",
+  "category" : "crafting",
+  
+  "maximumLiquidLevel" : 0.2,
+  
+  "learnBlueprintsOnPickup" : [ "wt-twine", "wt-woodenpole", "wt-tanningrack", "wt-butcherblocktable", "wt-survivalistcampfire", "wt-woodenhandle" ],
+  "pickupQuestTemplates" : [ "wt-pmca.wttutorialseries" ],
+
+  "apexDescription" : "My god, this is a wonderful table!",
+  "avianDescription" : "That table looks awfully familiar!",
+  "floranDescription" : "Floran. Now! But Floran likesss to survive.",
+  "glitchDescription" : "Oh. What is this, a survival station.",
+  "humanDescription" : "This looks great, I can really survive well now!",
+  "hylotlDescription" : "I enjoy this contraption, its helped my race survive.",
+
+  
+  "inventoryIcon" : "wt-survivalisttableicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "wt-survivalisttable.png:<color>",
+
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+	  "requireTilledAnchors" : false,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

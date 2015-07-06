@@ -1,0 +1,8 @@
+{
+  "itemName" : "wt-muskrat-head",
+  "rarity" : "Uncommon",
+  "inventoryIcon" : "wt-muskrat-head.png",
+  "maxStack" : 3,
+  "description" : "A muskrat's missing head.",
+  "shortdescription" : "Muskrat Head"
+}

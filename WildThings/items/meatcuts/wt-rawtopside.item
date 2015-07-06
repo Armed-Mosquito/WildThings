@@ -1,0 +1,8 @@
+{
+  "itemName" : "wt-rawtopside",
+  "rarity" : "Common",
+  "inventoryIcon" : "wt-rawtopside.png",
+  "maxStack" : 8,
+  "description" : "Muscle from the top of the leg can get cut into cubes for soups and stews.",
+  "shortdescription" : "Raw Topside"
+}

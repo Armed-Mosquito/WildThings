@@ -1,0 +1,17 @@
+{
+  "id" : "wt-jointingkit2.gearup",
+  "title" : "^#9be3d6;Butchering for Quantity!",
+  "text" : "I should use my Jointing Kit with a carcass from a Wild Thing to obtain more meat than using just a saw. ^green;I should find a Wild Thing to kill for the carcass, and then I need to place the carcass into the open slot on my Jointing Kit. ^orange;Obtain a Pig Carcass's by melee kill, then use Pig Carcass with my Jointing Kit to Quarter Meat.",
+  "completionText" : "Great! Now try quartering your meat like this often for more meat return, and try with a higher quality carcass to see what it yields.",
+  "conditions" : [
+	{ "kind" : "gather", "item" : [ "wt-quarteredmeat", 12], "consume" : false }
+  ],
+  "rewards" : [
+    [ [ "wt-butchersaw", 1] ]
+  ],
+  "moneyRange" : [10, 10],
+  "canBeAbandoned" : true,
+  "planetMode" : "none",
+  "questDungeons" : [ ],
+  "followUp" : ""
+}

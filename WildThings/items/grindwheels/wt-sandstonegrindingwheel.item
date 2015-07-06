@@ -1,0 +1,10 @@
+{
+  "itemName" : "wt-sandstonegrindingwheel",
+  "rarity" : "Uncommon",
+  "inventoryIcon" : "wt-sandstonegrindingwheel.png",
+  "maxStack" : 8,
+  "description" : "Useful for repairing tools or creating a grinding wheel.",
+  "shortdescription" : "Sandstone Grinding Wheel",
+  
+  "learnBlueprintsOnPickup" : [ "wt-sandstonegrindingwheeltable" ]
+}

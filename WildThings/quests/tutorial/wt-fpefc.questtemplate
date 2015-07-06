@@ -1,0 +1,23 @@
+{
+  "id" : "wt-fpefc.wttutorialseries",
+  "title" : "^#9be3d6;Fresh Plant Ends for Cloning",
+  "text" : "^orange;Freshly Cut Ends^white; drop from different plant species such as ^orange;Wild Sapling Trees^white; which can be made into clones for growing. ^orange;Aloe Vera Plants^orange; found ^white;on ^orange;desert^white;, ^white;and ^orange;savannah biomes ^white;have a special leaf that can be used with your ^orange;Plant Craft^white; to extract an ^orange;Aloe Vera Gel ^white; which is a great way to start root growth on your cut ends.
+
+Once I have a ^orange;Freshly Cut Sapling End from a Wild Sapling Tree^white; and ^orange;Aloe Vera Gel ^white;I should ^green;create a Sapling Clone^orange; in the Survivalist Table under the Plant Craft^white; menu to grow anywhere any time!",
+  "completionText" : "Remember ^orange;different plant species will need fresh cut ends of that particular species if I want to make a clone for it^white;. 
+
+^green;Aloe Vera Gel ^white;can also be ^green;used in medical recipes its a great plant^white;!",
+  "conditions" : [
+    { "kind" : "gather", "item" : [ "wt-sapling-clone", 1], "consume" : false }
+  ],
+  "rewards" : [
+    [ 
+	[ "wt-sapling-cutend", 3]
+	]
+  ],
+  "moneyRange" : [95, 95],
+  "canBeAbandoned" : true,
+  "planetMode" : "none",
+  "questDungeons" : [ ],
+  "followUp" : ""
+}

@@ -1,0 +1,25 @@
+{
+  "id" : "wt-cashk.wttutorialseries",
+  "title" : "^#9be3d6;Creating a Stone Hunting Knife",
+  "text" : "I should ^green;create a Sharpened Stone from a Cobblestone^white; with my new grinding wheel table.
+
+Once I obtain the Sharpened Stone I should ^green;create a Wooden Handle^white; for the my new Sharp Stone. I can ^orange;create the Wooden Handle in my Woodworking menu of the Survivalist Table^white;.
+
+I should ^green;combine the Wooden Handle with the Sharp Stone ^orange;in Weapon Craft menu of the Survivalist Table ^white;and ^green;create a Stone Hunting Knife^white;.
+
+To continue I must ^green;create a Stone Hunting Knife^white;",
+  "completionText" : "Dont forget that the ^orange;better quality the weapon the better my harvest^white; can be. Also that some weapons will drop loot specific according to the weapon and its quality grade.
+
+Try some other materials for weapon blades as you unlock them!",
+  "conditions" : [
+    { "kind" : "gather", "item" : [ "wt-stoneknife-t1", 1], "consume" : false }
+  ],
+  "rewards" : [
+    [ [ "blowgun", 1] ]
+  ],
+  "moneyRange" : [50, 50],
+  "canBeAbandoned" : true,
+  "planetMode" : "none",
+  "questDungeons" : [ ],
+  "followUp" : "wt-pms.wttutorialseries"
+}

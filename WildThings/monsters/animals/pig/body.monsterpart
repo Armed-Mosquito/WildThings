@@ -1,0 +1,9 @@
+{
+  "name" : "body",
+  "category" : "wt-pig",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "wt-pig.png"
+  }
+}

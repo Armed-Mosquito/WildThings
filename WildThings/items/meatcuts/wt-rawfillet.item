@@ -1,0 +1,8 @@
+{
+  "itemName" : "wt-rawfillet",
+  "rarity" : "Common",
+  "inventoryIcon" : "wt-rawfillet.png",
+  "maxStack" : 10,
+  "description" : "The most tender meat, ideal for preserving.",
+  "shortdescription" : "Raw Fillet Undercut"
+}

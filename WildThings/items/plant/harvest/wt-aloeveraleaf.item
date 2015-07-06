@@ -1,0 +1,10 @@
+{
+  "itemName" : "wt-aloeveraleaf",
+  "rarity" : "Common",
+  "inventoryIcon" : "wt-aloeveraleaf.png",
+  "maxStack" : 20,
+  "description" : "This leaf is succulent and can be made into herbal medicine.",
+  "shortdescription" : "Aloe Vera Leaf",
+  
+  "learnBlueprintsOnPickup" : [ "wt-aloeveragel" ]
+}

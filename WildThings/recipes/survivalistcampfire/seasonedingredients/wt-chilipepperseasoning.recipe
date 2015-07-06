@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "chili", "count" : 1 },
+    { "item" : "wt-seasalt", "count" : 1 }
+  ],
+  "output" : { "item" : "wt-chiliseasoning", "count" : 1 },
+  "groups" : [ "wt-survivalistcampfire", "wt-seasoned" ]
+}

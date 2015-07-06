@@ -1,0 +1,51 @@
+{
+  "objectName" : "wt-aloeveraplant",
+  "rarity" : "Uncommon",
+  "category" : "Harvestable",
+  "price" : 45,
+  "printable" : false,
+  "description" : "An cactus that contains medicinal harvest ingredients.",
+  "shortdescription" : "Aloe Vera",
+  "race" : "generic",
+  
+  "maximumLiquidLevel" : 0.2,
+  
+  "learnBlueprintsOnPickup" : [ "wt-aloeveragel" ],
+  "pickupQuestTemplates" : [ ],
+  
+  "apexDescription" : "An cactus that contains medicinal harvest ingredients.",
+  "avianDescription" : "An cactus that contains medicinal harvest ingredients.",
+  "floranDescription" : "An cactus that contains medicinal harvest ingredients.",
+  "glitchDescription" : "An cactus that contains medicinal harvest ingredients.",
+  "humanDescription" : "An cactus that contains medicinal harvest ingredients.",
+  "hylotlDescription" : "An cactus that contains medicinal harvest ingredients.", 
+  
+  "inventoryIcon" : "icon.png",
+  
+  "orientations" : [
+    {
+      "image" : "wt-aloeveraplant.png:<color>",
+      "imagePosition" : [0, 0],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "wt-aloeveraplant.png:<color>",
+      "imagePosition" : [0, 0],
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  "smashSounds" : [ "/sfx/objects/capsule_break1.wav", "/sfx/objects/capsule_break2.wav", "/sfx/objects/capsule_break3.wav" ],
+  "smashDropOptions" : [
+    [ [ "wt-aloeveraleaf", 2, { } ] ]
+  ],
+  "breakDropOptions" : [
+    [ [ "wt-aloeveraleaf", 2, { } ] ]
+  ]
+}

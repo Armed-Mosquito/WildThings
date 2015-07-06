@@ -1,0 +1,20 @@
+{
+  "id" : "wt-steamextractor.gearup",
+  "title" : "^#9be3d6;Steam Extractor!",
+  "text" : "Nice! Using this sewer tank I can create a Steam Extractor but it needs work, I can craft it on the Survivalist Table. ^green;Its very dirty right now and over sized, it needs work. ^white;If you are up for the task you can get started, you found the hardest piece so good job. ^green;Steam Extractors will help you extract oils of all sorts. ^orange;gather x1 Glass Panel, x8 Steel Bars, and x3 Copper Bars",
+  "completionText" : "Now that you have a rare Steam Extractor you can begin you extract all sorts of oils! Here is a few fish for you to use with the Steam Extractor, if you loose them just go hunt some fish down.",
+  "conditions" : [
+    { "kind" : "gather", "item" : [ "wt-steamextractor", 1], "consume" : false }
+  ],
+  "rewards" : [
+    [ [ "wt-rawbass", 1],
+	  [ "wt-rawsardine", 1],
+	  [ "wt-rawtrout", 1]
+	]
+  ],
+  "moneyRange" : [10, 10],
+  "canBeAbandoned" : true,
+  "planetMode" : "none",
+  "questDungeons" : [ ],
+  "followUp" : "wt-steamextractor2.gearup"
+}

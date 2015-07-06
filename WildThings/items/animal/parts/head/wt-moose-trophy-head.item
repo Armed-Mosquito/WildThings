@@ -1,0 +1,8 @@
+{
+  "itemName" : "wt-moose-trophy-head",
+  "rarity" : "Rare",
+  "inventoryIcon" : "wt-moose-head.png",
+  "maxStack" : 3,
+  "description" : "A moose's missing head.",
+  "shortdescription" : "Trophy Moose Head"
+}

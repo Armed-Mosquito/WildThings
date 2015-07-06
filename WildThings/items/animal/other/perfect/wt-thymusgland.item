@@ -1,0 +1,8 @@
+{
+  "itemName" : "wt-thymusgland",
+  "rarity" : "Common",
+  "inventoryIcon" : "wt-thymusgland.png",
+  "maxStack" : 25,
+  "description" : "A great delicacy. Delicious boiled or roasted.",
+  "shortdescription" : "Thymus Gland"
+}

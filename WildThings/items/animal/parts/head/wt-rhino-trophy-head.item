@@ -1,0 +1,8 @@
+{
+  "itemName" : "wt-rhino-trophy-head",
+  "rarity" : "Rare",
+  "inventoryIcon" : "wt-rhino-head.png",
+  "maxStack" : 3,
+  "description" : "A rhino's missing head.",
+  "shortdescription" : "Trophy Rhino Head"
+}

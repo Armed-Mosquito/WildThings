@@ -1,0 +1,8 @@
+{
+  "itemName" : "wt-rudolf-trophy-head",
+  "rarity" : "Legendary",
+  "inventoryIcon" : "wt-rudolf-head.png",
+  "maxStack" : 3,
+  "description" : "Rudolf's missing head.",
+  "shortdescription" : "Trophy Rudolf Head"
+}

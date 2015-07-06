@@ -1,0 +1,9 @@
+{
+  "name" : "body",
+  "category" : "wt-brownbear",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "wt-brownbear.png"
+  }
+}

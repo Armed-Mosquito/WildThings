@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "ironbar", "count" : 12 }
+  ],
+  "output" : {
+    "item" : "ironbow",
+    "count" : 1
+  },
+  "groups" : [ "craftingtable", "weapons", "all", "wt-survivalisttable", "wt-hunterweapons" ]
+}

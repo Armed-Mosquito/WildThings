@@ -1,0 +1,9 @@
+[
+ {"op":"add","path":"/spawnProfiles/-","value":{"groups":["wt-forest"]}},  
+ 
+ {"op":"add","path":"/surfacePlaceables/items/-","value":{"mode":"floor","priority":0.8,"variants":1,"distribution":"/biomes/distributions.config:moderateClumps","type":"object","objectSets":[{"pool":[[0.5,"wt-redberrybush"]]}]}},
+ {"op":"add","path":"/surfacePlaceables/items/-","value":{"mode":"floor","priority":0.4,"variants":1,"distribution":"/biomes/distributions.config:moderateClumps","type":"object","objectSets":[{"pool":[[0.5,"wt-raspberrybush"]]}]}},
+
+ {"op":"add","path":"/surfacePlaceables/items/-","value":{"mode":"floor","priority":1,"variants":1,"distribution":"/biomes/distributions.config:wt-mapleTrees","type":"object","objectSets":[{"pool":[[1,"wt-mapletree"]],"parameters":{"startingStage":1}}]}},
+ {"op":"add","path":"/surfacePlaceables/items/-","value":{"mode":"floor","priority":0,"variants":1,"distribution":"/biomes/distributions.config:surfaceCrops","type":"object","objectSets":[{"pool":[[1,"wt-sapling"]],"parameters":{"startingStage":1}}]}}
+]

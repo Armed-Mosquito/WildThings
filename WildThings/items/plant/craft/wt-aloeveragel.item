@@ -1,0 +1,9 @@
+{
+  "itemName" : "wt-aloeveragel",
+  "rarity" : "Uncommon",
+  "inventoryIcon" : "wt-aloeveragel.png",
+  "maxStack" : 25,
+  "description" : "Aloe Vera Gel has many useful purposes.",
+  "shortdescription" : "Aloe Vera Gel",
+  "learnBlueprintsOnPickup" : [ ]
+}

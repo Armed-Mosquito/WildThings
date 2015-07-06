@@ -1,0 +1,8 @@
+{
+  "itemName" : "wt-rawclod",
+  "rarity" : "Common",
+  "inventoryIcon" : "wt-rawclod.png",
+  "maxStack" : 8,
+  "description" : "Ideal for stews and soups.",
+  "shortdescription" : "Raw Clod"
+}

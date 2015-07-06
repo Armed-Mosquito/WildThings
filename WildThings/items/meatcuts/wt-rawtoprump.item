@@ -1,0 +1,8 @@
+{
+  "itemName" : "wt-rawtoprump",
+  "rarity" : "Common",
+  "inventoryIcon" : "wt-rawtoprump.png",
+  "maxStack" : 8,
+  "description" : "Muscle from the front of the thighs. Cut into cubes for soups and stews.",
+  "shortdescription" : "Raw Top Rump"
+}

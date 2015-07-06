@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "wt-rawflank", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "wt-cookedflank",
+    "count" : 1
+  },
+  "groups" : [ "cooking", "wt-survivalistcampfire", "wt-basiccooking" ]
+}

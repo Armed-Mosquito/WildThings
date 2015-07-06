@@ -1,0 +1,21 @@
+{
+  "itemName" : "wt-cookedhideflank",
+  "rarity" : "Common",
+  "inventoryIcon" : "wt-cookedhideflank.png",
+  "maxStack" : 8,
+  "description" : "I'll be kept well fed with this.",
+  "shortdescription" : "Cooked Hide Flank",
+  "effects" : [ [
+    {
+        "effect" : "foodheal25",
+        "duration" : 42
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 180
+    }
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

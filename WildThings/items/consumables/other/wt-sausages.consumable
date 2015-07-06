@@ -1,0 +1,21 @@
+{
+  "itemName" : "wt-sausages",
+  "rarity" : "Uncommon",
+  "price" : 40,
+  "printable" : false,  
+  "maxstack" : 20,
+  "inventoryIcon" : "wt-sausages.png",
+  "description" : "These pack lots of energy!",
+  "shortdescription" : "Cooked Sausages",
+  "effects" : [ [
+    {
+        "effect" : "foodheal25",
+        "duration" : 10
+    },	
+    {
+        "effect" : "energyregen",
+        "duration" : 55
+    }
+  ] ],
+  "blockingEffects" : [ ]
+}

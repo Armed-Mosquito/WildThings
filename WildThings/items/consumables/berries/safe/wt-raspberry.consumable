@@ -1,0 +1,20 @@
+{
+  "itemName" : "wt-raspberry",
+  "rarity" : "Uncommon",
+  "category" : "Consumable",
+  "price" : 40,
+  "inventoryIcon" : "wt-raspberry.png",
+  "description" : "A very tasty berry, might have more purposes also.",
+  "shortdescription" : "Raspberry",
+  "effects" : [ [
+    {
+        "effect" : "runboost25",
+        "duration" : 8
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 8
+    }
+  ] ],
+  "blockingEffects" : [ "wellfed" ]
+}

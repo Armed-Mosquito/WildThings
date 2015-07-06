@@ -1,0 +1,8 @@
+{
+  "itemName" : "wt-alien-trophy-head",
+  "rarity" : "Legendary",
+  "inventoryIcon" : "wt-alien-head.png",
+  "maxStack" : 3,
+  "description" : "An alien's missing head.",
+  "shortdescription" : "Trophy Alien Head"
+}

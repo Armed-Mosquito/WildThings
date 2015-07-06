@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "coconut", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "wt-coconutoil",
+    "count" : 1
+  },
+  "groups" : [ "wt-survivalisttable", "wt-plantcraft" ]
+}

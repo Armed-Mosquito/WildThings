@@ -1,0 +1,54 @@
+{
+  "objectName" : "wt-survivalistcampfire",
+  "shortdescription" : "Survivalist Campfire",
+  "description" : "Cook stews, make roast, deep fry, boil, even does grilling.",
+  "category" : "crafting",
+  "rarity" : "Uncommon",
+  "maxStack" : 1,
+  "printable" : false,
+  "race" : "generic",  
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/wt-survivalistcampfire.config",
+    "filter" : [ "wt-survivalistcampfire" ]
+  },
+  
+  "maximumLiquidLevel" : 0.2,
+  
+  "learnBlueprintsOnPickup" : [ "wt-smokersrack", "wt-meatstew" ],
+  "pickupQuestTemplates" : [ "wt-cams.wttutorialseries" ],
+
+  "apexDescription" : "This looks great for cooking stews, roast, deep frying, boiling, and even grilling with that pan!",
+  "avianDescription" : "This looks great for cooking stews, roast, deep frying, boiling, and even grilling with that pan!",
+  "floranDescription" : "This looks great for cooking stews, roast, deep frying, boiling, and even grilling with that pan!",
+  "glitchDescription" : "This looks great for cooking stews, roast, deep frying, boiling, and even grilling with that pan!",
+  "humanDescription" : "This looks great for cooking stews, roast, deep frying, boiling, and even grilling with that pan!",
+  "hylotlDescription" : "This looks great for cooking stews, roast, deep frying, boiling, and even grilling with that pan!",
+
+  "lightColor" : [179, 149, 107],
+  "flickerPeriod" : 0.3,
+  "flickerMinIntensity" : 0.95,
+  "flickerMaxIntensity" : 1,
+  "flickerPeriodVariance" : 0.075,
+  "flickerIntensityVariance" : 0.025,  
+  
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "wt-survivalistcampfire.png:<color>.<frame>",
+
+      "imagePosition" : [-23, 0],
+      "frames" : 4,
+      "animationCyacle" : 0.5,
+
+      "spaceScan" : 0.1,
+	  "requireTilledAnchors" : false,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],  
+  
+  "statusEffects" : [ "campfirespirit" ],
+  
+  "soundEffect" : "/sfx/objects/campfire.wav"  
+}

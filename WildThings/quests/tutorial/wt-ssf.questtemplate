@@ -1,0 +1,21 @@
+{
+  "id" : "wt-ssf.wttutorialseries",
+  "title" : "^#9be3d6;Something Smells Fishy",
+  "text" : "Like hunting for mammals ^orange;fish will also be caught depending on the weapon type used^white;. I can ^green;try killing some fish^white; with any old weapon but the loot will likely be junk.
+
+Creating myself a ^orange;Bow ^white;I will catch more fish and less junk. 
+
+^green;Collect x3 Raw Sunfish ^orange;from killing any small fish in all fish pools^white;.",
+  "completionText" : "^orange;I will catch much more junk from fish if I am not using a proper fishing weapon^white;. But at this time I have no way to create more fishing hunting weapons this will come soon.",
+  "conditions" : [
+    { "kind" : "gather", "item" : [ "wt-rawsunfish", 3], "consume" : false }
+  ],
+  "rewards" : [
+    [ ]
+  ],
+  "moneyRange" : [85, 85],
+  "canBeAbandoned" : true,
+  "planetMode" : "none",
+  "questDungeons" : [ ],
+  "followUp" : "wt-ctfic.wttutorialseries"
+}

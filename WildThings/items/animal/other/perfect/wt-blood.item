@@ -1,0 +1,8 @@
+{
+  "itemName" : "wt-blood",
+  "rarity" : "Common",
+  "inventoryIcon" : "wt-blood.png",
+  "maxStack" : 25,
+  "description" : "Blood found from a beast, rich in protein.",
+  "shortdescription" : "Blood"
+}

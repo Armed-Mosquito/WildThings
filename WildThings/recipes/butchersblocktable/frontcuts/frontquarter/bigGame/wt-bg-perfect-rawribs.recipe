@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "wt-bg-frontquarter", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "wt-rawribs",
+    "count" : 6
+  },
+  "groups" : [ "wt-butcherblocktable", "wt-frontcuts" ]
+}

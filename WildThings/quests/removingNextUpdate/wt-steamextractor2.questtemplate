@@ -1,0 +1,18 @@
+{
+  "id" : "wt-steamextractor2.gearup",
+  "title" : "^#9be3d6;Fish Oil Extraction!",
+  "text" : "Now that you have you very own Steam Extractor you can start extracting all sorts of things! ^green;Find some fish, once you have run them through your Steam Extractor. ^white;After some fish are processed through the steam extractor you collect Fish Oil. Used for medicine crafting and other stuff. ^orange;gather x3 Fish of Any Type, then process them in the Steam Extractor",
+  "completionText" : "Awesome stuff isn't it? With this steam extractor you will find your self making some cool things but generally used with medicines.",
+  "conditions" : [
+    { "kind" : "gather", "item" : [ "wt-fishoil", 3], "consume" : false }
+  ],
+  "rewards" : [
+    [ [ "money", 400]
+	]
+  ],
+  "moneyRange" : [10, 100],
+  "canBeAbandoned" : true,
+  "planetMode" : "none",
+  "questDungeons" : [ ],
+  "followUp" : ""
+}

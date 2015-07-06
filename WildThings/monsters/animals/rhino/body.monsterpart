@@ -1,0 +1,9 @@
+{
+  "name" : "body",
+  "category" : "wt-rhino",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "wt-rhino.png"
+  }
+}

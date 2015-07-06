@@ -1,0 +1,28 @@
+{
+  "itemName" : "wt-blowgun-capture",
+  "inventoryIcon" : "wt-blowgun-capture.png",
+  "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "uncommon",
+  "description" : "Sedates the target and captures them.",
+  "shortdescription" : "Tranquillizer Dart",
+  "image" : "wt-blowgun-capture.png",
+  "handPosition" : [-4, -4],
+  "firePosition" : [16, 0],
+  "recoilTime" : 0.1,
+  "level" : 2,
+  "tooltipKind" : "gun",
+  "fireTime" : 1.75,
+  "twoHanded" : true,
+  "walkWhileFiring" : false,
+  
+
+  "projectileType" : "wt-capture",
+  "projectile" : {
+    "speed" : 60,
+    "power" : 4
+  },
+  "muzzleEffect" : {
+    "fireSound" : [ { "file" : "/sfx/gun/blowgun1.wav" }, { "file" : "/sfx/gun/blowgun2.wav" }, { "file" : "/sfx/gun/blowgun3.wav" } ]
+  }
+}

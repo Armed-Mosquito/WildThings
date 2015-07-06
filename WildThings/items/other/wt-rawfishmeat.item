@@ -1,0 +1,9 @@
+{
+  "itemName" : "wt-rawfishmeat",
+  "rarity" : "Common",
+  "inventoryIcon" : "wt-rawfishmeat.png",
+  "maxStack" : 25,
+  "description" : "I can turn this into raw fish meat some recipes might need just this however.",
+  "shortdescription" : " lb Raw Fish Meat",
+  "learnBlueprintsOnPickup" : [ ]
+}

@@ -1,0 +1,10 @@
+{
+  "itemName" : "wt-rawsalmon",
+  "rarity" : "Common",
+  "inventoryIcon" : "wt-rawsalmon.png",
+  "maxStack" : 12,
+  "description" : "It's a raw fish...slimy. I should at least de-bone this with a fish de-boner.",
+  "shortdescription" : "Salmon",
+  
+  "learnBlueprintsOnPickup" : [ "wt-fishcleaner" ]
+}

@@ -1,0 +1,18 @@
+{
+  "itemName" : "wt-maplesyrup",
+  "rarity" : "Uncommon",
+  "inventoryIcon" : "wt-maplesyrup.png",
+  "maxStack" : 25,
+  "description" : "Days of dripping from a maple tree tap, results in..",
+  "shortdescription" : "Maple Syrup",
+  "effects" : [ [
+    {
+        "effect" : "energyregen",
+        "duration" : 65
+    },
+	{
+        "effect" : "mudslow",
+        "duration" : 15
+    }
+  ] ]
+}

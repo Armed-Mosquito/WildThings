@@ -1,0 +1,11 @@
+{
+  "itemName" : "wt-leatherscraps",
+  "rarity" : "Common",
+  "category" : "Leather",
+  "inventoryIcon" : "wt-leatherscraps.png",
+  "maxStack" : 15,
+  "shortdescription" : "Leather Scraps",
+  "description" : "Combine five Leather Scraps to make one piece of Leather",
+  
+  "learnBlueprintsOnPickup" : [ "leather" ]
+}

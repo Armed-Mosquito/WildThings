@@ -1,0 +1,8 @@
+{
+  "itemName" : "wt-brain",
+  "rarity" : "Common",
+  "inventoryIcon" : "wt-brain.png",
+  "maxStack" : 25,
+  "description" : "The brain will make brawn and will also provide a useful solution for curing hides.",
+  "shortdescription" : "Brain"
+}

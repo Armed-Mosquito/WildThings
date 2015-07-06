@@ -1,0 +1,106 @@
+{
+    "wt-wildthingswinterholiday" : [
+    [0, {
+	  "fill" : [
+        {"pool" : "holidaySpiritTreasure"}
+      ],
+      "pool" : [		
+		{"weight" : 0.3, "pool" : "wt-winterpets"},
+		{"weight" : 0.5, "item" : "wt-wintergiftbox"},	
+        {"weight" : 0.5, "pool" : "snowTreasure"},
+		{"weight" : 0.8, "pool" : "iceTreasure"},
+		{"weight" : 0.8, "pool" : "iceChestTreasure"},
+		{"weight" : 0.3, "item" : "bigpresent"},
+		{"weight" : 0.3, "item" : "candyblock"},
+		{"weight" : 0.3, "item" : "decoratedtree"},
+		{"weight" : 0.2, "item" : "dreidel"},
+		{"weight" : 0.3, "item" : "giantbells"},
+		{"weight" : 0.3, "item" : "giantbow1"},
+		{"weight" : 0.3, "item" : "giantbow2"},
+		{"weight" : 0.3, "item" : "giantsanta"},
+		{"weight" : 0.3, "item" : "giantsnowflake"},
+		{"weight" : 0.3, "item" : "goldball"},
+		{"weight" : 0.4, "item" : "greencandycane1"},
+		{"weight" : 0.4, "item" : "greencandycane2"},
+		{"weight" : 0.4, "item" : "greencandycane3"},
+		{"weight" : 0.4, "item" : "greengumdrop1"},
+		{"weight" : 0.4, "item" : "greengumdrop2"},
+		{"weight" : 0.3, "item" : "holidaycandles"},
+		{"weight" : 0.1, "item" : "holidaycraftingtable"},
+		{"weight" : 0.5, "item" : "holidaylights"},
+		{"weight" : 0.5, "item" : "holidaypole"},
+		{"weight" : 0.4, "item" : "holly"},
+		{"weight" : 0.3, "item" : "hotholidaychest"},
+		{"weight" : 0.2, "item" : "hotholidayhead"},
+		{"weight" : 0.2, "item" : "hotholidaypants"},
+		{"weight" : 0.3, "item" : "lollipop1"},
+		{"weight" : 0.3, "item" : "lollipop2"},
+		{"weight" : 0.2, "item" : "menorah"},
+		{"weight" : 0.2, "item" : "mrclausback"},
+		{"weight" : 0.2, "item" : "mrclauschest"},
+		{"weight" : 0.2, "item" : "mrclaushead"},
+		{"weight" : 0.2, "item" : "mrclauspants"},
+		{"weight" : 0.5, "item" : "present1"},
+		{"weight" : 0.5, "item" : "present2"},
+		{"weight" : 0.4, "item" : "present3"},
+		{"weight" : 0.4, "item" : "present4"},
+		{"weight" : 0.4, "item" : "purplegumdrop1"},
+		{"weight" : 0.4, "item" : "purplegumdrop2"},
+		{"weight" : 0.4, "item" : "redball"},
+		{"weight" : 0.5, "item" : "redcandycane1"},
+		{"weight" : 0.5, "item" : "redcandycane2"},
+		{"weight" : 0.5, "item" : "redcandycane3"},
+		{"weight" : 0.4, "item" : "redgumdrop1"},
+		{"weight" : 0.3, "item" : "redgumdrop2"},
+		{"weight" : 0.1, "item" : "scifisleigh"},
+		{"weight" : 0.3, "item" : "smallholidaytree"},
+		{"weight" : 0.6, "item" : "smallsnowflake"},
+		{"weight" : 1.0, "item" : ["snowball", 5]},
+		{"weight" : 0.6, "item" : "snowball"},
+		{"weight" : 0.5, "item" : "stocking1"},
+		{"weight" : 0.5, "item" : "stocking2"},
+		{"weight" : 0.4, "item" : "undecoratedtree"}
+      ],
+      "poolRounds" : [
+	    [0.9, 0],
+		[0.3, 1],
+		[0.09, 2]
+      ],
+	  "levelVariance" : [0, 0],
+      "allowDuplication" : false
+    } ]
+  ],
+    "wt-winterpets" : [
+    [0, {
+	  "pool" : [
+        {"weight" : 0.7, "item" : "wt-winterpet-gingerbreadman"},
+		{"weight" : 0.4, "item" : "wt-winterpet-elf"},
+		{"weight" : 0.5, "item" : "wt-winterpet-rudolf"},
+		{"weight" : 0.3, "item" : "wt-winterpet-santa"},
+		{"weight" : 0.4, "item" : "wt-winterpet-snowman"}
+      ],
+      "poolRounds" : [
+        [0.4, 1],
+		[0.6, 0]
+      ],
+	  "levelVariance" : [0, 0],
+      "allowDuplication" : false
+    } ]
+  ],
+    "wt-gingerbreadman" : [
+    [0, {
+	  "fill" : [
+        {"pool" : "holidaySpiritTreasure"}
+      ],
+	  "pool" : [
+        {"weight" : 0.5, "pool" : "wt-winterpets"}
+      ],
+      "poolRounds" : [
+        [0.2, 1],
+		[0.6, 0]
+      ],
+	  "levelVariance" : [0, 0],
+      "allowDuplication" : false
+    } ]
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "wheat", "count" : 1 },
+    { "item" : "cookedfish", "count" : 4 },
+    { "item" : "pearlpea", "count" : 2 },
+    { "item" : "corn", "count" : 2 }
+  ],
+  "output" : { "item" : "fishstew", "count" : 1 },
+  "groups" : [ "wt-survivalistcampfire", "wt-stew" ]
+}

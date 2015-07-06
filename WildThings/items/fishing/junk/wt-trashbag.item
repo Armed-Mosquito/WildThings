@@ -1,0 +1,8 @@
+{
+  "itemName" : "wt-trashbag",
+  "rarity" : "Common",
+  "inventoryIcon" : "wt-trashbag.png",
+  "maxStack" : 2,
+  "description" : "Useless Junk",
+  "shortdescription" : "Trash Bag"
+}

@@ -1,0 +1,76 @@
+{
+  "objectName" : "wt-quahog",
+  "rarity" : "Uncommon",
+  "category" : "Harvestable",
+  "price" : 45,
+  "printable" : false,
+  "subtitle" : "Quahog",
+  "description" : "A quahog, contains quahog meat.",
+  "shortdescription" : "Quahog",
+  "race" : "generic",
+  
+  "minimumLiquidLevel" : 1.0,
+  
+  "apexDescription" : "A quahog!",
+  "avianDescription" : "A quahog!",
+  "floranDescription" : "A quahog!",
+  "glitchDescription" : "A quahog!",
+  "humanDescription" : "A quahog!",
+  "hylotlDescription" : "A quahog!",
+  
+  "lightColor" : [198, 183, 57],
+  
+  "particleEmitter" : {
+    "emissionRate" : 1.0,
+    "emissionVariance" : 3,
+
+    "particle" : {
+      "type" : "animated",
+      "animation" : "/animations/bubbleboost/bubbleboost.animation",
+      "position" : [1, 1.2],
+      "size" : 0.4,
+      "color" : [255, 255, 255, 255],
+      "light" : [120, 56, 44],
+      "fade" : 0.4,
+      "initialVelocity" : [1, 1],
+      "finalVelocity" : [3, 3],
+      "approach" : [0, 0],
+      "timeToLive" : 2,
+      "layer" : "back"
+    },
+
+    "particleVariance" : {
+      "initialVelocity" : [0.5, 2.0],
+	  "position" : [0.4, 0]
+    }
+},
+  
+  "inventoryIcon" : "icon.png",
+  
+  "orientations" : [
+    {
+      "image" : "wt-quahog.png:<color>",
+      "imagePosition" : [0, 0],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "wt-quahog.png:<color>",
+      "imagePosition" : [0, 0],
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  "smashSounds" : [ "/sfx/objects/capsule_break1.wav", "/sfx/objects/capsule_break2.wav", "/sfx/objects/capsule_break3.wav" ],
+  "smashDropOptions" : [
+    [ [ "wt-quahogshell", 2, { } ], [ "wt-rawquahogmeat", 1, { } ] ]
+  ],
+  "breakDropOptions" : [
+    [ [ "wt-quahogshell", 2, { } ], [ "wt-rawquahogmeat", 1, { } ] ]
+  ]
+}

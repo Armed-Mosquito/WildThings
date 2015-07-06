@@ -1,0 +1,48 @@
+{
+  "objectName" : "wt-springsnare",
+  "rarity" : "Uncommon",
+  "category" : "farmable",
+  "description" : "Spring snares are good for all types of small, and medium game. This snare uses no bait.",
+  "shortdescription" : "Spring Snare",
+  "maxStack" : 8,
+  "objectType" : "farmable",
+  "printable" : false,
+  "price" : 157,
+  
+  "maximumLiquidLevel" : 0.2,
+  
+  "learnBlueprintsOnPickup" : [ "wt-baitedspringsnare" ],
+  "pickupQuestTemplates" : [ ],
+
+  "apexDescription" : "Careful, a snare set there!",
+  "avianDescription" : "Caution, a snare.",
+  "floranDescription" : "Ohhh, stick. Not right, careful!",
+  "glitchDescription" : "HAHA, whats this a snare? To catch what?",
+  "humanDescription" : "Hmm I like this snare, maybe I will take it.",
+  "hylotlDescription" : "A mean tactic in the art of surviving.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "wt-springsnare.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "requireTilledAnchors" : false,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "stages" : [
+    {
+      "duration" : [825, 2825]
+    },
+    {
+      "alts" : 1,
+      "harvestPool" : "wt-springsnare"
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+[
+ {"op":"replace","path":"/surfacePlaceables/items/2","value":{"mode":"floor","priority":1,"variants":1,"distribution":"/biomes/distributions.config:scatteredLarge","type":"object","objectSets":[{"pool":[[0.125,"wt-quahog"],[0.125,"seashell2"],[0.125,"seashell3"],[0.125,"seashell4"],[0.125,"seashell5"],[0.125,"seashell6"],[0.125,"seashell7"],[0.125,"seashell8"]]}]}}
+]

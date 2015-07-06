@@ -1,0 +1,21 @@
+{
+  "id" : "wt-paafo.wttutorialseries",
+  "title" : "^#9be3d6;Plantlife and Animals found on..",
+  "text" : "Some planets have biomes that contain different variety of plant life. Like on ^orange;lush and forest biomes you can find wild growing raspberry and redberry bushes to harvest^white;.
+
+Others biomes offer different animals and even at different times of the day you might see new creatures come out for a peak that doesn't come out in the day. 
+
+^green;Find and kill a animal for the carcass^white; - ^orange;on any biome^white;.",
+  "completionText" : "I should take the time to discover whats on other planets when I feel ready some to try are ^orange;Alien, Arctic, Barren, Desert, Forest, Lush, Jungle, Moon, Oceans and Islands, Savannah, Snow^white;, and ^orange;Tundras^white;! ",
+  "conditions" : [
+    { "kind" : "gather", "item" : [ "wt-fresh-carcass", 1], "consume" : false }
+  ],
+  "rewards" : [
+    [ ]
+  ],
+  "moneyRange" : [20, 20],
+  "canBeAbandoned" : true,
+  "planetMode" : "none",
+  "questDungeons" : [ ],
+  "followUp" : "wt-hto.wttutorialseries"
+}

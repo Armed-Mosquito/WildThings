@@ -1,0 +1,10 @@
+[
+ {"op":"add","path":"/wt-oceansurfaceOres","value":[
+ [0.5,[["wt-salt",1.2],["coal",0.8],["uranium",0],["plutonium",0],["solarium",0],["copper",0.2],["silverore",0.2],["gold",0.2],["platinum",0.2],["diamond",0.2],["iron",0.2]]],
+ [1.5,[["wt-salt",1.2],["coal",0.8],["uranium",0],["plutonium",0],["solarium",0],["copper",0.2],["silverore",0.2],["gold",0.2],["platinum",0.2],["diamond",0.2],["iron",0.2]]],
+ [2.5,[["wt-salt",1.2],["coal",0.8],["uranium",0],["plutonium",0],["solarium",0],["copper",0.2],["silverore",0.2],["gold",0.2],["platinum",0.2],["diamond",0.2],["titanium",0.2]]],
+ [3.5,[["wt-salt",1.2],["coal",0.8],["uranium",0.5],["plutonium",0],["solarium",0],["copper",0.2],["silverore",0.2],["gold",0.2],["platinum",0.2],["diamond",0.2],["titanium",0.2]]],
+ [4.5,[["wt-salt",1.2],["coal",0.8],["uranium",0],["plutonium",0],["solarium",0],["copper",0.2],["silverore",0.2],["gold",0.2],["platinum",0.2],["diamond",0.2],["aegisalt",0.2],["rubium",0.2],["violium",0.2]]],
+ [5.5,[["wt-salt",1.2],["coal",0.8],["uranium",0],["plutonium",0],["solarium",0.2],["copper",0.2],["silverore",0.2],["gold",0.2],["platinum",0.2],["diamond",0.2],["aegisalt",0.2],["rubium",0.2],["violium",0.2]]]
+ ]}
+]

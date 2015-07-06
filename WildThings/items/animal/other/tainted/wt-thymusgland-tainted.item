@@ -1,0 +1,8 @@
+{
+  "itemName" : "wt-thymusgland-tainted",
+  "rarity" : "Common",
+  "inventoryIcon" : "wt-thymusgland-tainted.png",
+  "maxStack" : 25,
+  "description" : "These thymus glands were tainted during the harvest, no longer worth keeping.",
+  "shortdescription" : "Tainted Thymus Gland"
+}

@@ -1,0 +1,8 @@
+{
+  "itemName" : "wt-bones",
+  "rarity" : "Common",
+  "inventoryIcon" : "wt-bones.png",
+  "maxStack" : 25,
+  "description" : "Rich in bone marrow, with valuable vitamins. Also can be into tools.",
+  "shortdescription" : "Bones"
+}

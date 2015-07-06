@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "wt-redfox-carcass", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "meatchunks",
+    "count" : 2
+  },
+  "groups" : [ "wt-butcherblocktable", "wt-processmeat" ]
+}

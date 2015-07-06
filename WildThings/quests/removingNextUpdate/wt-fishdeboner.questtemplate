@@ -1,0 +1,17 @@
+{
+  "id" : "wt-fishdeboner.gearup",
+  "title" : "^#9be3d6;Preparing Raw Fish!",
+  "text" : "You have looted a fish! I can ^green;create a Fish De-boner now to clean all my fish. ^white;You should have a recipe to create it ^green;inside camp craft on the Survivalist Table. ^orange;craft a Fish De-boner, from x2 Wood Plank x1 Rope",
+  "completionText" : "Great job, here is some Raw Fish for you to cook using a kitchen! Remember to use the fish to make it edible raw fish! Or hunt fish with a bow for Raw Fish.",
+  "conditions" : [
+    { "kind" : "gather", "item" : [ "wt-fishdeboner", 1], "consume" : false }
+  ],
+  "rewards" : [
+    [ [ "rawfish", 12] ]
+  ],
+  "moneyRange" : [10, 10],
+  "canBeAbandoned" : true,
+  "planetMode" : "none",
+  "questDungeons" : [ ],
+  "followUp" : ""
+}

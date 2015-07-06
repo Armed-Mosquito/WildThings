@@ -1,0 +1,10 @@
+{
+  "itemName" : "wt-rabbit-carcass",
+  "rarity" : "Common",
+  "inventoryIcon" : "wt-rabbit-carcass.png",
+  "maxStack" : 1,
+  "description" : "This carcass can be quartered up using a Jointing Kit.",
+  "shortdescription" : "Rabbit Carcass",
+  "learnBlueprintsOnPickup" : [ ],
+  "pickupQuestTemplates" : [ ]
+}

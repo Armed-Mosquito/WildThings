@@ -1,0 +1,12 @@
+{
+  "input" : [
+	{ "item" : "wt-twine", "count" : 4 },
+	{ "item" : "wt-woodenpole", "count" : 2 },
+	{ "item" : "cobblestonematerial", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "wt-tanningrack",
+    "count" : 1
+  },
+  "groups" : [ "wt-survivalisttable", "wt-campcraft" ]
+}

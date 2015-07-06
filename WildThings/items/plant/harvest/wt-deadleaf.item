@@ -1,0 +1,8 @@
+{
+  "itemName" : "wt-deadleaf",
+  "rarity" : "Common",
+  "inventoryIcon" : "wt-deadleaf.png",
+  "maxStack" : 60,
+  "description" : "Leafs can be used for snares and trapping. It helps make things look natural.",
+  "shortdescription" : "Dead Leaf"
+}

@@ -1,0 +1,3 @@
+[
+ {"op":"replace","path":"/dropPools/0","value":{"default":"wt-huntingflyers"}}
+]

@@ -1,0 +1,9 @@
+{
+  "name" : "body",
+  "category" : "wt-koala",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "wt-koala.png"
+  }
+}

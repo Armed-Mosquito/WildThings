@@ -1,0 +1,9 @@
+{
+  "name" : "body",
+  "category" : "wt-snowman",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "wt-snowman.png"
+  }
+}

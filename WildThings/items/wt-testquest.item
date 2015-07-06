@@ -1,0 +1,12 @@
+{
+  "itemName" : "wt-testquest",
+  "rarity" : "Legendary",
+  "category" : "Admin",
+  "inventoryIcon" : "wt-survivalhandbook.png",
+  "description" : "Test a predefined quest without messing the code up!",
+  "shortdescription" : "Test a Quest",
+  
+  "learnBlueprintsOnPickup" : [ "wt-survivalisttable", "wt-twine", "wt-woodenpole" ],
+  "pickupQuestTemplates" : [ "penguinmission2.gearup" ]
+  
+}

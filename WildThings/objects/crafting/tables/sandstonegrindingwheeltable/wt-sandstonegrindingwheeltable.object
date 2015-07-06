@@ -1,0 +1,49 @@
+{
+  "objectName" : "wt-sandstonegrindingwheeltable",
+  "printable" : false,
+  "rarity" : "Uncommon",
+  "description" : "Grinding wheels like this one can fix many of your tools, and create great blades.",
+  "shortdescription" : "Sandstone Grinding Wheel Table",
+  "maxStack" : 1,
+  "race" : "generic",
+  "category" : "crafting",
+  "price" : 200,
+  "objectType" : "container",
+  
+  "maximumLiquidLevel" : 0.2,
+  
+  "learnBlueprintsOnPickup" : [ ],
+  "pickupQuestTemplates" : [ ],
+
+  "apexDescription" : "Grinding wheels like this one can fix many of your tools, and create great blades.",
+  "avianDescription" : "Grinding wheels like this one can fix many of your tools, and create great blades.",
+  "floranDescription" : "Grinding wheels like this one can fix many of your tools, and create great blades.",
+  "glitchDescription" : "Grinding wheels like this one can fix many of your tools, and create great blades.",
+  "humanDescription" : "Grinding wheels like this one can fix many of your tools, and create great blades.",
+  "hylotlDescription" : "Grinding wheels like this one can fix many of your tools, and create great blades.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "wt-sandstonegrindingwheeltable.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "statusEffects" : [ ],
+
+  "recipeGroup" : "wt-sandstonegrindingwheeltable",
+  "openSounds" : [ "/sfx/projectiles/spit.wav" ],
+  "slotCount" : 2,
+  "uiConfig" : "/interface/objectcrafting/wt-onestep.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+
+}

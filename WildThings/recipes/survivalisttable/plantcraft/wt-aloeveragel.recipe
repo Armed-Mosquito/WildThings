@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "wt-aloeveraleaf", "count" : 3 }
+  ],
+  "output" : {
+    "item" : "wt-aloeveragel",
+    "count" : 1
+  },
+  "groups" : [ "wt-survivalisttable", "wt-plantcraft" ]
+}

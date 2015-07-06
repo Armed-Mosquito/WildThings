@@ -1,0 +1,8 @@
+{
+  "itemName" : "wt-sickfish",
+  "rarity" : "Common",
+  "inventoryIcon" : "wt-sickfish.png",
+  "maxStack" : 10,
+  "description" : "It's a raw sick fish...slimy. It's useless junk.",
+  "shortdescription" : "Sick Fish"
+}

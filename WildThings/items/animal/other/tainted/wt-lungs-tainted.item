@@ -1,0 +1,8 @@
+{
+  "itemName" : "wt-lungs-tainted",
+  "rarity" : "Common",
+  "inventoryIcon" : "wt-lungs-tainted.png",
+  "maxStack" : 25,
+  "description" : "These lungs are tainted, can be thrown away.",
+  "shortdescription" : "Tainted Lungs"
+}

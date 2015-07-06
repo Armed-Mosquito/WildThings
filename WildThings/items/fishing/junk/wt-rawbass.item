@@ -1,0 +1,8 @@
+{
+  "itemName" : "wt-rawbass",
+  "rarity" : "Common",
+  "inventoryIcon" : "wt-rawbass.png",
+  "maxStack" : 12,
+  "description" : "It's a raw fish...slimy. I should at least de-bone this with a fish de-boner.",
+  "shortdescription" : "Bass"
+}

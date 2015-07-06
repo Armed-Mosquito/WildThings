@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "sugar", "count" : 1 },
+    { "item" : "wt-cookedribs", "count" : 1 }
+  ],
+  "output" : { "item" : "stickyribs", "count" : 1 },
+  "groups" : [ "wt-survivalistcampfire", "wt-grill" ]
+}

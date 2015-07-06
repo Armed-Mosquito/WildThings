@@ -1,0 +1,8 @@
+{
+  "itemName" : "wt-rearlegs-tainted",
+  "rarity" : "Common",
+  "inventoryIcon" : "wt-rearlegs-tainted.png",
+  "maxStack" : 25,
+  "description" : "Tainted meat is not safe for eating. This meat should be thrown away.",
+  "shortdescription" : "Tainted Rear Legs"
+}

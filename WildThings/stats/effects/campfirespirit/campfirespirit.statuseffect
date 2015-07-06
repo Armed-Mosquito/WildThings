@@ -1,0 +1,16 @@
+{
+  "name" : "campfirespirit",
+  "blockingStat" : "biomeheatImmunity",
+
+  "effectConfig" : {},
+  "defaultDuration" : 12,
+
+  "scripts" : [
+    "campfirespirit.lua"
+  ],
+
+  "animationConfig" : "campfirespirit.animation",
+
+  "label" : "Campfire Spirit",
+  "icon" : "/interface/statuses/campfirespirit.png"
+}

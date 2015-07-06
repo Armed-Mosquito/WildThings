@@ -1,0 +1,15 @@
+{
+  "input" : [
+    { "item" : "wt-notchedwoodenstake", "count" : 2 },
+	{ "item" : "wt-sturdybranch", "count" : 1 },
+    { "item" : "wt-leaf", "count" : 3 },
+	{ "item" : "wt-twig", "count" : 2 },	
+	{ "item" : "wt-twine", "count" : 1 },
+	{ "item" : "wire", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "wt-springsnare",
+    "count" : 1
+  },
+  "groups" : [ "wt-survivalisttable", "wt-snaresntraps" ]
+}

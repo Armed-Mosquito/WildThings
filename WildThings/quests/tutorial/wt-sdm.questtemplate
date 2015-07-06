@@ -1,0 +1,23 @@
+{
+  "id" : "wt-sdm.wttutorialseries",
+  "title" : "^#9be3d6;Sharpening Dull Materials",
+  "text" : "I can create ^orange;blades^white;,^orange; tips^white;, ^orange;and other types of ends to use when creating hunting weapons^white;. To do this I will first need a ^orange;Grinding Wheel Table^white;.
+
+Theres an ^orange;abundant source of sandstone on desert biomes^white; to create plenty of sandstone blocks. Sandstone Blocks should be used to ^orange;create a Sandstone Grinding Wheel from the Survivalist Table^white; to ^green;create a Sandstone Grinding Wheel Table^white; with. I will also need wood for legs and the base of the table.
+
+To continue ^green;create x1 Sandstone Grinding Table",
+  "completionText" : "Dont forget that ^orange;in time I will be able to create more for hunting weapon types by creating new ^green;Grinding Wheels^white;. 
+
+Typically the better the wheel the better the weapon grade.",
+  "conditions" : [
+    { "kind" : "gather", "item" : [ "wt-sandstonegrindingwheeltable", 1], "consume" : false }
+  ],
+  "rewards" : [
+    [ ]
+  ],
+  "moneyRange" : [45, 45],
+  "canBeAbandoned" : true,
+  "planetMode" : "none",
+  "questDungeons" : [ ],
+  "followUp" : "wt-cashk.wttutorialseries"
+}

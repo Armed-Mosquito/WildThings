@@ -1,0 +1,8 @@
+{
+  "itemName" : "wt-rawneck",
+  "rarity" : "Common",
+  "inventoryIcon" : "wt-rawneck.png",
+  "maxStack" : 10,
+  "description" : "Tender meat, good for roasting. Boney!",
+  "shortdescription" : "Raw Neck"
+}

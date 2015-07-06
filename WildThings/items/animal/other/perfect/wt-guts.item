@@ -1,0 +1,8 @@
+{
+  "itemName" : "wt-guts",
+  "rarity" : "Common",
+  "inventoryIcon" : "wt-guts.png",
+  "maxStack" : 25,
+  "description" : "Guts actually, might more or less junk.",
+  "shortdescription" : "Guts"
+}

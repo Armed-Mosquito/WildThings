@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "sandstoneblock", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "wt-sandstonegrindingwheel",
+    "count" : 1
+  },
+  "groups" : [ "wt-survivalisttable", "wt-campcraft" ]
+}

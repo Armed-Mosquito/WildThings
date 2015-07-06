@@ -1,0 +1,8 @@
+{
+  "itemName" : "wt-eye",
+  "rarity" : "Common",
+  "inventoryIcon" : "wt-eye.png",
+  "maxStack" : 25,
+  "description" : "Eyes, can be boiled for valuable proteins.",
+  "shortdescription" : "Eye"
+}

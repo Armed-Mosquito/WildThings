@@ -1,0 +1,25 @@
+{
+  "id" : "wt-pms.wttutorialseries",
+  "title" : "^#9be3d6;Preparing Medical Supplies",
+  "text" : "You can also ^orange;use your Survivalist Table for Medical craft^white; this includes ^orange;Bandages^white;, ^orange;Survival Kits^white;, ^orange;Herbal Medicines^white;, and ^orange;more^white;!
+
+Dont be got caught of guard while hunting animals its important to understand how to ^orange;take care of your health or you might die!
+
+^white;When your ready to continue ^green;create x8 Bandages ^orange;by searching for Plant Fibre which can be located primarily from vines and some other plants^white;.",
+  "completionText" : "Try to ^green;collect a Coconut ^orange;from an Ocean Biome to ^green;unlock Coconut Oil recipe^white;. 
+
+See what happens!",
+  "conditions" : [
+    { "kind" : "gather", "item" : [ "bandage", 8], "consume" : false }
+  ],
+  "rewards" : [
+    [ 
+	[ "wt-bandagewithcoconutoil", 3]
+	]
+  ],
+  "moneyRange" : [55, 55],
+  "canBeAbandoned" : true,
+  "planetMode" : "none",
+  "questDungeons" : [ ],
+  "followUp" : "wt-hafm.wttutorialseries"
+}

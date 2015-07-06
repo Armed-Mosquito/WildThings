@@ -1,0 +1,1236 @@
+{ 
+// Each monster has its own loot configuration for poor, fair, average, good, and excellent.
+// SG is Small Game, MG is Medium Game, BG is Big Game these effect quantity of meat received when butchering with the Butchers Block Table
+
+// CAUTION: Changing settings here will effect loot settings for traps, monster drops, and anything else related to the monsters in Wild Things. 
+// This of course includes drops from hunter weapons! More documentation coming later!
+
+// To configure specific drops for meat, leather, or other treasure pools go to the file "wt-animalparts.treasurepools"
+
+  "wt-mixedmonsterparts" : [
+    [0, {
+		"fill" : [		  		  
+		  {"item" : [ "wt-fresh-carcass", 1 ]}
+        ],
+		"pool" : [
+		  {"weight" : 0.5, "item" : [ "wt-chunkofsmellymeat", 2 ]},
+          {"weight" : 0.5, "item" : [ "wt-chunkofsmellymeat", 3 ]},			  
+		  
+		  {"weight" : 0.4, "item" : [ "bone", 1 ]},		  
+		  {"weight" : 0.4, "item" : [ "bone", 2 ]},			  
+		  {"weight" : 0.2, "item" : [ "bone", 3 ]},		
+		  
+		  {"weight" : 0.5, "item" : [ "wt-leatherscraps", 1 ]}
+        ],
+        "poolRounds" : [
+          [0.50, 1],
+		  [0.58, 2]
+        ],
+        "allowDuplication" : false
+      } ]
+  ],
+  "wt-mixedflyermonsterparts" : [
+    [0, {
+		"fill" : [		  		  
+		  {"item" : [ "wt-fresh-carcass", 1 ]},
+		  {"pool" : "wt-huntingflyers" }
+        ],
+		"pool" : [
+		  {"weight" : 0.5, "item" : [ "wt-chunkofsmellymeat", 1 ]},
+		  {"weight" : 0.5, "item" : [ "wt-chunkofsmellymeat", 2 ]},
+		  
+		  {"weight" : 0.4, "item" : [ "bone", 1 ]},		  
+		  {"weight" : 0.4, "item" : [ "bone", 2 ]},			  
+		  {"weight" : 0.2, "item" : [ "bone", 3 ]}
+        ],
+        "poolRounds" : [
+          [0.50, 1],
+		  [0.58, 2]
+        ],
+        "allowDuplication" : false
+      } ]
+  ],
+// Specific Monster Loot Configuration Below - Safe for Edits
+
+// Walrus - All Sizes Using non hunter Weapon Kill Table
+  "wt-walrus" : [
+    [0, {
+		"fill" : [
+		  {"pool" : "wt-mixedmonsterparts" }
+        ],
+		"pool" : [
+		  {"weight" : 0.5, "pool" : "basicMonsterTreasure"}
+        ],
+        "poolRounds" : [
+          [0.50, 0],
+		  [0.50, 1],
+          [0.25, 2]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ],
+// Walrus - Configure Trophy Drops
+    "wt-walrus-trophy-harvest" : [
+    [0, {
+        "pool" : [
+          {"weight" : 0.5, "item" : [ "wt-walrus-trophy-head", 1 ]}
+        ],
+        "poolRounds" : [
+          [0.50, 0],
+		  [0.50, 1]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ],
+// Walrus - Big Game
+  "wt-walrus-poor" : [
+    [0, {
+		"pool" : [
+		  {"weight" : 0.5, "pool" : "wt-poor-bg-harvest"}
+        ],
+        "poolRounds" : [
+          [0.50, 0],
+		  [0.50, 1],
+          [0.25, 2]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ],
+  "wt-walrus-fair" : [
+    [0, {
+		"pool" : [
+		  {"weight" : 0.5, "pool" : "wt-fair-bg-harvest"}
+        ],
+        "poolRounds" : [
+          [0.85, 1],
+		  [0.20, 2],
+          [0.15, 0]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ],
+  "wt-walrus-average" : [
+    [0, {
+		"pool" : [
+		  {"weight" : 0.5, "pool" : "wt-average-bg-harvest"}
+        ],
+        "poolRounds" : [
+          [0.85, 1],
+		  [0.20, 2],
+          [0.15, 0]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ],
+   "wt-walrus-good" : [
+    [0, {
+		"pool" : [
+		  {"weight" : 0.5, "pool" : "wt-good-bg-harvest"}
+        ],
+        "poolRounds" : [
+          [0.85, 1],
+		  [0.20, 2],
+          [0.15, 0]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ],
+  "wt-walrus-excellent" : [
+    [0, {
+		"pool" : [
+		  {"weight" : 0.5, "pool" : "wt-excellent-bg-harvest"},
+		  {"weight" : 0.3, "pool" : "wt-walrus-trophy-harvest"}
+        ],
+        "poolRounds" : [
+          [0.85, 1],
+		  [0.40, 2]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ],
+
+// Muskrat - All Sizes Using non hunter Weapon Kill Table
+  "wt-muskrat" : [
+    [0, {
+		"fill" : [
+		  {"pool" : "wt-mixedmonsterparts" }
+        ],
+		"pool" : [
+		  {"weight" : 0.5, "pool" : "basicMonsterTreasure"}
+        ],
+        "poolRounds" : [
+          [0.50, 0],
+		  [0.50, 1],
+          [0.25, 2]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ],
+// Muskrat - Configure Trophy Drops
+    "wt-muskrat-trophy-harvest" : [
+    [0, {
+        "pool" : [
+          {"weight" : 0.5, "item" : [ "wt-muskrat-trophy-head", 1 ]}
+        ],
+        "poolRounds" : [
+          [0.50, 0],
+		  [0.50, 1]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ],
+// Muskrat - Small Game
+  "wt-muskrat-poor" : [
+    [0, {
+		"pool" : [
+		  {"weight" : 0.5, "pool" : "wt-poor-sg-harvest"}
+        ],
+        "poolRounds" : [
+          [0.50, 0],
+		  [0.50, 1],
+          [0.25, 2]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ],
+  "wt-muskrat-fair" : [
+    [0, {
+		"pool" : [
+		  {"weight" : 0.5, "pool" : "wt-fair-sg-harvest"}
+        ],
+        "poolRounds" : [
+          [0.85, 1],
+		  [0.20, 2],
+          [0.15, 0]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ],
+  "wt-muskrat-average" : [
+    [0, {
+		"pool" : [
+		  {"weight" : 0.5, "pool" : "wt-average-sg-harvest"}
+        ],
+        "poolRounds" : [
+          [0.85, 1],
+		  [0.20, 2],
+          [0.15, 0]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ],
+   "wt-muskrat-good" : [
+    [0, {
+		"pool" : [
+		  {"weight" : 0.5, "pool" : "wt-good-sg-harvest"}
+        ],
+        "poolRounds" : [
+          [0.85, 1],
+		  [0.20, 2],
+          [0.15, 0]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ],
+  "wt-muskrat-excellent" : [
+    [0, {
+		"pool" : [
+		  {"weight" : 0.5, "pool" : "wt-excellent-sg-harvest"},
+		  {"weight" : 0.3, "pool" : "wt-muskrat-trophy-harvest"}
+        ],
+        "poolRounds" : [
+          [0.85, 1],
+		  [0.40, 2]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ],
+
+// Rabbit - All Sizes Using non hunter Weapon Kill Table
+  "wt-rabbit" : [
+    [0, {
+		"fill" : [
+		  {"pool" : "wt-mixedmonsterparts" }
+        ],
+		"pool" : [
+		  {"weight" : 0.5, "pool" : "basicMonsterTreasure"}
+        ],
+        "poolRounds" : [
+          [0.50, 0],
+		  [0.50, 1],
+          [0.25, 2]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ],
+// Rabbit - Configure Trophy Drops
+    "wt-rabbit-trophy-harvest" : [
+    [0, {
+        "pool" : [
+          {"weight" : 0.5, "item" : [ "wt-rabbit-trophy-head", 1 ]}
+        ],
+        "poolRounds" : [
+          [0.50, 0],
+		  [0.50, 1]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ],
+// Rabbit - Small Game
+  "wt-rabbit-poor" : [
+    [0, {
+		"pool" : [
+		  {"weight" : 0.5, "pool" : "wt-poor-sg-harvest"}
+        ],
+        "poolRounds" : [
+          [0.50, 0],
+		  [0.50, 1],
+          [0.25, 2]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ],
+  "wt-rabbit-fair" : [
+    [0, {
+		"pool" : [
+		  {"weight" : 0.5, "pool" : "wt-fair-sg-harvest"}
+        ],
+        "poolRounds" : [
+          [0.85, 1],
+		  [0.20, 2],
+          [0.15, 0]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ],
+  "wt-rabbit-average" : [
+    [0, {
+		"pool" : [
+		  {"weight" : 0.5, "pool" : "wt-average-sg-harvest"}
+        ],
+        "poolRounds" : [
+          [0.85, 1],
+		  [0.20, 2],
+          [0.15, 0]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ],
+   "wt-rabbit-good" : [
+    [0, {
+		"pool" : [
+		  {"weight" : 0.5, "pool" : "wt-good-sg-harvest"}
+        ],
+        "poolRounds" : [
+          [0.85, 1],
+		  [0.20, 2],
+          [0.15, 0]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ],
+  "wt-rabbit-excellent" : [
+    [0, {
+		"pool" : [
+		  {"weight" : 0.5, "pool" : "wt-excellent-sg-harvest"},
+		  {"weight" : 0.1, "pool" : "wt-rabbit-trophy-harvest"}
+        ],
+        "poolRounds" : [
+          [0.85, 1],
+		  [0.40, 2]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ],
+
+// Rhino - All Sizes Using non hunter Weapon Kill Table
+  "wt-rhino" : [
+    [0, {
+		"fill" : [
+		  {"pool" : "wt-mixedmonsterparts" }
+        ],
+		"pool" : [
+		  {"weight" : 0.5, "pool" : "basicMonsterTreasure"}
+        ],
+        "poolRounds" : [
+          [0.50, 0],
+		  [0.50, 1],
+          [0.25, 2]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ],  
+// Rhino - Configure Trophy Drops
+    "wt-rhino-trophy-harvest" : [
+    [0, {
+        "pool" : [
+          {"weight" : 0.5, "item" : [ "wt-rhino-trophy-head", 1 ]}
+        ],
+        "poolRounds" : [
+          [0.50, 0],
+		  [0.50, 1]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ],  
+// Rhino - Big Game
+  "wt-rhino-poor" : [
+    [0, {
+		"pool" : [
+		  {"weight" : 0.5, "pool" : "wt-poor-bg-harvest"}
+        ],
+        "poolRounds" : [
+          [0.50, 0],
+		  [0.50, 1],
+          [0.25, 2]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ],
+  "wt-rhino-fair" : [
+    [0, {
+		"pool" : [
+		  {"weight" : 0.5, "pool" : "wt-fair-bg-harvest"}
+        ],
+        "poolRounds" : [
+          [0.85, 1],
+		  [0.20, 2],
+          [0.15, 0]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ],
+  "wt-rhino-average" : [
+    [0, {
+		"pool" : [
+		  {"weight" : 0.5, "pool" : "wt-average-bg-harvest"}
+        ],
+        "poolRounds" : [
+          [0.85, 1],
+		  [0.20, 2],
+          [0.15, 0]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ],
+   "wt-rhino-good" : [
+    [0, {
+		"pool" : [
+		  {"weight" : 0.5, "pool" : "wt-good-bg-harvest"}
+        ],
+        "poolRounds" : [
+          [0.85, 1],
+		  [0.20, 2],
+          [0.15, 0]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ],
+  "wt-rhino-excellent" : [
+    [0, {
+		"pool" : [
+		  {"weight" : 0.5, "pool" : "wt-excellent-bg-harvest"},
+		  {"weight" : 0.5, "pool" : "wt-excellent-bg-harvest"},
+		  {"weight" : 0.3, "pool" : "wt-rhino-trophy-harvest"}
+        ],
+        "poolRounds" : [
+          [0.85, 1],
+		  [0.40, 2]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ],
+
+// Pig - All Sizes Using non hunter Weapon Kill Table
+  "wt-pig" : [
+    [0, {
+		"fill" : [
+		  {"pool" : "wt-mixedmonsterparts" }
+        ],
+		"pool" : [
+		  {"weight" : 0.5, "pool" : "basicMonsterTreasure"}
+        ],
+        "poolRounds" : [
+          [0.50, 0],
+		  [0.50, 1],
+          [0.25, 2]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ],  
+// Pig - Configure Trophy Drops
+    "wt-Pig-trophy-harvest" : [
+    [0, {
+        "pool" : [
+          {"weight" : 0.5, "item" : [ "wt-walrus-trophy-head", 1 ]}
+        ],
+        "poolRounds" : [
+          [0.50, 0],
+		  [0.50, 1]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ],  
+// Pig - Medium Game
+  "wt-pig-poor" : [
+    [0, {
+		"fill" : [
+		  {"pool" : "wt-poor-mg-harvest"}
+        ],
+		"pool" : [
+		  {"weight" : 0.8, "item" : "wt-paw"},
+		  {"weight" : 0.7, "item" : "wt-tail"},
+		  {"weight" : 0.6, "item" : "wt-pelt"},
+		  {"weight" : 0.5, "item" : "wt-rottinghead"},		  
+		  {"weight" : 0.4, "item" : "wt-pig-head"}
+        ],
+        "poolRounds" : [
+          [0.60, 0],
+		  [0.50, 1]
+        ],
+        "allowDuplication" : false
+      } ]
+  ],
+  "wt-pig-fair" : [
+    [0, {
+		"pool" : [
+		  {"weight" : 0.5, "pool" : "wt-fair-mg-harvest"}
+        ],
+        "poolRounds" : [
+          [0.85, 1],
+		  [0.20, 2],
+          [0.15, 0]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ],
+  "wt-pig-average" : [
+    [0, {
+		"pool" : [
+		  {"weight" : 0.5, "pool" : "wt-average-mg-harvest"}
+        ],
+        "poolRounds" : [
+          [0.85, 1],
+		  [0.20, 2],
+          [0.15, 0]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ],
+   "wt-pig-good" : [
+    [0, {
+		"pool" : [
+		  {"weight" : 0.5, "pool" : "wt-good-mg-harvest"}
+        ],
+        "poolRounds" : [
+          [0.85, 1],
+		  [0.20, 2],
+          [0.15, 0]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ],
+  "wt-pig-excellent" : [
+    [0, {
+		"pool" : [
+		  {"weight" : 0.5, "pool" : "wt-excellent-mg-harvest"},
+		  {"weight" : 0.3, "pool" : "wt-pig-trophy-harvest"}
+        ],
+        "poolRounds" : [
+          [0.85, 1],
+		  [0.40, 2]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ],
+
+// Redfox - All Sizes Using non hunter Weapon Kill Table
+  "wt-redfox" : [
+    [0, {
+		"fill" : [
+		  {"pool" : "wt-mixedmonsterparts" }
+        ],
+		"pool" : [
+		  {"weight" : 0.5, "pool" : "basicMonsterTreasure"}
+        ],
+        "poolRounds" : [
+          [0.50, 0],
+		  [0.50, 1],
+          [0.25, 2]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ],  
+// Redfox - Configure Trophy Drops
+    "wt-redfox-trophy-harvest" : [
+    [0, {
+        "pool" : [
+          {"weight" : 0.5, "item" : [ "wt-redfox-trophy-head", 1 ]}
+        ],
+        "poolRounds" : [
+          [0.50, 0],
+		  [0.50, 1]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ],
+// Red Fox - Medium Game
+  "wt-redfox-poor" : [
+    [0, {
+		"pool" : [
+		  {"weight" : 0.5, "pool" : "wt-poor-mg-harvest"}
+        ],
+        "poolRounds" : [
+          [0.50, 0],
+		  [0.50, 1],
+          [0.25, 2]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ],
+  "wt-redfox-fair" : [
+    [0, {
+		"pool" : [
+		  {"weight" : 0.5, "pool" : "wt-fair-mg-harvest"}
+        ],
+        "poolRounds" : [
+          [0.85, 1],
+		  [0.20, 2],
+          [0.15, 0]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ],
+  "wt-redfox-average" : [
+    [0, {
+		"pool" : [
+		  {"weight" : 0.5, "pool" : "wt-average-mg-harvest"}
+        ],
+        "poolRounds" : [
+          [0.85, 1],
+		  [0.20, 2],
+          [0.15, 0]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ],
+   "wt-redfox-good" : [
+    [0, {
+		"pool" : [
+		  {"weight" : 0.5, "pool" : "wt-good-mg-harvest"}
+        ],
+        "poolRounds" : [
+          [0.85, 1],
+		  [0.20, 2],
+          [0.15, 0]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ],
+  "wt-redfox-excellent" : [
+    [0, {
+		"pool" : [
+		  {"weight" : 0.5, "pool" : "wt-excellent-mg-harvest"},
+		  {"weight" : 0.3, "pool" : "wt-redfox-trophy-harvest"}
+        ],
+        "poolRounds" : [
+          [0.85, 1],
+		  [0.40, 2]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ],
+
+// Moose - All Sizes Using non hunter Weapon Kill Table
+  "wt-moose" : [
+    [0, {
+		"fill" : [
+		  {"pool" : "wt-mixedmonsterparts" }
+        ],
+		"pool" : [
+		  {"weight" : 0.5, "pool" : "basicMonsterTreasure"}
+        ],
+        "poolRounds" : [
+          [0.50, 0],
+		  [0.50, 1],
+          [0.25, 2]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ],  
+// Moose - Configure Trophy Drops
+    "wt-moose-trophy-harvest" : [
+    [0, {
+        "pool" : [
+          {"weight" : 0.5, "item" : [ "wt-moose-trophy-head", 1 ]}
+        ],
+        "poolRounds" : [
+          [0.50, 0],
+		  [0.50, 1]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ],
+// Moose - Big Game
+  "wt-moose-poor" : [
+    [0, {
+		"pool" : [
+		  {"weight" : 0.5, "pool" : "wt-poor-bg-harvest"}
+        ],
+        "poolRounds" : [
+          [0.50, 0],
+		  [0.50, 1],
+          [0.25, 2]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ],
+  "wt-moose-fair" : [
+    [0, {
+		"pool" : [
+		  {"weight" : 0.5, "pool" : "wt-fair-bg-harvest"}
+        ],
+        "poolRounds" : [
+          [0.85, 1],
+		  [0.20, 2],
+          [0.15, 0]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ],
+  "wt-moose-average" : [
+    [0, {
+		"pool" : [
+		  {"weight" : 0.5, "pool" : "wt-average-bg-harvest"}
+        ],
+        "poolRounds" : [
+          [0.85, 1],
+		  [0.20, 2],
+          [0.15, 0]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ],
+   "wt-moose-good" : [
+    [0, {
+		"pool" : [
+		  {"weight" : 0.5, "pool" : "wt-good-bg-harvest"}
+        ],
+        "poolRounds" : [
+          [0.85, 1],
+		  [0.20, 2],
+          [0.15, 0]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ],
+  "wt-moose-excellent" : [
+    [0, {
+		"pool" : [
+		  {"weight" : 0.5, "pool" : "wt-excellent-bg-harvest"},
+		  {"weight" : 0.3, "pool" : "wt-moose-trophy-harvest"}
+        ],
+        "poolRounds" : [
+          [0.85, 1],
+		  [0.40, 2]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ],
+
+// Brown Bear - All Sizes Using non hunter Weapon Kill Table
+  "wt-brownbear" : [
+    [0, {
+		"fill" : [
+		  {"pool" : "wt-mixedmonsterparts" }
+        ],
+		"pool" : [
+		  {"weight" : 0.5, "pool" : "basicMonsterTreasure"}
+        ],
+        "poolRounds" : [
+          [0.50, 0],
+		  [0.50, 1],
+          [0.25, 2]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ],  
+// Brown Bear - Configure Trophy Drops
+    "wt-brownbear-trophy-harvest" : [
+    [0, {
+        "pool" : [
+          {"weight" : 0.5, "item" : [ "wt-brownbear-trophy-head", 1 ]}
+        ],
+        "poolRounds" : [
+          [0.50, 0],
+		  [0.50, 1]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ],
+// Brown Bear - Big Game
+  "wt-brownbear-poor" : [
+    [0, {
+		"pool" : [
+		  {"weight" : 0.5, "pool" : "wt-poor-bg-harvest"}
+        ],
+        "poolRounds" : [
+          [0.50, 0],
+		  [0.50, 1],
+          [0.25, 2]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ],
+  "wt-brownbear-fair" : [
+    [0, {
+		"pool" : [
+		  {"weight" : 0.5, "pool" : "wt-fair-bg-harvest"}
+        ],
+        "poolRounds" : [
+          [0.85, 1],
+		  [0.20, 2],
+          [0.15, 0]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ],
+  "wt-brownbear-average" : [
+    [0, {
+		"pool" : [
+		  {"weight" : 0.5, "pool" : "wt-average-bg-harvest"}
+        ],
+        "poolRounds" : [
+          [0.85, 1],
+		  [0.20, 2],
+          [0.15, 0]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ],
+   "wt-brownbear-good" : [
+    [0, {
+		"pool" : [
+		  {"weight" : 0.5, "pool" : "wt-good-bg-harvest"}
+        ],
+        "poolRounds" : [
+          [0.85, 1],
+		  [0.20, 2],
+          [0.15, 0]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ],
+  "wt-brownbear-excellent" : [
+    [0, {
+		"pool" : [
+		  {"weight" : 0.5, "pool" : "wt-excellent-bg-harvest"},
+		  {"weight" : 0.3, "pool" : "wt-brownbear-trophy-harvest"}
+        ],
+        "poolRounds" : [
+          [0.85, 1],
+		  [0.40, 2]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ],
+
+// Koala - All Sizes Using non hunter Weapon Kill Table
+  "wt-koala" : [
+    [0, {
+		"fill" : [
+		  {"pool" : "wt-mixedmonsterparts" }
+        ],
+		"pool" : [
+		  {"weight" : 0.5, "pool" : "basicMonsterTreasure"}
+        ],
+        "poolRounds" : [
+          [0.50, 0],
+		  [0.50, 1],
+          [0.25, 2]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ], 
+// Koala - Configure Trophy Drops
+    "wt-koala-trophy-harvest" : [
+    [0, {
+        "pool" : [
+          {"weight" : 0.5, "item" : [ "wt-koala-trophy-head", 1 ]}
+        ],
+        "poolRounds" : [
+          [0.50, 0],
+		  [0.50, 1]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ],
+// Koala - Medium Game
+  "wt-koala-poor" : [
+    [0, {
+		"pool" : [
+		  {"weight" : 0.5, "pool" : "wt-poor-mg-harvest"}
+        ],
+        "poolRounds" : [
+          [0.50, 0],
+		  [0.50, 1],
+          [0.25, 2]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ],
+  "wt-koala-fair" : [
+    [0, {
+		"pool" : [
+		  {"weight" : 0.5, "pool" : "wt-fair-mg-harvest"}
+        ],
+        "poolRounds" : [
+          [0.85, 1],
+		  [0.20, 2],
+          [0.15, 0]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ],
+  "wt-koala-average" : [
+    [0, {
+		"pool" : [
+		  {"weight" : 0.5, "pool" : "wt-average-mg-harvest"}
+        ],
+        "poolRounds" : [
+          [0.85, 1],
+		  [0.20, 2],
+          [0.15, 0]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ],
+   "wt-koala-good" : [
+    [0, {
+		"pool" : [
+		  {"weight" : 0.5, "pool" : "wt-good-mg-harvest"}
+        ],
+        "poolRounds" : [
+          [0.85, 1],
+		  [0.20, 2],
+          [0.15, 0]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ],
+  "wt-koala-excellent" : [
+    [0, {
+		"pool" : [
+		  {"weight" : 0.5, "pool" : "wt-excellent-mg-harvest"},
+		  {"weight" : 0.3, "pool" : "wt-koala-trophy-harvest"}
+        ],
+        "poolRounds" : [
+          [0.85, 1],
+		  [0.40, 2]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ],
+  
+// Snow Owl - All Sizes Using non hunter Weapon Kill Table
+  "wt-snowowl" : [
+    [0, {
+		"fill" : [
+		  {"pool" : "wt-huntingflyers" },
+		  {"pool" : "wt-mixedmonsterparts" }
+        ],
+		"pool" : [
+		  {"weight" : 0.5, "pool" : "basicMonsterTreasure"}
+        ],
+        "poolRounds" : [
+          [0.50, 0],
+		  [0.50, 1],
+          [0.25, 2]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ], 
+// Snow Owl - Configure Trophy Drops
+    "wt-snowowl-trophy-harvest" : [
+    [0, {
+        "pool" : [
+          {"weight" : 0.5, "item" : [ "wt-snowowl-trophy-head", 1 ]}
+        ],
+        "poolRounds" : [
+          [0.50, 0],
+		  [0.50, 1]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ],
+// Snowowl - Poultry Tables not yet created on wt-harvestables.treasurepool
+  "wt-snowowl-poor" : [
+    [0, {
+		"fill" : [
+		  {"pool" : "wt-huntingflyers" }
+        ],
+		"pool" : [
+		  {"weight" : 0.5, "pool" : "wt-poor-sg-harvest"}
+        ],
+        "poolRounds" : [
+          [0.50, 0],
+		  [0.50, 1],
+          [0.25, 2]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ],
+  "wt-snowowl-fair" : [
+    [0, {
+		"fill" : [
+		  {"pool" : "wt-huntingflyers" }
+        ],
+		"pool" : [
+		  {"weight" : 0.5, "pool" : "wt-fair-sg-harvest"}
+        ],
+        "poolRounds" : [
+          [0.85, 1],
+		  [0.20, 2],
+          [0.15, 0]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ],
+  "wt-snowowl-average" : [
+    [0, {
+		"fill" : [
+		  {"pool" : "wt-huntingflyers" }
+        ],
+		"pool" : [
+		  {"weight" : 0.5, "pool" : "wt-average-sg-harvest"}
+        ],
+        "poolRounds" : [
+          [0.85, 1],
+		  [0.20, 2],
+          [0.15, 0]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ],
+   "wt-snowowl-good" : [
+    [0, {
+		"fill" : [
+		  {"pool" : "wt-huntingflyers" }
+        ],
+		"pool" : [
+		  {"weight" : 0.5, "pool" : "wt-good-sg-harvest"}
+        ],
+        "poolRounds" : [
+          [0.85, 1],
+		  [0.20, 2],
+          [0.15, 0]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ],
+  "wt-snowowl-excellent" : [
+    [0, {
+		"fill" : [
+		  {"pool" : "wt-huntingflyers" }
+        ],
+		"pool" : [
+		  {"weight" : 0.5, "pool" : "wt-excellent-sg-harvest"},
+		  {"weight" : 0.3, "pool" : "wt-snowowl-trophy-harvest"}
+        ],
+        "poolRounds" : [
+          [0.85, 1],
+		  [0.40, 2]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ],
+  
+// Alien - All Sizes Using non hunter Weapon Kill Table
+  "wt-alien" : [
+    [0, {
+		"fill" : [
+		  {"pool" : "wt-mixedmonsterparts" }
+        ],
+		"pool" : [
+		  {"weight" : 0.5, "pool" : "basicMonsterTreasure"}
+        ],
+        "poolRounds" : [
+          [0.50, 0],
+		  [0.60, 1],
+          [0.25, 2]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ], 
+// Alien - Configure Trophy Drops
+    "wt-alien-trophy-harvest" : [
+    [0, {
+        "pool" : [
+          {"weight" : 0.5, "item" : [ "wt-alien-trophy-head", 1 ]}
+        ],
+        "poolRounds" : [
+          [0.50, 0],
+		  [0.50, 1]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ],
+// Alien - Medium Game, and Alien Meat 
+  "wt-alien-poor" : [
+    [0, {
+		"pool" : [
+		  {"weight" : 0.5, "pool" : "wt-poor-mg-harvest"}
+        ],
+        "poolRounds" : [
+          [0.50, 0],
+		  [0.50, 1],
+          [0.25, 2]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ],
+  "wt-alien-fair" : [
+    [0, {
+		"pool" : [
+		  {"weight" : 0.5, "pool" : "wt-fair-mg-harvest"}
+        ],
+        "poolRounds" : [
+          [0.85, 1],
+		  [0.20, 2],
+          [0.15, 0]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ],
+  "wt-alien-average" : [
+    [0, {
+		"pool" : [
+		  {"weight" : 0.5, "pool" : "wt-average-mg-harvest"}
+        ],
+        "poolRounds" : [
+          [0.85, 1],
+		  [0.20, 2],
+          [0.15, 0]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ],
+   "wt-alien-good" : [
+    [0, {
+		"pool" : [
+		  {"weight" : 0.5, "pool" : "wt-good-mg-harvest"}
+        ],
+        "poolRounds" : [
+          [0.85, 1],
+		  [0.20, 2],
+          [0.15, 0]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ],
+  "wt-alien-excellent" : [
+    [0, {
+		"pool" : [
+		  {"weight" : 0.5, "pool" : "wt-excellent-mg-harvest"},
+		  {"weight" : 0.3, "pool" : "wt-alien-trophy-harvest"}
+        ],
+        "poolRounds" : [
+          [0.85, 1],
+		  [0.40, 2]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ],
+  
+// Ghost, Can drop a number of treasure pool tables
+  "wt-ghost" : [
+    [0, {		
+        "pool" : [
+          {"weight" : 0.6, "pool" : "money"}
+        ],
+        "poolRounds" : [
+          [0.85, 1],
+		  [0.20, 2],
+          [0.15, 0]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ]
+}

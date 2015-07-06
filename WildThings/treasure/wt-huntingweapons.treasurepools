@@ -1,0 +1,457 @@
+{
+// The monsters are set up specifically to each weapon, this makes for a lot of code. The first word is the monster type.
+// The first letter is the material type and the second letter is the weapon type. The number is the tier.
+// This means wt-rabbit-sk1 is loot configuration for the Rabbit using Stone Knife Tier 1
+// Weapons that do special effects will have appended lettering at the end, wt-rabbit-sk1-p would be Stone Knife tier 1 Poisoned when killing a wt-rabbit monster aka animal from the mod.
+
+// To change the monster loot further check out monster treasure pools file; it contains the default tables.
+// Butcher Saw -
+  "wt-butchersaw" : [
+    [0, {
+		"pool" : [
+		  {"weight" : 0.5, "item" : [ "wt-chunkofsmellymeat", 3] },
+		  {"weight" : 0.5, "item" : [ "wt-chunkofsmellymeat", 4] },
+		  {"weight" : 0.4, "item" : [ "wt-chunkofsmellymeat", 5] },
+		  {"weight" : 0.3, "item" : [ "wt-chunkofsmellymeat", 6] }
+        ],
+        "poolRounds" : [
+          [0.50, 1],
+          [0.35, 2]
+        ],
+        "allowDuplication" : false
+		
+      } ]
+  ],
+// Tier 1
+  "wt-alien-sk1" : [
+    [0, {
+		"fill" : [
+		  {"pool" : "wt-alien-fair"}
+        ],
+		"pool" : [
+		  {"weight" : 0.5, "item" : "wt-rottinghead"},		  
+		  {"weight" : 0.4, "item" : "wt-alien-head"}
+        ],
+        "poolRounds" : [
+          [0.50, 0],
+		  [0.50, 1],
+          [0.25, 2]
+        ],
+        "allowDuplication" : false
+		
+      } ]
+  ],
+  "wt-brownbear-sk1" : [
+    [0, {
+		"fill" : [
+		  {"pool" : "wt-brownbear-fair"}
+        ],
+		"pool" : [
+		  {"weight" : 0.8, "item" : "wt-paw"},
+		  {"weight" : 0.7, "item" : "wt-tail"},
+		  {"weight" : 0.6, "item" : "wt-pelt"},
+		  {"weight" : 0.5, "item" : "wt-rottinghead"},		  
+		  {"weight" : 0.4, "item" : "wt-brownbear-head"}
+        ],
+        "poolRounds" : [
+          [0.50, 0],
+		  [0.50, 1],
+          [0.25, 2]
+        ],
+        "allowDuplication" : false
+		
+      } ]
+  ],
+  "wt-brownbear-bk1" : [
+    [0, {
+		"fill" : [
+          {"item" : [ "wt-leatherscraps", 4 ]},
+		  {"pool" : "wt-brownbear-poor"}
+        ],
+		"pool" : [
+		  {"weight" : 0.8, "item" : "wt-paw"},
+		  {"weight" : 0.7, "item" : "wt-tail"},
+		  {"weight" : 0.6, "item" : "wt-pelt"},
+		  {"weight" : 0.5, "item" : "wt-rottinghead"},		  
+		  {"weight" : 0.4, "item" : "wt-brownbear-head"}
+        ],
+        "poolRounds" : [
+          [0.80, 0],
+		  [0.40, 1],
+          [0.25, 2]
+        ],
+        "allowDuplication" : false
+		
+      } ]
+  ],
+  "wt-ghost-sk1" : [
+    [0, {
+		"fill" : [
+		  {"pool" : "wt-ghost-fair"}
+        ],
+		"pool" : [
+		  {"weight" : 0.5, "pool" : "basicTreasure"}
+        ],
+        "poolRounds" : [
+          [0.50, 0],
+		  [0.50, 1],
+          [0.25, 2]
+        ],
+        "allowDuplication" : false
+		
+      } ]
+  ],
+  "wt-koala-sk1" : [
+    [0, {
+		"fill" : [
+		  {"pool" : "wt-koala-fair"}
+        ],
+		"pool" : [
+		  {"weight" : 0.8, "item" : "wt-paw"},
+		  {"weight" : 0.7, "item" : "wt-tail"},
+		  {"weight" : 0.6, "item" : "wt-pelt"},
+		  {"weight" : 0.5, "item" : "wt-rottinghead"},		  
+		  {"weight" : 0.4, "item" : "wt-koala-head"}
+        ],
+        "poolRounds" : [
+          [0.50, 0],
+		  [0.50, 1],
+          [0.25, 2]
+        ],
+        "allowDuplication" : false
+		
+      } ]
+  ],
+  "wt-koala-bk1" : [
+    [0, {
+		"fill" : [
+          {"item" : [ "wt-leatherscraps", 2 ]},
+		  {"pool" : "wt-koala-poor"}
+        ],
+		"pool" : [
+		  {"weight" : 0.8, "item" : "wt-paw"},
+		  {"weight" : 0.7, "item" : "wt-tail"},
+		  {"weight" : 0.6, "item" : "wt-pelt"},
+		  {"weight" : 0.5, "item" : "wt-rottinghead"},		  
+		  {"weight" : 0.4, "item" : "wt-koala-head"}
+        ],
+        "poolRounds" : [
+          [0.80, 0],
+		  [0.40, 1],
+          [0.25, 2]
+        ],
+        "allowDuplication" : false
+		
+      } ]
+  ],
+  "wt-moose-sk1" : [
+    [0, {
+		"fill" : [
+		  {"pool" : "wt-moose-fair"}
+        ],
+		"pool" : [
+		  {"weight" : 0.7, "item" : "wt-tail"},
+		  {"weight" : 0.6, "item" : "wt-pelt"},
+		  {"weight" : 0.5, "item" : "wt-rottinghead"},		  
+		  {"weight" : 0.4, "item" : "wt-moose-head"}
+        ],
+        "poolRounds" : [
+          [0.50, 0],
+		  [0.50, 1],
+          [0.25, 2]
+        ],
+        "allowDuplication" : false		
+      } ]
+  ],
+  "wt-moose-bk1" : [
+    [0, {
+		"fill" : [
+          {"item" : [ "wt-leatherscraps", 3 ]},
+		  {"pool" : "wt-moose-poor"}
+        ],
+		"pool" : [
+		  {"weight" : 0.8, "item" : "wt-paw"},
+		  {"weight" : 0.7, "item" : "wt-tail"},
+		  {"weight" : 0.6, "item" : "wt-pelt"},
+		  {"weight" : 0.5, "item" : "wt-rottinghead"},		  
+		  {"weight" : 0.4, "item" : "wt-moose-head"}
+        ],
+        "poolRounds" : [
+          [0.80, 0],
+		  [0.40, 1],
+          [0.25, 2]
+        ],
+        "allowDuplication" : false
+		
+      } ]
+  ],
+  "wt-muskrat-sk1" : [
+    [0, {
+		"fill" : [
+		  {"pool" : "wt-muskrat-fair"}
+        ],
+		"pool" : [
+		  {"weight" : 0.5, "item" : "wt-paw"},
+		  {"weight" : 0.5, "item" : "wt-tail"},
+		  {"weight" : 0.5, "item" : "wt-rottinghead"},		  
+		  {"weight" : 0.3, "item" : "wt-muskrat-head"}
+        ],
+        "poolRounds" : [
+          [0.50, 0],
+		  [0.50, 1],
+          [0.25, 2]
+        ],
+        "allowDuplication" : false
+		
+      } ]
+  ],
+  "wt-muskrat-bk1" : [
+    [0, {
+		"fill" : [
+          {"item" : [ "wt-leatherscraps", 1 ]},
+		  {"pool" : "wt-muskrat-poor"}
+        ],
+		"pool" : [
+		  {"weight" : 0.8, "item" : "wt-paw"},
+		  {"weight" : 0.7, "item" : "wt-tail"},
+		  {"weight" : 0.6, "item" : "wt-pelt"},
+		  {"weight" : 0.5, "item" : "wt-rottinghead"},		  
+		  {"weight" : 0.4, "item" : "wt-muskrat-head"}
+        ],
+        "poolRounds" : [
+          [0.80, 0],
+		  [0.40, 1],
+          [0.25, 2]
+        ],
+        "allowDuplication" : false
+		
+      } ]
+  ],
+  "wt-pig-sk1" : [
+    [0, {
+		"fill" : [
+		  {"pool" : "wt-pig-fair"}
+        ],
+		"pool" : [
+		  {"weight" : 0.7, "item" : "wt-tail"},
+		  {"weight" : 0.6, "item" : "wt-pelt"},
+		  {"weight" : 0.5, "item" : "wt-rottinghead"},		  
+		  {"weight" : 0.4, "item" : "wt-pig-head"}
+        ],
+        "poolRounds" : [
+          [0.50, 0],
+		  [0.50, 1],
+          [0.25, 2]
+        ],
+        "allowDuplication" : false
+		
+      } ]
+  ],
+  "wt-pig-bk1" : [
+    [0, {
+		"fill" : [
+          {"item" : [ "wt-leatherscraps", 2 ]},
+		  {"pool" : "wt-brownbear-poor"}
+        ],
+		"pool" : [
+		  {"weight" : 0.8, "item" : "wt-paw"},
+		  {"weight" : 0.7, "item" : "wt-tail"},
+		  {"weight" : 0.6, "item" : "wt-pelt"},
+		  {"weight" : 0.5, "item" : "wt-rottinghead"},		  
+		  {"weight" : 0.4, "item" : "wt-brownbear-head"}
+        ],
+        "poolRounds" : [
+          [0.80, 0],
+		  [0.40, 1],
+          [0.25, 2]
+        ],
+        "allowDuplication" : false
+		
+      } ]
+  ],
+  "wt-rabbit-sk1" : [
+    [0, {
+		"fill" : [
+		  {"pool" : "wt-rabbit-average"}
+        ],
+		"pool" : [
+		  {"weight" : 0.8, "item" : "wt-rabbitpaw"},
+		  {"weight" : 0.7, "item" : "wt-tail"},
+		  {"weight" : 0.6, "item" : "wt-pelt"},
+		  {"weight" : 0.5, "item" : "wt-rottinghead"},		  
+		  {"weight" : 0.4, "item" : "wt-rabbit-head"}
+        ],
+        "poolRounds" : [
+          [0.80, 0],
+		  [0.40, 1],
+          [0.25, 2]
+        ],
+        "allowDuplication" : false
+		
+      } ]
+  ],
+  "wt-rabbit-bk1" : [
+    [0, {
+		"fill" : [
+          {"item" : [ "wt-leatherscraps", 1 ]},
+		  {"pool" : "wt-rabbit-poor"}
+        ],
+		"pool" : [
+		  {"weight" : 0.8, "item" : "wt-rabbitpaw"},
+		  {"weight" : 0.7, "item" : "wt-tail"},
+		  {"weight" : 0.6, "item" : "wt-pelt"},
+		  {"weight" : 0.5, "item" : "wt-rottinghead"},		  
+		  {"weight" : 0.4, "item" : "wt-rabbit-head"}
+        ],
+        "poolRounds" : [
+          [0.80, 0],
+		  [0.40, 1],
+          [0.25, 2]
+        ],
+        "allowDuplication" : false
+		
+      } ]
+  ],
+  "wt-redfox-sk1" : [
+    [0, {
+		"fill" : [
+		  {"pool" : "wt-redfox-fair"}
+        ],
+		"pool" : [
+		  {"weight" : 0.8, "item" : "wt-paw"},
+		  {"weight" : 0.7, "item" : "wt-tail"},
+		  {"weight" : 0.6, "item" : "wt-pelt"},
+		  {"weight" : 0.5, "item" : "wt-rottinghead"},		  
+		  {"weight" : 0.4, "item" : "wt-redfox-head"}
+        ],
+        "poolRounds" : [
+          [0.50, 0],
+		  [0.50, 1],
+          [0.25, 2]
+        ],
+        "allowDuplication" : false
+		
+      } ]
+  ],
+  "wt-redfox-bk1" : [
+    [0, {
+		"fill" : [
+          {"item" : [ "wt-leatherscraps", 2 ]},
+		  {"pool" : "wt-brownbear-poor"}
+        ],
+		"pool" : [
+		  {"weight" : 0.8, "item" : "wt-paw"},
+		  {"weight" : 0.7, "item" : "wt-tail"},
+		  {"weight" : 0.6, "item" : "wt-pelt"},
+		  {"weight" : 0.5, "item" : "wt-rottinghead"},		  
+		  {"weight" : 0.4, "item" : "wt-redfox-head"}
+        ],
+        "poolRounds" : [
+          [0.80, 0],
+		  [0.40, 1],
+          [0.25, 2]
+        ],
+        "allowDuplication" : false
+		
+      } ]
+  ],
+  "wt-rhino-sk1" : [
+    [0, {
+		"fill" : [
+		  {"pool" : "wt-rhino-fair"}
+        ],
+		"pool" : [
+		  {"weight" : 0.8, "item" : "wt-paw"},
+		  {"weight" : 0.7, "item" : "wt-tail"},
+		  {"weight" : 0.6, "item" : "wt-pelt"},
+		  {"weight" : 0.5, "item" : "wt-rottinghead"},		  
+		  {"weight" : 0.4, "item" : "wt-rhino-head"}
+        ],
+        "poolRounds" : [
+          [0.50, 0],
+		  [0.50, 1],
+          [0.25, 2]
+        ],
+        "allowDuplication" : false
+		
+      } ]
+  ],
+  "wt-rhino-bk1" : [
+    [0, {
+		"fill" : [
+          {"item" : [ "wt-leatherscraps", 3 ]},
+		  {"pool" : "wt-rhino-poor"}
+        ],
+		"pool" : [
+		  {"weight" : 0.8, "item" : "wt-paw"},
+		  {"weight" : 0.7, "item" : "wt-tail"},
+		  {"weight" : 0.6, "item" : "wt-pelt"},
+		  {"weight" : 0.5, "item" : "wt-rottinghead"},		  
+		  {"weight" : 0.4, "item" : "wt-rhino-head"}
+        ],
+        "poolRounds" : [
+          [0.80, 0],
+		  [0.40, 1],
+          [0.25, 2]
+        ],
+        "allowDuplication" : false
+		
+      } ]
+  ],
+  "wt-snowowl-sk1" : [
+    [0, {
+		"fill" : [
+		  {"pool" : "wt-snowowl-fair"}
+        ],
+		"pool" : [	  
+		  {"weight" : 0.4, "item" : "wt-snowowl-head"}
+        ],
+        "poolRounds" : [
+          [0.50, 0],
+		  [0.58, 1]
+        ],
+        "allowDuplication" : false		
+      } ]
+  ],
+  "wt-walrus-sk1" : [
+    [0, {
+		"fill" : [
+		  {"pool" : "wt-walrus-fair"}
+        ],
+		"pool" : [
+		  {"weight" : 0.6, "item" : "wt-pelt"},
+		  {"weight" : 0.5, "item" : "wt-rottinghead"},		  
+		  {"weight" : 0.4, "item" : "wt-walrus-head"}
+        ],
+        "poolRounds" : [
+          [0.50, 0],
+		  [0.50, 1],
+          [0.25, 2]
+        ],
+        "allowDuplication" : false
+		
+      } ]
+  ],
+  "wt-walrus-bk1" : [
+    [0, {
+		"fill" : [
+          {"item" : [ "wt-leatherscraps", 3 ]},
+		  {"pool" : "wt-walrus-poor"}
+        ],
+		"pool" : [
+		  {"weight" : 0.8, "item" : "wt-paw"},
+		  {"weight" : 0.7, "item" : "wt-tail"},
+		  {"weight" : 0.6, "item" : "wt-pelt"},
+		  {"weight" : 0.5, "item" : "wt-rottinghead"},		  
+		  {"weight" : 0.4, "item" : "wt-walrus-head"}
+        ],
+        "poolRounds" : [
+          [0.80, 0],
+		  [0.40, 1],
+          [0.25, 2]
+        ],
+        "allowDuplication" : false
+		
+      } ]
+  ]
+}

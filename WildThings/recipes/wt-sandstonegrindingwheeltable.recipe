@@ -1,0 +1,12 @@
+{
+  "input" : [
+	{ "item" : "wt-sandstonegrindingwheel", "count" : 1 },
+	{ "item" : "wt-woodenpole", "count" : 4 },
+    { "item" : "darkwoodmaterial", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "wt-sandstonegrindingwheeltable",
+    "count" : 1
+  },
+  "groups" : [ "wt-survivalisttable", "wt-campcraft" ]
+}

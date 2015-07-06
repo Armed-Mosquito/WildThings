@@ -1,0 +1,8 @@
+{
+  "itemName" : "wt-paw",
+  "rarity" : "Common",
+  "inventoryIcon" : "wt-paw.png",
+  "maxStack" : 25,
+  "description" : "A beast paw.",
+  "shortdescription" : "Paw"
+}

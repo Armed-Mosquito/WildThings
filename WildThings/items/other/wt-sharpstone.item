@@ -1,0 +1,11 @@
+{
+  "itemName" : "wt-sharpstone",
+  "rarity" : "Common",
+  "inventoryIcon" : "wt-sharpstone.png",
+  "maxStack" : 15,
+  "description" : "Sharp Stones like this make great blades, and other uses.",
+  "shortdescription" : "Sharp Stone",
+  
+  "learnBlueprintsOnPickup" : [ "wt-stoneknife-t1" ],
+  "pickupQuestTemplates" : [ "wt-cashk.wttutorialseries" ]
+}

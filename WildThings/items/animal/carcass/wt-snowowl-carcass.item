@@ -1,0 +1,10 @@
+{
+  "itemName" : "wt-snowowl-carcass",
+  "rarity" : "Common",
+  "inventoryIcon" : "wt-snowowl-carcass.png",
+  "maxStack" : 1,
+  "description" : "This carcass needs to be quartered up using a Jointing Kit.",
+  "shortdescription" : "Snow Owl Carcass",
+  "learnBlueprintsOnPickup" : [ ],
+  "pickupQuestTemplates" : [ ]
+}

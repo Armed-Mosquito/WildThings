@@ -1,0 +1,731 @@
+{
+// Configure Flyer Drops - starts on line ... 7
+// Configure Meat Harvest Drops - starts on line ... 157
+// Configure Leather Drops - starts on line ... 419
+// Configure Other Drops - starts on line ... 494
+
+// Configuration for Flyers
+    "wt-huntingflyers" : [
+    [1, {
+		"fill" : [
+          {"item" : [ "wt-bloodyfeather", 3 ]}
+        ],
+        "pool" : [
+          {"weight" : 0.1, "item" : [ "wt-feather", 2 ]},
+		  {"weight" : 0.4, "item" : [ "wt-feather", 3 ]},
+		  {"weight" : 0.9, "item" : [ "wt-feather", 4 ]},
+		  {"weight" : 0.06, "item" : [ "wt-feather", 5 ]}
+        ],
+        "poolRounds" : [
+          [0.70, 1],
+		  [0.20, 2]
+        ],
+        "allowDuplication" : true
+      } ]
+  ],
+// Configure Meat Harvest Drop Tables for Small, Medium, and Big Game from Poor, Fair, Average, Good, and Excellent
+// Configuration for Small Game Meat Harvest from Poor to Excellent
+    "wt-meat-sg-poor-harvest" : [
+    [0, {
+        "pool" : [
+          {"weight" : 0.5, "item" : [ "wt-sg-frontlegs", 1 ]},
+		  {"weight" : 0.5, "item" : [ "wt-sg-rearlegs", 1 ]},
+		  
+		  {"weight" : 0.6, "item" : [ "wt-sg-frontlegs-damaged", 1 ]},
+		  {"weight" : 0.6, "item" : [ "wt-sg-rearlegs-damaged", 1 ]},
+		  
+		  {"weight" : 0.7, "item" : [ "wt-frontlegs-tainted", 1 ]},
+		  {"weight" : 0.7, "item" : [ "wt-rearlegs-tainted", 1 ]}
+        ],
+        "poolRounds" : [
+          [0.50, 0],
+		  [0.50, 1]
+        ],
+        "allowDuplication" : false
+      } ]
+  ],
+    "wt-meat-sg-fair-harvest" : [
+    [0, {
+        "pool" : [
+		  {"weight" : 0.5, "item" : [ "wt-sg-frontlegs", 1 ]},
+		  {"weight" : 0.5, "item" : [ "wt-sg-frontlegs", 2 ]},		  
+		  {"weight" : 0.5, "item" : [ "wt-sg-rearlegs", 1 ]},
+		  {"weight" : 0.5, "item" : [ "wt-sg-rearlegs", 2 ]},		
+		  {"weight" : 0.5, "item" : [ "wt-sg-frontquarter", 1 ]},
+		  
+		  {"weight" : 0.5, "item" : [ "wt-sg-frontlegs-damaged", 1 ]},
+		  {"weight" : 0.5, "item" : [ "wt-sg-frontlegs-damaged", 2 ]},		  
+		  {"weight" : 0.5, "item" : [ "wt-sg-rearlegs-damaged", 1 ]},
+		  {"weight" : 0.5, "item" : [ "wt-sg-rearlegs-damaged", 2 ]},		
+		  {"weight" : 0.5, "item" : [ "wt-sg-frontquarter-damaged", 1 ]},
+		  
+		  {"weight" : 0.4, "item" : [ "wt-frontlegs-tainted", 1 ]},
+		  {"weight" : 0.4, "item" : [ "wt-frontlegs-tainted", 2 ]},		  
+		  {"weight" : 0.4, "item" : [ "wt-rearlegs-tainted", 1 ]},
+		  {"weight" : 0.4, "item" : [ "wt-rearlegs-tainted", 2 ]},		
+		  {"weight" : 0.4, "item" : [ "wt-frontquarter-tainted", 1 ]}
+        ],
+        "poolRounds" : [
+          [0.30, 0],
+		  [0.70, 1]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ],
+    "wt-meat-sg-average-harvest" : [
+    [0, {
+		"pool" : [
+		  {"weight" : 1.1, "item" : [ "wt-sg-frontlegs", 1 ]},
+		  {"weight" : 0.9, "item" : [ "wt-sg-frontlegs", 2 ]},			  
+		  {"weight" : 0.7, "item" : [ "wt-sg-rearlegs", 1 ]},
+		  {"weight" : 0.9, "item" : [ "wt-sg-rearlegs", 2 ]},		
+		  {"weight" : 0.6, "item" : [ "wt-sg-frontquarter", 1 ]},		  
+		  {"weight" : 0.6, "item" : [ "wt-sg-hindquarter", 1 ]},
+		  
+		  {"weight" : 0.3, "item" : [ "wt-sg-frontlegs-damaged", 2 ]},		  
+		  {"weight" : 0.3, "item" : [ "wt-sg-rearlegs-damaged", 1 ]},
+		  {"weight" : 0.3, "item" : [ "wt-sg-rearlegs-damaged", 2 ]},		
+		  {"weight" : 0.3, "item" : [ "wt-sg-frontquarter-damaged", 1 ]},		  
+		  {"weight" : 0.3, "item" : [ "wt-sg-hindquarter-damaged", 1 ]},
+		  
+		  {"weight" : 0.2, "item" : [ "wt-frontlegs-tainted", 1 ]},		  
+		  {"weight" : 0.2, "item" : [ "wt-rearlegs-tainted", 1 ]},
+		  {"weight" : 0.2, "item" : [ "wt-rearlegs-tainted", 1 ]},		
+		  {"weight" : 0.2, "item" : [ "wt-frontquarter-tainted", 1 ]},		  
+		  {"weight" : 0.2, "item" : [ "wt-hindquarter-tainted", 1 ]}
+        ],
+        "poolRounds" : [
+          [0.20, 0],
+		  [0.80, 1],
+		  [0.30, 2]
+        ],
+        "allowDuplication" : false
+      } ]
+  ],
+    "wt-meat-sg-good-harvest" : [
+    [0, {
+		"pool" : [
+          {"weight" : 0.5, "item" : [ "wt-sg-frontlegs", 2 ]},
+		  {"weight" : 0.5, "item" : [ "wt-sg-rearlegs", 2 ]},		  
+		  {"weight" : 0.5, "item" : [ "wt-sg-frontquarter", 1 ]},
+		  {"weight" : 0.5, "item" : [ "wt-sg-hindquarter", 1 ]},
+		  
+		  {"weight" : 0.2, "item" : [ "wt-sg-frontlegs-damaged", 2 ]},
+		  {"weight" : 0.2, "item" : [ "wt-sg-rearlegs-damaged", 2 ]},		  
+		  {"weight" : 0.2, "item" : [ "wt-sg-frontquarter-damaged", 1 ]},
+		  {"weight" : 0.2, "item" : [ "wt-sg-hindquarter-damaged", 1 ]},
+		  
+		  {"weight" : 0.1, "item" : [ "wt-frontlegs-tainted", 2 ]},
+		  {"weight" : 0.1, "item" : [ "wt-rearlegs-tainted", 2 ]},		  
+		  {"weight" : 0.1, "item" : [ "wt-frontquarter-tainted", 1 ]},
+		  {"weight" : 0.1, "item" : [ "wt-hindquarter-tainted", 1 ]}
+        ],
+        "poolRounds" : [
+		  [0.40, 1],
+		  [0.60, 2],
+		  [0.15, 3]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ],
+    "wt-meat-sg-excellent-harvest" : [
+    [0, {
+		"pool" : [
+          {"weight" : 0.6, "item" : [ "wt-sg-frontlegs", 2 ]},
+		  {"weight" : 0.6, "item" : [ "wt-sg-rearlegs", 2 ]},		  
+		  {"weight" : 0.6, "item" : [ "wt-sg-frontquarter", 1 ]},
+		  {"weight" : 0.6, "item" : [ "wt-sg-hindquarter", 1 ]},
+		  
+		  {"weight" : 0.1, "item" : [ "wt-sg-frontlegs-damaged", 2 ]},
+		  {"weight" : 0.1, "item" : [ "wt-sg-rearlegs-damaged", 2 ]},		  
+		  {"weight" : 0.1, "item" : [ "wt-sg-frontquarter-damaged", 1 ]},
+		  {"weight" : 0.1, "item" : [ "wt-sg-hindquarter-damaged", 1 ]}
+        ],
+        "poolRounds" : [
+		  [0.10, 0],
+		  [0.25, 1],
+		  [0.35, 2],
+		  [0.65, 3],
+		  [0.53, 4]		  
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ],
+// Configuration for Medium Game Meat Harvest from Poor to Excellent
+    "wt-meat-mg-poor-harvest" : [
+    [0, {
+        "pool" : [
+          {"weight" : 0.5, "item" : [ "wt-mg-frontlegs", 1 ]},
+		  {"weight" : 0.5, "item" : [ "wt-mg-rearlegs", 1 ]},
+		  
+		  {"weight" : 0.6, "item" : [ "wt-mg-frontlegs-damaged", 1 ]},
+		  {"weight" : 0.6, "item" : [ "wt-mg-rearlegs-damaged", 1 ]},
+		  
+		  {"weight" : 0.7, "item" : [ "wt-frontlegs-tainted", 1 ]},
+		  {"weight" : 0.7, "item" : [ "wt-rearlegs-tainted", 1 ]}
+        ],
+        "poolRounds" : [
+          [0.50, 0],
+		  [0.50, 1]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ],
+    "wt-meat-mg-fair-harvest" : [
+    [0, {
+        "pool" : [
+		  {"weight" : 0.5, "item" : [ "wt-mg-frontlegs", 1 ]},
+		  {"weight" : 0.5, "item" : [ "wt-mg-frontlegs", 2 ]},		  
+		  {"weight" : 0.5, "item" : [ "wt-mg-rearlegs", 1 ]},
+		  {"weight" : 0.5, "item" : [ "wt-mg-rearlegs", 2 ]},		
+		  {"weight" : 0.5, "item" : [ "wt-mg-frontquarter", 1 ]},
+		  
+		  {"weight" : 0.5, "item" : [ "wt-mg-frontlegs-damaged", 1 ]},
+		  {"weight" : 0.5, "item" : [ "wt-mg-frontlegs-damaged", 2 ]},		  
+		  {"weight" : 0.5, "item" : [ "wt-mg-rearlegs-damaged", 1 ]},
+		  {"weight" : 0.5, "item" : [ "wt-mg-rearlegs-damaged", 2 ]},		
+		  {"weight" : 0.5, "item" : [ "wt-mg-frontquarter-damaged", 1 ]},
+		  
+		  {"weight" : 0.4, "item" : [ "wt-frontlegs-tainted", 1 ]},
+		  {"weight" : 0.4, "item" : [ "wt-frontlegs-tainted", 2 ]},		  
+		  {"weight" : 0.4, "item" : [ "wt-rearlegs-tainted", 1 ]},
+		  {"weight" : 0.4, "item" : [ "wt-rearlegs-tainted", 2 ]},		
+		  {"weight" : 0.4, "item" : [ "wt-frontquarter-tainted", 1 ]}
+        ],
+        "poolRounds" : [
+          [0.30, 0],
+		  [0.70, 1]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ],
+    "wt-meat-mg-average-harvest" : [
+    [0, {
+		"pool" : [
+		  {"weight" : 0.5, "item" : [ "wt-mg-frontlegs", 2 ]},		  
+		  {"weight" : 0.5, "item" : [ "wt-mg-rearlegs", 1 ]},
+		  {"weight" : 0.5, "item" : [ "wt-mg-rearlegs", 2 ]},		
+		  {"weight" : 0.5, "item" : [ "wt-mg-frontquarter", 1 ]},		  
+		  {"weight" : 0.5, "item" : [ "wt-mg-hindquarter", 1 ]},
+		  
+		  {"weight" : 0.4, "item" : [ "wt-mg-frontlegs-damaged", 2 ]},		  
+		  {"weight" : 0.4, "item" : [ "wt-mg-rearlegs-damaged", 1 ]},
+		  {"weight" : 0.4, "item" : [ "wt-mg-rearlegs-damaged", 2 ]},		
+		  {"weight" : 0.4, "item" : [ "wt-mg-frontquarter-damaged", 1 ]},		  
+		  {"weight" : 0.4, "item" : [ "wt-mg-hindquarter-damaged", 1 ]},
+		  
+		  {"weight" : 0.3, "item" : [ "wt-frontlegs-tainted", 2 ]},		  
+		  {"weight" : 0.3, "item" : [ "wt-rearlegs-tainted", 1 ]},
+		  {"weight" : 0.3, "item" : [ "wt-rearlegs-tainted", 2 ]},		
+		  {"weight" : 0.3, "item" : [ "wt-frontquarter-tainted", 1 ]},		  
+		  {"weight" : 0.3, "item" : [ "wt-hindquarter-tainted", 1 ]}
+        ],
+        "poolRounds" : [
+          [0.20, 0],
+		  [0.80, 1],
+		  [0.30, 2]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ],
+    "wt-meat-mg-good-harvest" : [
+    [0, {
+		"pool" : [
+          {"weight" : 0.5, "item" : [ "wt-mg-frontlegs", 2 ]},
+		  {"weight" : 0.5, "item" : [ "wt-mg-rearlegs", 2 ]},		  
+		  {"weight" : 0.5, "item" : [ "wt-mg-frontquarter", 1 ]},
+		  {"weight" : 0.5, "item" : [ "wt-mg-hindquarter", 1 ]},
+		  
+		  {"weight" : 0.3, "item" : [ "wt-mg-frontlegs-damaged", 2 ]},
+		  {"weight" : 0.3, "item" : [ "wt-mg-rearlegs-damaged", 2 ]},		  
+		  {"weight" : 0.3, "item" : [ "wt-mg-frontquarter-damaged", 1 ]},
+		  {"weight" : 0.3, "item" : [ "wt-mg-hindquarter-damaged", 1 ]},
+		  
+		  {"weight" : 0.2, "item" : [ "wt-frontlegs-tainted", 2 ]},
+		  {"weight" : 0.2, "item" : [ "wt-rearlegs-tainted", 2 ]},		  
+		  {"weight" : 0.2, "item" : [ "wt-frontquarter-tainted", 1 ]},
+		  {"weight" : 0.2, "item" : [ "wt-hindquarter-tainted", 1 ]}
+        ],
+        "poolRounds" : [
+		  [0.40, 1],
+		  [0.60, 2],
+		  [0.15, 3]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ],
+    "wt-meat-mg-excellent-harvest" : [
+    [0, {
+		"pool" : [
+          {"weight" : 0.6, "item" : [ "wt-mg-frontlegs", 2 ]},
+		  {"weight" : 0.6, "item" : [ "wt-mg-rearlegs", 2 ]},		  
+		  {"weight" : 0.6, "item" : [ "wt-mg-frontquarter", 1 ]},
+		  {"weight" : 0.6, "item" : [ "wt-mg-hindquarter", 1 ]},
+		  
+		  {"weight" : 0.1, "item" : [ "wt-mg-frontlegs-damaged", 2 ]},
+		  {"weight" : 0.1, "item" : [ "wt-mg-rearlegs-damaged", 2 ]},		  
+		  {"weight" : 0.1, "item" : [ "wt-mg-frontquarter-damaged", 1 ]},
+		  {"weight" : 0.1, "item" : [ "wt-mg-hindquarter-damaged", 1 ]}
+        ],
+        "poolRounds" : [
+		  [0.10, 0],
+		  [0.25, 1],
+		  [0.35, 2],
+		  [0.65, 3],
+		  [0.53, 4]		  
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ],
+// Configuration for Big Game Meat Harvest from Poor to Excellent
+    "wt-meat-bg-poor-harvest" : [
+    [0, {
+        "pool" : [
+          {"weight" : 0.5, "item" : [ "wt-bg-frontlegs", 1 ]},
+		  {"weight" : 0.5, "item" : [ "wt-bg-rearlegs", 1 ]},
+		  
+		  {"weight" : 0.6, "item" : [ "wt-bg-frontlegs-damaged", 1 ]},
+		  {"weight" : 0.6, "item" : [ "wt-bg-rearlegs-damaged", 1 ]},
+		  
+		  {"weight" : 0.7, "item" : [ "wt-frontlegs-tainted", 1 ]},
+		  {"weight" : 0.7, "item" : [ "wt-rearlegs-tainted", 1 ]}
+        ],
+        "poolRounds" : [
+          [0.50, 0],
+		  [0.50, 1]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ],
+    "wt-meat-bg-fair-harvest" : [
+    [0, {
+        "pool" : [
+		  {"weight" : 0.5, "item" : [ "wt-bg-frontlegs", 1 ]},
+		  {"weight" : 0.5, "item" : [ "wt-bg-frontlegs", 2 ]},		  
+		  {"weight" : 0.5, "item" : [ "wt-bg-rearlegs", 1 ]},
+		  {"weight" : 0.5, "item" : [ "wt-bg-rearlegs", 2 ]},		
+		  {"weight" : 0.5, "item" : [ "wt-bg-frontquarter", 1 ]},
+		  
+		  {"weight" : 0.5, "item" : [ "wt-bg-frontlegs-damaged", 1 ]},
+		  {"weight" : 0.5, "item" : [ "wt-bg-frontlegs-damaged", 2 ]},		  
+		  {"weight" : 0.5, "item" : [ "wt-bg-rearlegs-damaged", 1 ]},
+		  {"weight" : 0.5, "item" : [ "wt-bg-rearlegs-damaged", 2 ]},		
+		  {"weight" : 0.5, "item" : [ "wt-bg-frontquarter-damaged", 1 ]},
+		  
+		  {"weight" : 0.4, "item" : [ "wt-frontlegs-tainted", 1 ]},
+		  {"weight" : 0.4, "item" : [ "wt-frontlegs-tainted", 2 ]},		  
+		  {"weight" : 0.4, "item" : [ "wt-rearlegs-tainted", 1 ]},
+		  {"weight" : 0.4, "item" : [ "wt-rearlegs-tainted", 2 ]},		
+		  {"weight" : 0.4, "item" : [ "wt-frontquarter-tainted", 1 ]}
+        ],
+        "poolRounds" : [
+          [0.30, 0],
+		  [0.70, 1]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ],
+    "wt-meat-bg-average-harvest" : [
+    [0, {
+		"pool" : [
+		  {"weight" : 0.5, "item" : [ "wt-bg-frontlegs", 2 ]},		  
+		  {"weight" : 0.5, "item" : [ "wt-bg-rearlegs", 1 ]},
+		  {"weight" : 0.5, "item" : [ "wt-bg-rearlegs", 2 ]},		
+		  {"weight" : 0.5, "item" : [ "wt-bg-frontquarter", 1 ]},		  
+		  {"weight" : 0.5, "item" : [ "wt-bg-hindquarter", 1 ]},
+		  
+		  {"weight" : 0.4, "item" : [ "wt-bg-frontlegs-damaged", 2 ]},		  
+		  {"weight" : 0.4, "item" : [ "wt-bg-rearlegs-damaged", 1 ]},
+		  {"weight" : 0.4, "item" : [ "wt-bg-rearlegs-damaged", 2 ]},		
+		  {"weight" : 0.4, "item" : [ "wt-bg-frontquarter-damaged", 1 ]},		  
+		  {"weight" : 0.4, "item" : [ "wt-bg-hindquarter-damaged", 1 ]},
+		  
+		  {"weight" : 0.3, "item" : [ "wt-frontlegs-tainted", 2 ]},		  
+		  {"weight" : 0.3, "item" : [ "wt-rearlegs-tainted", 1 ]},
+		  {"weight" : 0.3, "item" : [ "wt-rearlegs-tainted", 2 ]},		
+		  {"weight" : 0.3, "item" : [ "wt-frontquarter-tainted", 1 ]},		  
+		  {"weight" : 0.3, "item" : [ "wt-hindquarter-tainted", 1 ]}
+        ],
+        "poolRounds" : [
+          [0.20, 0],
+		  [0.80, 1],
+		  [0.30, 2]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ],
+    "wt-meat-bg-good-harvest" : [
+    [0, {
+		"pool" : [
+          {"weight" : 0.5, "item" : [ "wt-bg-frontlegs", 2 ]},
+		  {"weight" : 0.5, "item" : [ "wt-bg-rearlegs", 2 ]},		  
+		  {"weight" : 0.5, "item" : [ "wt-bg-frontquarter", 1 ]},
+		  {"weight" : 0.5, "item" : [ "wt-bg-hindquarter", 1 ]},
+		  
+		  {"weight" : 0.3, "item" : [ "wt-bg-frontlegs-damaged", 2 ]},
+		  {"weight" : 0.3, "item" : [ "wt-bg-rearlegs-damaged", 2 ]},		  
+		  {"weight" : 0.3, "item" : [ "wt-bg-frontquarter-damaged", 1 ]},
+		  {"weight" : 0.3, "item" : [ "wt-bg-hindquarter-damaged", 1 ]},
+		  
+		  {"weight" : 0.2, "item" : [ "wt-frontlegs-tainted", 2 ]},
+		  {"weight" : 0.2, "item" : [ "wt-rearlegs-tainted", 2 ]},		  
+		  {"weight" : 0.2, "item" : [ "wt-frontquarter-tainted", 1 ]},
+		  {"weight" : 0.2, "item" : [ "wt-hindquarter-tainted", 1 ]}
+        ],
+        "poolRounds" : [
+		  [0.40, 1],
+		  [0.60, 2],
+		  [0.15, 3]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ],
+    "wt-meat-bg-excellent-harvest" : [
+    [0, {
+		"pool" : [
+          {"weight" : 0.5, "item" : [ "wt-bg-frontlegs", 2 ]},
+		  {"weight" : 0.5, "item" : [ "wt-bg-rearlegs", 2 ]},		  
+		  {"weight" : 0.5, "item" : [ "wt-bg-frontquarter", 1 ]},
+		  {"weight" : 0.5, "item" : [ "wt-bg-hindquarter", 1 ]},
+		  
+		  {"weight" : 0.1, "item" : [ "wt-bg-frontlegs-damaged", 2 ]},
+		  {"weight" : 0.1, "item" : [ "wt-bg-rearlegs-damaged", 2 ]},		  
+		  {"weight" : 0.1, "item" : [ "wt-bg-frontquarter-damaged", 1 ]},
+		  {"weight" : 0.1, "item" : [ "wt-bg-hindquarter-damaged", 1 ]}
+        ],
+        "poolRounds" : [
+		  [0.10, 0],
+		  [0.25, 1],
+		  [0.35, 2],
+		  [0.65, 3],
+		  [0.53, 4]		  
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ],
+// Configure Leather Drops from Poor, Fair, Average, Good, and Excellent 
+    "wt-leather-poor-harvest" : [
+    [0, {
+        "pool" : [
+          {"weight" : 0.5, "item" : [ "wt-leatherscraps", 1 ]}
+        ],
+        "poolRounds" : [
+          [0.62, 0],
+		  [0.50, 1]
+        ],
+        "allowDuplication" : false
+      } ]
+  ],
+    "wt-leather-fair-harvest" : [
+    [0, {
+        "pool" : [
+          {"weight" : 0.5, "item" : [ "wt-leatherscraps", 1 ]}
+        ],
+        "poolRounds" : [
+          [0.50, 0],
+		  [0.50, 1],
+		  [0.35, 2]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : true
+      } ]
+  ],
+    "wt-leather-average-harvest" : [
+    [0, {
+        "pool" : [
+		  {"weight" : 0.5, "item" : [ "wt-leatherscraps", 2 ]}
+        ],
+        "poolRounds" : [
+          [0.15, 0],
+		  [0.70, 1],
+		  [0.50, 2],
+		  [0.40, 3],
+		  [0.10, 4]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ],
+    "wt-leather-good-harvest" : [
+    [0, {
+        "pool" : [
+		  {"weight" : 0.5, "item" : [ "wt-leatherscraps", 3 ]}
+        ],
+        "poolRounds" : [
+		  [0.50, 1],
+		  [0.25, 2],
+		  [0.15, 4]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ],
+    "wt-leather-excellent-harvest" : [
+    [0, {
+		"fill" : [
+          {"item" : [ "leather" ]}
+        ],
+        "pool" : [		 
+		  {"weight" : 0.2, "item" : [ "leather", 1 ]},
+          {"weight" : 0.7, "item" : [ "wt-leatherscraps", 2 ]}
+        ],
+        "poolRounds" : [
+		  [0.55, 1],
+		  [0.40, 2],
+		  [0.15, 2]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : true
+      } ]
+  ],
+// Configure Other Drops from Poor, Fair, Average, Good, and Excellent
+    "wt-other-poor-harvest" : [
+    [0, {
+        "pool" : [
+		  {"weight" : 0.5, "item" : [ "wt-blood", 1 ]},
+		  {"weight" : 0.5, "item" : [ "wt-guts", 1 ]},
+		  {"weight" : 0.5, "item" : [ "wt-intestines", 1 ]},
+		  
+		  {"weight" : 0.5, "item" : [ "wt-blood-tainted", 1 ]},		  
+		  {"weight" : 0.5, "item" : [ "wt-intestines-tainted", 1 ]}		  
+        ],
+        "poolRounds" : [
+          [0.50, 0],
+		  [0.70, 1]
+        ],
+        "allowDuplication" : false
+      } ]
+  ],
+    "wt-other-fair-harvest" : [
+    [0, {
+        "pool" : [
+		  {"weight" : 0.5, "pool" : "wt-other-poor-harvest"},	
+		  
+		  {"weight" : 0.5, "item" : [ "wt-eye", 1 ]},
+		  
+		  {"weight" : 0.5, "item" : [ "wt-sinew", 1 ]},
+		  
+		  {"weight" : 0.5, "item" : [ "wt-kidney", 1 ]},
+		  {"weight" : 0.5, "item" : [ "wt-kidney-tainted", 1 ]},
+		  
+		  {"weight" : 0.5, "item" : [ "wt-windpipe", 1 ]},
+		  
+		  {"weight" : 0.5, "item" : [ "wt-heart", 1 ]},
+		  {"weight" : 0.5, "item" : [ "wt-heart-tainted", 1 ]},
+		  
+		  {"weight" : 0.5, "item" : [ "wt-stomach", 1 ]},
+		  {"weight" : 0.5, "item" : [ "wt-stomach-tainted", 1 ]}
+        ],
+        "poolRounds" : [
+          [0.50, 0],
+		  [0.60, 1]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ],
+    "wt-other-average-harvest" : [
+    [0, {
+        "pool" : [
+		  {"weight" : 0.5, "pool" : "wt-other-fair-harvest"},	
+		  
+		  {"weight" : 0.5, "item" : [ "wt-lungs", 1 ]},
+		  {"weight" : 0.5, "item" : [ "wt-lungs-tainted", 1 ]},
+
+		  {"weight" : 0.5, "item" : [ "wt-bladder", 1 ]},
+		  
+		  {"weight" : 0.5, "item" : [ "wt-liver", 1 ]},
+		  {"weight" : 0.5, "item" : [ "wt-liver-tainted", 1 ]}
+        ],
+        "poolRounds" : [
+          [0.50, 0],
+		  [0.50, 1]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ],
+    "wt-other-good-harvest" : [
+    [0, {
+        "pool" : [
+		  {"weight" : 0.5, "pool" : "wt-other-average-harvest"},		  
+
+		  {"weight" : 0.5, "item" : [ "wt-spine", 1 ]},
+		  
+		  {"weight" : 0.5, "item" : [ "wt-scentgland", 1 ]},
+		  
+		  {"weight" : 0.5, "item" : [ "wt-thymusgland", 1 ]},
+		  {"weight" : 0.5, "item" : [ "wt-thymusgland-tainted", 1 ]}
+        ],
+        "poolRounds" : [
+          [0.40, 0],
+		  [0.50, 1]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ],
+    "wt-other-excellent-harvest" : [
+    [0, {
+        "pool" : [
+          {"weight" : 0.5, "pool" : "wt-other-excellent-harvest"},
+		  
+		  {"weight" : 0.5, "item" : [ "wt-brain", 1 ]},
+		  {"weight" : 0.5, "item" : [ "wt-brain-tainted", 1 ]},
+		  
+		  {"weight" : 0.5, "item" : [ "wt-scentgland", 1 ]}	
+        ],
+        "poolRounds" : [
+          [0.30, 0],
+		  [0.50, 1]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ],
+
+  
+  
+// Small Game Harvest Settings - This guarantees that each treasure pool has a chance to roll it also does not affect their configurations so you can ignore this section.
+  "wt-poor-sg-harvest" : [
+    [0, {
+		"fill" : [
+		  {"pool" : "wt-meat-sg-poor-harvest"},
+		  {"pool" : "wt-leather-poor-harvest"},
+		  {"pool" : "wt-other-poor-harvest"}
+        ]
+      } ]
+  ],
+  "wt-fair-sg-harvest" : [
+    [0, {
+		"fill" : [
+		  {"pool" : "wt-meat-sg-fair-harvest"},
+		  {"pool" : "wt-leather-fair-harvest"},
+		  {"pool" : "wt-other-fair-harvest"}
+        ]
+      } ]
+  ],
+  "wt-average-sg-harvest" : [
+    [0, {
+		"fill" : [
+		  {"pool" : "wt-meat-sg-average-harvest"},
+		  {"pool" : "wt-leather-average-harvest"},
+		  {"pool" : "wt-other-average-harvest"}
+        ]
+      } ]
+  ],
+  "wt-good-sg-harvest" : [
+    [0, {
+		"fill" : [
+		  {"pool" : "wt-meat-sg-good-harvest"},
+		  {"pool" : "wt-leather-good-harvest"},
+		  {"pool" : "wt-other-good-harvest"}
+        ]
+      } ]
+  ],
+  "wt-excellent-sg-harvest" : [
+    [0, {
+		"fill" : [
+		  {"pool" : "wt-meat-sg-excellent-harvest"},
+		  {"pool" : "wt-leather-excellent-harvest"},
+		  {"pool" : "wt-other-excellent-harvest"}
+        ]
+      } ]
+  ],
+// Medium Game Harvest Settings - Do Not Edit Unless Certain
+  "wt-poor-mg-harvest" : [
+    [0, {
+		"fill" : [
+		  {"pool" : "wt-meat-mg-poor-harvest"},
+		  {"pool" : "wt-leather-poor-harvest"},
+		  {"pool" : "wt-other-poor-harvest"}
+        ]
+      } ]
+  ],
+  "wt-fair-mg-harvest" : [
+    [0, {
+		"fill" : [
+		  {"pool" : "wt-meat-mg-fair-harvest"},
+		  {"pool" : "wt-leather-fair-harvest"},
+		  {"pool" : "wt-other-fair-harvest"}
+        ]
+      } ]
+  ],
+  "wt-average-mg-harvest" : [
+    [0, {
+		"fill" : [
+		  {"pool" : "wt-meat-mg-average-harvest"},
+		  {"pool" : "wt-leather-average-harvest"},
+		  {"pool" : "wt-other-average-harvest"}
+        ]
+      } ]
+  ],
+  "wt-good-mg-harvest" : [
+    [0, {
+		"fill" : [
+		  {"pool" : "wt-meat-mg-good-harvest"},
+		  {"pool" : "wt-leather-good-harvest"},
+		  {"pool" : "wt-other-good-harvest"}
+        ]
+      } ]
+  ],
+  "wt-excellent-mg-harvest" : [
+    [0, {
+		"fill" : [
+		  {"pool" : "wt-meat-mg-excellent-harvest"},
+		  {"pool" : "wt-leather-excellent-harvest"},
+		  {"pool" : "wt-other-excellent-harvest"}
+        ]
+      } ]
+  ],
+// Big Game Harvest Settings - Do Not Edit Unless Certain
+  "wt-poor-bg-harvest" : [
+    [0, {
+		"fill" : [
+		  {"pool" : "wt-meat-bg-poor-harvest"},
+		  {"pool" : "wt-leather-poor-harvest"},
+		  {"pool" : "wt-other-poor-harvest"}
+        ]
+      } ]
+  ],
+  "wt-fair-bg-harvest" : [
+    [0, {
+		"fill" : [
+		  {"pool" : "wt-meat-bg-fair-harvest"},
+		  {"pool" : "wt-leather-fair-harvest"},
+		  {"pool" : "wt-other-fair-harvest"}
+        ]
+      } ]
+  ],
+  "wt-average-bg-harvest" : [
+    [0, {
+		"fill" : [
+		  {"pool" : "wt-meat-bg-average-harvest"},
+		  {"pool" : "wt-leather-average-harvest"},
+		  {"pool" : "wt-other-average-harvest"}
+        ]
+      } ]
+  ],
+  "wt-good-bg-harvest" : [
+    [0, {
+		"fill" : [
+		  {"pool" : "wt-meat-bg-good-harvest"},
+		  {"pool" : "wt-leather-good-harvest"},
+		  {"pool" : "wt-other-good-harvest"}
+        ]
+      } ]
+  ]
+}

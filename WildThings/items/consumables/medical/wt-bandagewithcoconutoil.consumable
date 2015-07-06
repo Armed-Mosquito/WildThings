@@ -1,0 +1,33 @@
+{
+  "itemName" : "wt-bandagewithcoconutoil",
+  "rarity" : "Uncommon",
+  "inventoryIcon" : "wt-bandagewithcoconutoil.png",
+  "maxStack" : 25,
+  "description" : "Coconut oil applied to a normal bandage.",
+  "shortdescription" : "Bandage with Coconut Oil",
+  
+  "effects" : [ [
+    {
+        "effect" : "bandage1",
+        "duration" : 2
+    },
+    {
+        "effect" : "glow",
+        "duration" : 60
+    },
+    {
+        "effect" : "lanternglow",
+        "duration" : 8
+    }
+    ] ],
+  "emote" : "",
+  "emitters" : [ "bandageuse" ],
+  "blockingEffects" : [
+    "bandage1",
+    "bandage2",
+    "bandage3",
+    "bandage4",
+    "bandage5",
+    "bandage6"
+  ]
+}

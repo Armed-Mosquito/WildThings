@@ -1,0 +1,8 @@
+{
+  "itemName" : "wt-woodenstake",
+  "rarity" : "Common",
+  "inventoryIcon" : "wt-woodenstake.png",
+  "maxStack" : 25,
+  "description" : "Strong stake, can hold small to medium sized game in place. Useful for snares and traps.",
+  "shortdescription" : "Wooden Stake"
+}

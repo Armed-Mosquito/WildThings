@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "darkwoodmaterial", "count" : 8 },
+	{ "item" : "steelbar", "count" : 4 },
+	{ "item" : "wt-butchersaw", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "wt-butcherblocktable",
+    "count" : 1
+  },
+  "groups" : [ "wt-survivalisttable", "wt-campcraft" ]
+}

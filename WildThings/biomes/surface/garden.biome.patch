@@ -1,0 +1,5 @@
+[
+ {"op":"add","path":"/surfacePlaceables/items/-","value":{"mode":"floor","priority":0.8,"variants":1,"distribution":"/biomes/distributions.config:wt-mapleTrees","type":"object","objectSets":[{"pool":[[0.5,"wt-redberrybush"], [0.5,"wt-raspberrybush"]]}]}},
+ 
+ {"op":"replace","path":"/surfacePlaceables/items/13","value":{"mode":"floor","priority":1,"variants":1,"distribution":"/biomes/distributions.config:wt-mapleTrees","type":"object","objectSets":[{"pool":[[1,"wt-sapling"]],"parameters":{"startingStage":1}}]}}
+]

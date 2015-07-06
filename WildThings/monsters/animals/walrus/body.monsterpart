@@ -1,0 +1,9 @@
+{
+  "name" : "body",
+  "category" : "wt-walrus",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "wt-walrus.png"
+  }
+}

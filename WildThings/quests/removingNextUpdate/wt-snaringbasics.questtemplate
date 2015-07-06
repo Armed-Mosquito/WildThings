@@ -1,0 +1,17 @@
+{
+  "id" : "wt-snaringbasics.gearup",
+  "title" : "^#9be3d6;Snaring Basics",
+  "text" : "When I feel ready I should create a snare ^green; If I can find sapling I can grab some ingredients such as the twigs. ^orange;I'll need two snaring lines from plant fibre, a wooden stake from unrefined wood, and two twigs from a sapling to hold the loop up.",
+  "completionText" : "^green;Great now you set your trap up outside to catch Wild Things, ^orange;you have also learned to create a spring snare.^white; Spring Snares are more effective but take more skill.",
+  "conditions" : [
+    { "kind" : "gather", "item" : [ "wt-simplesnare", 1], "consume" : false }
+  ],
+  "rewards" : [
+    [ [ "wt-woodenstake", 3], [ "wt-snaringlines", 3], [ "wt-sapling", 1] ]
+  ],
+  "moneyRange" : [10, 10],
+  "canBeAbandoned" : false,
+  "planetMode" : "none",
+  "questDungeons" : [ ],
+  "followUp" : ""
+}

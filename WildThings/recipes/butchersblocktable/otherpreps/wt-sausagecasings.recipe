@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "wt-intestines", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "wt-sausagecasings",
+    "count" : 2
+  },
+  "groups" : [ "wt-butcherblocktable", "wt-otherpreps" ]
+}

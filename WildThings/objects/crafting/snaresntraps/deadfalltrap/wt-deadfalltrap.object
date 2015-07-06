@@ -1,0 +1,48 @@
+{
+  "objectName" : "wt-deadfalltrap",
+  "rarity" : "Common",
+  "category" : "farmable",
+  "description" : "The deadfall trap, this uses notched wood and a trigger set to drop a heavy boulder onto a creature.",
+  "shortdescription" : "Deadfall Trap",
+  "maxStack" : 8,
+  "objectType" : "farmable",
+  "printable" : false,
+  "price" : 157,
+  
+  "maximumLiquidLevel" : 0.2,
+  
+  "learnBlueprintsOnPickup" : [ "wt-simplesnare" ],
+  "pickupQuestTemplates" : [ ],
+
+  "apexDescription" : "Careful, a deadfall trap is set there!",
+  "avianDescription" : "Caution, a trap.",
+  "floranDescription" : "Ohhh, rock. Not right, careful!",
+  "glitchDescription" : "HAHA, whats this a boulder? Why is it standing?",
+  "humanDescription" : "Hmm I like this trap, maybe I will take it.",
+  "hylotlDescription" : "A tactic in the art of surviving.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "wt-deadfalltrap.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "requireTilledAnchors" : false,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "stages" : [
+    {
+      "duration" : [825, 2825]
+    },
+    {
+      "alts" : 1,
+      "harvestPool" : "wt-deadfalltrap"
+    }
+  ]
+}

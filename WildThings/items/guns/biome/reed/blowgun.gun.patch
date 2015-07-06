@@ -1,0 +1,4 @@
+[
+ {"op":"add","path":"/pickupQuestTemplates","value":["wt-bgc.gearup"]},
+ {"op":"add","path":"/learnBlueprintsOnPickup","value":["wt-blowgun-capture"]}
+]

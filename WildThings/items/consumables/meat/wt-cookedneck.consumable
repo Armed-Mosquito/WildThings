@@ -1,0 +1,21 @@
+{
+  "itemName" : "wt-cookedneck",
+  "rarity" : "Common",
+  "inventoryIcon" : "wt-cookedneck.png",
+  "maxStack" : 8,
+  "description" : "I'll be kept well fed with this.",
+  "shortdescription" : "Cooked Neck",
+  "effects" : [ [
+    {
+        "effect" : "foodheal25",
+        "duration" : 12
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 180
+    }
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

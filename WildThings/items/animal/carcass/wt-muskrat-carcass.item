@@ -1,0 +1,10 @@
+{
+  "itemName" : "wt-muskrat-carcass",
+  "rarity" : "Common",
+  "inventoryIcon" : "wt-muskrat-carcass.png",
+  "maxStack" : 1,
+  "description" : "This carcass can be quartered up using a Jointing Kit.",
+  "shortdescription" : "Muskrat Carcass",
+  "learnBlueprintsOnPickup" : [ ],
+  "pickupQuestTemplates" : [ ]
+}

@@ -1,0 +1,11 @@
+{
+	"name": "WildThings",
+	"path": ".",
+	"dependencies": [],
+	"metadata": {		
+		"author": "Armed Mosquito",
+		"modversion": "#0.0.9",
+		"changelog" : "https://docs.google.com/document/d/1hN_bAlULf0RDpMcpPWDsnuX-pAfdLkP0sU2qjAb1csY/edit?usp=sharing",
+		"support" : "http://community.playstarbound.com/index.php?threads/wild-things.86113/"
+	}
+}

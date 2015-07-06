@@ -1,0 +1,8 @@
+{
+  "itemName" : "wt-chunkofsmellymeat",
+  "rarity" : "Common",
+  "inventoryIcon" : "wt-chunkofsmellymeat.png",
+  "maxStack" : 12,
+  "description" : "Pieces of meat like this can be used for trapping and snarin with bait.",
+  "shortdescription" : "Chunk of Smelly Meat"
+}

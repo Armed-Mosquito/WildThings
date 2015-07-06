@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "fullwood1", "count" : 3 },
+    { "item" : "cobblestonematerial", "count" : 3 }
+  ],
+  "output" : { "item" : "huntingspear", "count" : 1 },
+  "groups" : [ "wt-survivalisttable", "wt-hunterweapons" ]
+}

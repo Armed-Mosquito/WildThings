@@ -1,0 +1,9 @@
+{
+  "name" : "body",
+  "category" : "wt-redfox",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "wt-redfox.png"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "wt-sharpbone", "count" : 1 },
+	{ "item" : "wt-woodenhandle", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "wt-boneknife-t1",
+    "count" : 1
+  },
+  "groups" : [ "wt-survivalisttable", "wt-hunterweapons" ]
+}

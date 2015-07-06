@@ -1,0 +1,18 @@
+{
+  "id" : "wt-butcher.gearup",
+  "title" : "^#9be3d6;Butcher Your Meat!",
+  "text" : "So you want to become a better Survivor, well that means you need to learn about cooking and preserving meats! Follow my course, and I will allow you to cut all meat from here on out how you intend! ^green;Cut a piece of Raw Sirloin with the Butchers Block Table. ^orange;cut a Raw Sirloin with the Butchers Block Table, then Smoke it with Survivalist Table.",
+  "completionText" : "A true Survivor! You are doing a great job Survivalist, here are the butchering recipes for you. Try the Smoked Jerky for an extra perk!",
+  "conditions" : [
+    { "kind" : "gather", "item" : [ "wt-smokedjerky", 3], "consume" : false }
+  ],
+  "rewards" : [
+    [ [ "wt-butchercuts", 1]
+	]
+  ],
+  "moneyRange" : [10, 10],
+  "canBeAbandoned" : true,
+  "planetMode" : "none",
+  "questDungeons" : [ ],
+  "followUp" : ""
+}

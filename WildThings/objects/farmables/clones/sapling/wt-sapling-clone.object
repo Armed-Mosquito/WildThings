@@ -1,0 +1,70 @@
+{
+  "objectName" : "wt-sapling-clone",
+  "rarity" : "Uncommon",
+  "category" : "Farmable",
+  "maxStack" : 12,
+  "description" : "Harvest great parts for camp craft, traps, and wood work materials.",
+  "shortdescription" : "Sapling Clone",
+  "objectType" : "farmable",
+  "printable" : false,
+  "price" : 10,
+  
+  "maximumLiquidLevel" : 0.2,
+  
+  "learnBlueprintsOnPickup" : [ ],
+  "pickupQuestTemplates" : [ ],
+
+  "apexDescription" : "Harvest twigs, leaves, sturdy branches, and cut ends. Useful for camp craft and traps.",
+  "avianDescription" : "Harvest twigs, leaves, sturdy branches, and cut ends. Useful for camp craft and traps.",
+  "floranDescription" : "Harvest twigs, leaves, sturdy branches, and cut ends. Useful for camp craft and traps.",
+  "glitchDescription" : "Harvest twigs, leaves, sturdy branches, and cut ends. Useful for camp craft and traps.",
+  "humanDescription" : "Harvest twigs, leaves, sturdy branches, and cut ends. Useful for camp craft and traps.",
+  "hylotlDescription" : "Harvest twigs, leaves, sturdy branches, and cut ends. Useful for camp craft and traps.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "wt-sapling-clone.png:<color>.<stage>.<alt>",
+      "imagePosition" : [-13, 1],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaces" : [ [1, 0], [0, 0], [1, 1], [0, 1] ],
+      "requireTilledAnchors" : true,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "stages" : [
+    {
+      "duration" : [60, 105]
+    },
+    {
+      "duration" : [80, 105]
+    },
+    {
+      "harvestPool" : "wt-leafntwig-poor-harvest",
+      "duration" : [100, 105]
+    },
+    {
+	  "harvestPool" : "wt-leafntwig-fair-harvest",
+      "duration" : [120, 105]
+    },
+    {
+      "harvestPool" : "wt-saplingHarvest",
+	  "duration" : [140, 105]
+    },
+    {
+	  "harvestPool" : "wt-deadleafntwig-harvest",
+      "duration" : [70, 90]
+    },
+    {
+      "duration" : [30, 45]
+    },
+	{
+      "duration" : [40, 60]
+    }
+  ],
+    "breakDropOptions" : [ ]
+}

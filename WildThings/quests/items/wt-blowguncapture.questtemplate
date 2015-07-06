@@ -1,0 +1,17 @@
+{
+  "id" : "wt-blowguncapture.gearup",
+  "title" : "^#9be3d6;Getting a Pet Animal from the Wild",
+  "text" : "You have a blowgun! ^green;Lets turn this blowgun into a tool for capturing pets. ^white;This gun will sedate a monster and capture him for a pet that fights and levels up. ^green;Open the Survivalist Table and under hunter weapons you can now craft a Tranquillizer. ^orange;using the x1 Red Petals, x2 Yellow Petals, and x1 Blowgun",
+  "completionText" : "Here you go, your very own blow gun to capture pets with! Oh and take this blow gun for hunting with.",
+  "conditions" : [
+    { "kind" : "gather", "item" : [ "wt-blowgun-capture", 1], "consume" : false }
+  ],
+  "rewards" : [
+    [ ]
+  ],
+  "moneyRange" : [10, 10],
+  "canBeAbandoned" : true,
+  "planetMode" : "none",
+  "questDungeons" : [ ],
+  "followUp" : ""
+}

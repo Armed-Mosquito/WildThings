@@ -1,0 +1,21 @@
+{
+  "itemName" : "wt-cookedsilverside",
+  "rarity" : "Common",
+  "inventoryIcon" : "wt-cookedsilverside.png",
+  "maxStack" : 8,
+  "description" : "I'll be kept well fed with this.",
+  "shortdescription" : "Cooked Silverside",
+  "effects" : [ [
+    {
+        "effect" : "foodheal25",
+        "duration" : 16
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 180
+    }
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

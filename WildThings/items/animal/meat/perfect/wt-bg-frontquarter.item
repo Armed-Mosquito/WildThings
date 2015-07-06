@@ -1,0 +1,8 @@
+{
+  "itemName" : "wt-bg-frontquarter",
+  "rarity" : "Common",
+  "inventoryIcon" : "wt-frontquarter.png",
+  "maxStack" : 25,
+  "description" : "In order to harvest the meat from this I should de bone it with a jointing kit.",
+  "shortdescription" : "Front Quarter"
+}

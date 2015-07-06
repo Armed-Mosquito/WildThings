@@ -1,0 +1,8 @@
+{
+  "itemName" : "wt-rawhideflank",
+  "rarity" : "Common",
+  "inventoryIcon" : "wt-rawhideflank.png",
+  "maxStack" : 5,
+  "description" : "Belly, ideal for stews and casseroles.",
+  "shortdescription" : "Raw Hide Flank"
+}

@@ -1,0 +1,8 @@
+{
+  "itemName" : "wt-notchedwoodenstake",
+  "rarity" : "Common",
+  "inventoryIcon" : "wt-notchedwoodenstake.png",
+  "maxStack" : 25,
+  "description" : "A notched wooden stake is great for creating snares.",
+  "shortdescription" : "Notched Wooden Stake"
+}

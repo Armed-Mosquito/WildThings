@@ -1,0 +1,23 @@
+{
+  "id" : "wt-bbt.wttutorialseries",
+  "title" : "^#9be3d6;Butcher Block Table",
+  "text" : "Before Im ready to throw the meat I collected over a fire to cook its best to better prepare it for proper use. Some pieces of meat are so fresh from the kill it would be really grizzly and necessary to clean them up before cooking.
+
+Im going to need ^green;x8 Wood Planks^white;, ^green;x4 Steel Bars^white;, and ^green;x1 Butcher Saw I can ^orange;create the ^green;Butcher Saw^white; from the ^orange;Weapon Craft section of the Survivalist Table^white;.
+
+When I am ready I should ^green;create the Butcher Block Table^white; with those materials ^orange;from Survivalist Camp Craft^white;.",
+  "completionText" : "If I have some spare meat from harvesting I should cut some ^green;Raw Shins^white; for a few quest down the line I will be ^orange;cooking some meat stew^white;.",
+  "conditions" : [
+    { "kind" : "gather", "item" : [ "wt-butcherblocktable", 1], "consume" : false }
+  ],
+  "rewards" : [
+    [ 
+	[ "wt-butchersaw", 1]
+	]
+  ],
+  "moneyRange" : [65, 65],
+  "canBeAbandoned" : true,
+  "planetMode" : "none",
+  "questDungeons" : [ ],
+  "followUp" : "wt-basf.wttutorialseries"
+}

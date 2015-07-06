@@ -1,0 +1,17 @@
+{
+  "id" : "wt-basicsnare2.gearup",
+  "title" : "^#9be3d6;Simple Snaring!",
+  "text" : "So lets prepare the ground and use the snare! ^green;I can use a hoe to prepare to ground, then place my Simple Snare on the prepared ground. Do this until I snare a pig carcass, remember snaring will not get me a quality carcass! ^orange;obtain a Pig Carcass.",
+  "completionText" : "Good Job! I should see what else I can catch with a ^orange;simple snare!",
+  "conditions" : [
+    { "kind" : "gather", "item" : [ "wt-pig-carcass", 1], "consume" : false }
+  ],
+  "rewards" : [
+    [ [ "wt-butchersaw", 1] ]
+  ],
+  "moneyRange" : [10, 10],
+  "canBeAbandoned" : true,
+  "planetMode" : "none",
+  "questDungeons" : [ ],
+  "followUp" : ""
+}

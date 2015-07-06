@@ -1,0 +1,8 @@
+{
+  "itemName" : "wt-windpipe",
+  "rarity" : "Common",
+  "inventoryIcon" : "wt-windpipe.png",
+  "maxStack" : 25,
+  "description" : "Quiet useful for strong tubing.",
+  "shortdescription" : "Windpipe"
+}

@@ -1,0 +1,47 @@
+{
+  "objectName" : "wt-mapletree",
+  "rarity" : "rare",
+  "category" : "Harvestable",
+  "description" : "Maple trees can be cloned to produce maple syrup from.",
+  "shortdescription" : "Maple Tree",
+  "maxStack" : 1,
+  "printable" : false,
+  "objectType" : "farmable",
+  "price" : 157,
+  
+  "maximumLiquidLevel" : 0.2,
+  
+  "learnBlueprintsOnPickup" : [ ],
+  "pickupQuestTemplates" : [ ],
+
+  "apexDescription" : "A beautiful tree, I can gather a cut end from this to make clone. Perhaps to harvest syrup.",
+  "avianDescription" : "A beautiful tree, I can gather a cut end from this to make clone. Perhaps to harvest syrup.",
+  "floranDescription" : "A beautiful tree, I can gather a cut end from this to make clone. Perhaps to harvest syrup.",
+  "glitchDescription" : "A beautiful tree, I can gather a cut end from this to make clone. Perhaps to harvest syrup.",
+  "humanDescription" : "A beautiful tree, I can gather a cut end from this to make clone. Perhaps to harvest syrup.",
+  "hylotlDescription" : "A beautiful tree, I can gather a cut end from this to make clone. Perhaps to harvest syrup.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "image" : "wt-mapletree.png:<color>",
+      "imagePosition" : [-60, 0],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "wt-mapletree.png:<color>",
+      "imagePosition" : [-60, 0],
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+    "breakDropOptions" : [
+    [ [ "wt-mapletree-cutend", 1, { } ] ]
+  ]
+}

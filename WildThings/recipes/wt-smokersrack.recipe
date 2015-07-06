@@ -1,0 +1,13 @@
+{
+  "input" : [
+	{ "item" : "wt-sturdybranch", "count" : 4 },
+	{ "item" : "wt-twine", "count" : 4 },
+	{ "item" : "wt-woodenpole", "count" : 3 },
+	{ "item" : "wt-leaf", "count" : 25 }
+  ],
+  "output" : {
+    "item" : "wt-smokersrack",
+    "count" : 1
+  },
+  "groups" : [ "wt-survivalisttable", "wt-campcraft" ]
+}

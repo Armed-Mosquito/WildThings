@@ -1,0 +1,18 @@
+{
+  "id" : "wt-jointingkit.gearup",
+  "title" : "^#9be3d6;Let's Start Butchering Wild Things!",
+  "text" : "I can use this saw to gain quartered meat from kills. But its also an ingredient for a field Jointing Kit ^green;I should find a Wild Thing to kill for meat, then I need to craft the Jointing Kit ^orange;obtain x6 Quartered Meat by using my Butcher Saw, and craft a Jointing Kit from your Survivalist Table.",
+  "completionText" : "Great! I should use this method to quarter my meat from a dead ^orange;carcass.",
+  "conditions" : [
+	{ "kind" : "gather", "item" : [ "wt-jointingkit", 1], "consume" : false },
+	{ "kind" : "gather", "item" : [ "wt-quarteredmeat", 3], "consume" : false }
+  ],
+  "rewards" : [
+    [ [ "wt-butchersaw", 1] ]
+  ],
+  "moneyRange" : [10, 10],
+  "canBeAbandoned" : true,
+  "planetMode" : "none",
+  "questDungeons" : [ ],
+  "followUp" : ""
+}

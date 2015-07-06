@@ -1,0 +1,8 @@
+{
+  "itemName" : "wt-brain-tainted",
+  "rarity" : "Common",
+  "inventoryIcon" : "wt-brain-tainted.png",
+  "maxStack" : 25,
+  "description" : "This eye was tainted during the harvest. Should be thrown away.",
+  "shortdescription" : "Tainted Brain"
+}

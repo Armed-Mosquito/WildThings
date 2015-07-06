@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "nanowrap", "count" : 2 },
+	{ "item" : "bandage", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "medkit",
+    "count" : 1
+  },
+  "groups" : [ "plain", "all", "other", "wt-survivalisttable", "wt-medical" ]
+}

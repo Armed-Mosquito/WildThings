@@ -1,0 +1,8 @@
+{
+  "itemName" : "wt-freshlycutends",
+  "rarity" : "Common",
+  "inventoryIcon" : "wt-freshlycutends.png",
+  "maxStack" : 12,
+  "description" : "I cant use this quality for cloning but perhaps camouflaging.",
+  "shortdescription" : "Freshly Cut Ends"
+}

@@ -1,0 +1,10 @@
+{
+  "itemName" : "wt-sturdybranch",
+  "rarity" : "Common",
+  "inventoryIcon" : "wt-sturdybranch.png",
+  "maxStack" : 20,
+  "description" : "Strong branches are useful for trapping, and other camp crafts.",
+  "shortdescription" : "Sturdy Branch",
+  
+  "learnBlueprintsOnPickup" : [ "wt-woodenstake", "wt-notchedwoodenstake" ]
+}

@@ -1,0 +1,8 @@
+{
+  "itemName" : "wt-bladder",
+  "rarity" : "Common",
+  "inventoryIcon" : "wt-bladder.png",
+  "maxStack" : 25,
+  "description" : "The normal function of the bladder is to hold water.",
+  "shortdescription" : "Bladder"
+}

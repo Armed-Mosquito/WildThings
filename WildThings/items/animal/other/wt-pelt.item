@@ -1,0 +1,8 @@
+{
+  "itemName" : "wt-pelt",
+  "rarity" : "Rare",
+  "inventoryIcon" : "wt-pelt.png",
+  "maxStack" : 25,
+  "description" : "A beast pelt.",
+  "shortdescription" : "Pelt"
+}

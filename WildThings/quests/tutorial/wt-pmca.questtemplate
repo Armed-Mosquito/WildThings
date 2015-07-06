@@ -1,0 +1,26 @@
+{
+  "id" : "wt-pmca.wttutorialseries",
+  "title" : "^#9be3d6;Preparing my Camp Area",
+  "text" : "Woodworking is great for preparing traps, camp craft resources, weapon handles, spears, etc. ^orange;Woodworking is the first button in my survivalist table.^white;
+
+I will need to^orange; gather some Full Wood from a tree^white;.
+
+Once I have found some wood ^green;create x4 Wooden Poles^white; and hang on to them later to create more stuff.",
+  "completionText" : "Some animal and plant species I find will be on other planet biomes.
+  
+Expecting to find a Koala on a desert is likely not the case, using my wits to help me determine what Ill find there is key.",
+  "conditions" : [
+    { "kind" : "gather", "item" : [ "wt-woodenpole", 4], "consume" : false }
+  ],
+  "rewards" : [
+    [ 
+	[ "plantfibre", 12],
+	[ "darkwoodmaterial", 8]
+	]
+  ],
+  "moneyRange" : [15, 15],
+  "canBeAbandoned" : true,
+  "planetMode" : "none",
+  "questDungeons" : [ ],
+  "followUp" : "wt-paafo.wttutorialseries"
+}

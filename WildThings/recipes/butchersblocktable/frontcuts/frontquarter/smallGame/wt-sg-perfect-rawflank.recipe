@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "wt-sg-frontquarter", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "wt-rawflank",
+    "count" : 2
+  },
+  "groups" : [ "wt-butcherblocktable", "wt-frontcuts" ]
+}

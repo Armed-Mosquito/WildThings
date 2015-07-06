@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "wt-mapletree-cutend", "count" : 1 },
+	{ "item" : "wt-aloeveragel", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "wt-mapletree-clone",
+    "count" : 1
+  },
+  "groups" : [ "wt-survivalisttable", "wt-plantcraft" ]
+}

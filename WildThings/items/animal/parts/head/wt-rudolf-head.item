@@ -1,0 +1,8 @@
+{
+  "itemName" : "wt-rudolf-head",
+  "rarity" : "Rare",
+  "inventoryIcon" : "wt-rudolf-head.png",
+  "maxStack" : 3,
+  "description" : "Rudolf's missing head.",
+  "shortdescription" : "Rudolf Head"
+}

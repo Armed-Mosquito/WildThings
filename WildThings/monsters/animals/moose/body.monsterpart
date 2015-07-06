@@ -1,0 +1,9 @@
+{
+  "name" : "body",
+  "category" : "wt-moose",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "wt-moose.png"
+  }
+}

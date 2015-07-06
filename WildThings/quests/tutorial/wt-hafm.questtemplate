@@ -1,0 +1,23 @@
+{
+  "id" : "wt-hafm.wttutorialseries",
+  "title" : "^#9be3d6;Hunting Animals for Meat",
+  "text" : "^orange;Small^white;, ^orange;Medium^white;, ^white;and ^orange;Big Game Animals ^white;are available to hunt they provide a different yield in meat when I butcher it up using my ^orange;Butcher Block Table^white;.
+
+Animals also drop ^orange;organ parts^white; some are better then others I will have to discover how I use them. Lastly ^orange;remember weapons affect the loot received from animal hunts^white;.
+
+Using my ^orange;Stone Hunting Knife ^white;and Bandages I prepared I am ready for a fight! 
+
+Hunt for ^orange;Small Game^white;, ither ^orange;Rabbit ^white;or ^orange;Muskrat ^white;to ^green;gather x1 Front Legs^white;.",
+  "completionText" : "Dont forget the different game size and animals all drop different loot!",
+  "conditions" : [
+    { "kind" : "gather", "item" : [ "wt-sg-frontlegs", 1], "consume" : false }
+  ],
+  "rewards" : [
+    [ ]
+  ],
+  "moneyRange" : [60, 60],
+  "canBeAbandoned" : true,
+  "planetMode" : "none",
+  "questDungeons" : [ ],
+  "followUp" : "wt-bbt.wttutorialseries"
+}

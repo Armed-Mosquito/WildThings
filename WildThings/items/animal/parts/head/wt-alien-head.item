@@ -1,0 +1,8 @@
+{
+  "itemName" : "wt-alien-head",
+  "rarity" : "Rare",
+  "inventoryIcon" : "wt-alien-head.png",
+  "maxStack" : 3,
+  "description" : "An alien's missing head.",
+  "shortdescription" : "Alien Head"
+}

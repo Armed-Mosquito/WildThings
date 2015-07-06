@@ -1,0 +1,8 @@
+{
+  "itemName" : "wt-snowman-head",
+  "rarity" : "Rare",
+  "inventoryIcon" : "wt-snowman-head.png",
+  "maxStack" : 3,
+  "description" : "A snowman's missing head.",
+  "shortdescription" : "Snowman Head"
+}

@@ -1,0 +1,8 @@
+{
+  "itemName" : "wt-leaf",
+  "rarity" : "Common",
+  "inventoryIcon" : "wt-leaf.png",
+  "maxStack" : 60,
+  "description" : "Leaves can be used for some snares and trapping. It helps make things look natural.",
+  "shortdescription" : "Green Leaf"
+}

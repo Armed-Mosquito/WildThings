@@ -1,0 +1,8 @@
+{
+  "itemName" : "wt-sinew",
+  "rarity" : "Common",
+  "inventoryIcon" : "wt-sinew.png",
+  "maxStack" : 25,
+  "description" : "Sinew is useful for creating bow string, and other strong threads.",
+  "shortdescription" : "Sinew"
+}

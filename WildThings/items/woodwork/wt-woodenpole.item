@@ -1,0 +1,8 @@
+{
+  "itemName" : "wt-woodenpole",
+  "rarity" : "Common",
+  "inventoryIcon" : "wt-woodenpole.png",
+  "maxStack" : 10,
+  "description" : "A pretty useful Camp Craft material.",
+  "shortdescription" : "Wooden Pole"
+}

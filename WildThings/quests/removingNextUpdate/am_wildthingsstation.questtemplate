@@ -1,0 +1,19 @@
+{
+  "id" : "am_wildthingsstation.gearup",
+  "title" : "^#9be3d6;Wild Things Station",
+  "text" : "Want a place to create your unlocked Wild Things? This station is ideal for collectors! ^green;This station is going to allow you to bring the Wild Things out of season and into the game! ^orange;craft a Wild Things Station.",
+  "completionText" : "Now, place this on a wall of your choice to begin using it. Remember all pets are collectable but its a challenge to get the Wild Thing unlocks!",
+  "conditions" : [
+    { "kind" : "gather", "item" : [ "am_wildthingsstation", 1], "consume" : false }
+  ],
+  "rewards" : [
+    [ [ "money", 375]
+	]
+  ],
+  "moneyRange" : [10, 10],
+  "canBeAbandoned" : true,
+  "planetMode" : "none",
+  "questDungeons" : [ ],
+  "followUp" : "",
+  "associatedMission" : ""
+}

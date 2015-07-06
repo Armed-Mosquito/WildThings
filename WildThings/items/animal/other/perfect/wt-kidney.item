@@ -1,0 +1,8 @@
+{
+  "itemName" : "wt-kidney",
+  "rarity" : "Common",
+  "inventoryIcon" : "wt-kidney.png",
+  "maxStack" : 25,
+  "description" : "Kidneys are a valuable source of nourishment and ideal flavouring for stews.",
+  "shortdescription" : "Kidney"
+}

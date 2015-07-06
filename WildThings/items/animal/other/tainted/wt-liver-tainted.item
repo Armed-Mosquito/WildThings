@@ -1,0 +1,8 @@
+{
+  "itemName" : "wt-liver-tainted",
+  "rarity" : "Common",
+  "inventoryIcon" : "wt-liver-tainted.png",
+  "maxStack" : 25,
+  "description" : "This liver has been damaged, its now tainted. Can be thrown away.",
+  "shortdescription" : "Tainted Liver"
+}

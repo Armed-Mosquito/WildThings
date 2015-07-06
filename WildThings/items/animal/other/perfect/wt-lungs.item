@@ -1,0 +1,8 @@
+{
+  "itemName" : "wt-lungs",
+  "rarity" : "Common",
+  "inventoryIcon" : "wt-lungs.png",
+  "maxStack" : 25,
+  "description" : "Lungs or also known as lites, perfectly good to eat but dont have much food value. They make good for fish bait.",
+  "shortdescription" : "Lungs"
+}

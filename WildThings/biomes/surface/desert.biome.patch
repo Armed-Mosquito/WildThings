@@ -1,0 +1,3 @@
+[
+ {"op":"add","path":"/surfacePlaceables/items/-","value":{"mode":"floor","priority":1,"variants":1,"distribution":"/biomes/distributions.config:wt-mapleTrees","type":"object","objectSets":[{"pool":[[1,"wt-aloeveraplant"]],"parameters":{"startingStage":1}}]}}
+]

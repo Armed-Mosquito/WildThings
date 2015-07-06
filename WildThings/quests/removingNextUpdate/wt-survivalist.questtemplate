@@ -1,0 +1,19 @@
+{
+  "id" : "wt-survivalist.gearup",
+  "title" : "^#9be3d6;Primitive Survival",
+  "text" : "So I can build torches, and camp fires.. But if ^green;I would like to learn more survival techniques, ^orange;I should build a Survivalist Table.",
+  "completionText" : "Great! With this table ^green;I have new crafting options ^white;such as ^orange; hunter weapons, snares and traps, camp craft, animal products, survival food, and even first aid!",
+  "conditions" : [
+    { "kind" : "gather", "item" : [ "wt-survivalisttable", 1], "consume" : false }
+  ],
+  "rewards" : [
+    [ 
+	[ "fullwood2", 25]
+	]
+  ],
+  "moneyRange" : [10, 10],
+  "canBeAbandoned" : true,
+  "planetMode" : "none",
+  "questDungeons" : [ ],
+  "followUp" : ""
+}

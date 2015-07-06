@@ -1,0 +1,396 @@
+{
+    "wt-mapletreeHarvest" : [
+    [0, {
+	  "fill" : [
+	    {"pool" : "wt-twig-average-harvest"},
+		{"pool" : "wt-deadleafntwig-harvest"}
+	  ],
+      "pool" : [
+	    {"weight" : 0.5, "item" : [ "wt-maplesyrup", 1 ]},
+        {"weight" : 0.5, "item" : [ "wt-maplesyrup", 2 ]},
+		{"weight" : 0.5, "item" : [ "wt-maplesyrup", 3 ]},
+		{"weight" : 0.5, "item" : [ "wt-mapletree-cutend", 1 ]},
+		{"weight" : 0.4, "item" : [ "wt-mapletree-cutend", 2 ]},
+		{"weight" : 0.3, "item" : [ "wt-mapletree-cutend", 3 ]}
+      ],
+      "poolRounds" : [
+        [0.6, 1],
+		[0.4, 2]
+      ],
+	  "levelVariance" : [0, 0],
+      "allowDuplication" : false
+    } ]
+],
+  // Leaf Harvest from Poor to Excellent
+  "wt-leaf-poor-harvest" : [
+    [0, {
+      "pool" : [
+	    {"weight" : 0.5, "item" : [ "wt-leaf", 2 ]},
+        {"weight" : 0.5, "item" : [ "wt-leaf", 1 ]}
+      ],
+      "poolRounds" : [
+        [0.8, 0],
+		[0.7, 1]
+      ],
+	  "levelVariance" : [0, 0],
+      "allowDuplication" : false
+    } ]
+  ],
+  "wt-leaf-fair-harvest" : [
+    [0, {
+      "pool" : [
+	    {"weight" : 0.5, "item" : [ "wt-leaf", 3 ]},
+        {"weight" : 0.5, "item" : [ "wt-leaf", 2 ]},
+		{"weight" : 0.5, "item" : [ "wt-leaf", 2 ]}
+      ],
+      "poolRounds" : [
+        [0.8, 1],
+		[0.5, 2],
+		[0.3, 3]
+      ],
+	  "levelVariance" : [0, 0],
+      "allowDuplication" : false
+    } ]
+  ],
+  "wt-leaf-average-harvest" : [
+    [0, {
+      "pool" : [
+	    {"weight" : 0.5, "item" : [ "wt-leaf", 4 ]},
+        {"weight" : 0.5, "item" : [ "wt-leaf", 3 ]},
+		{"weight" : 0.5, "item" : [ "wt-leaf", 2 ]}
+      ],
+      "poolRounds" : [
+        [0.8, 1],
+		[0.6, 2],
+		[0.3, 3]
+      ],
+	  "levelVariance" : [0, 0],
+      "allowDuplication" : false
+    } ]
+  ],
+  "wt-leaf-good-harvest" : [
+    [0, {
+      "pool" : [
+	    {"weight" : 0.5, "item" : [ "wt-leaf", 5 ]},
+        {"weight" : 0.5, "item" : [ "wt-leaf", 4 ]},
+		{"weight" : 0.5, "item" : [ "wt-leaf", 3 ]}
+      ],
+      "poolRounds" : [
+        [0.8, 1],
+		[0.7, 2],
+		[0.3, 3]
+      ],
+	  "levelVariance" : [0, 0],
+      "allowDuplication" : false
+    } ]
+  ],
+  "wt-leaf-excellent-harvest" : [
+    [0, {
+      "pool" : [
+	    {"weight" : 0.5, "item" : [ "wt-leaf", 6 ]},
+        {"weight" : 0.5, "item" : [ "wt-leaf", 5 ]},
+		{"weight" : 0.5, "item" : [ "wt-leaf", 4 ]}
+      ],
+      "poolRounds" : [
+        [0.8, 1],
+		[0.8, 2],
+		[0.4, 3]
+      ],
+	  "levelVariance" : [0, 0],
+      "allowDuplication" : false
+    } ]
+  ],
+  // Twig Harvest from Poor to Excellent
+  "wt-twig-poor-harvest" : [
+    [0, {
+      "pool" : [
+	    {"weight" : 0.5, "item" : [ "wt-twig", 2 ]},
+        {"weight" : 0.5, "item" : [ "wt-twig", 1 ]}
+      ],
+      "poolRounds" : [
+        [0.8, 0],
+		[0.7, 1]
+      ],
+	  "levelVariance" : [0, 0],
+      "allowDuplication" : false
+    } ]
+  ],
+  "wt-twig-fair-harvest" : [
+    [0, {
+      "pool" : [
+	    {"weight" : 0.5, "item" : [ "wt-twig", 3 ]},
+        {"weight" : 0.5, "item" : [ "wt-twig", 2 ]},
+		{"weight" : 0.5, "item" : [ "wt-twig", 2 ]}
+      ],
+      "poolRounds" : [
+        [0.8, 1],
+		[0.5, 2],
+		[0.3, 3]
+      ],
+	  "levelVariance" : [0, 0],
+      "allowDuplication" : false
+    } ]
+  ],
+  "wt-twig-average-harvest" : [
+    [0, {
+      "pool" : [
+	    {"weight" : 0.5, "item" : [ "wt-twig", 4 ]},
+        {"weight" : 0.5, "item" : [ "wt-twig", 3 ]},
+		{"weight" : 0.5, "item" : [ "wt-twig", 2 ]}
+      ],
+      "poolRounds" : [
+        [0.8, 1],
+		[0.6, 2],
+		[0.3, 3]
+      ],
+	  "levelVariance" : [0, 0],
+      "allowDuplication" : false
+    } ]
+  ],
+  "wt-twig-good-harvest" : [
+    [0, {
+      "pool" : [
+	    {"weight" : 0.5, "item" : [ "wt-twig", 5 ]},
+        {"weight" : 0.5, "item" : [ "wt-twig", 4 ]},
+		{"weight" : 0.5, "item" : [ "wt-twig", 3 ]}
+      ],
+      "poolRounds" : [
+        [0.8, 1],
+		[0.7, 2],
+		[0.3, 3]
+      ],
+	  "levelVariance" : [0, 0],
+      "allowDuplication" : false
+    } ]
+  ],
+  "wt-twig-excellent-harvest" : [
+    [0, {
+      "pool" : [
+	    {"weight" : 0.5, "item" : [ "wt-twig", 6 ]},
+        {"weight" : 0.5, "item" : [ "wt-twig", 5 ]},
+		{"weight" : 0.5, "item" : [ "wt-twig", 4 ]}
+      ],
+      "poolRounds" : [
+        [0.8, 1],
+		[0.8, 2],
+		[0.4, 3]
+      ],
+	  "levelVariance" : [0, 0],
+      "allowDuplication" : false
+    } ]
+  ],
+  // Dead Leaf & Twig Harvest from Poor to Excellent
+  "wt-deadleafntwig-harvest" : [
+    [0, {
+	  "fill" : [
+	    {"pool" : "wt-twig-fair-harvest"}
+	  ],
+      "pool" : [
+		{"weight" : 0.7, "item" : [ "wt-deadleaf", 6 ]},
+		{"weight" : 0.6, "item" : [ "wt-deadleaf", 5 ]},
+		{"weight" : 0.5, "item" : [ "wt-deadleaf", 4 ]}
+      ],
+      "poolRounds" : [
+        [0.8, 1],
+		[0.7, 2],
+		[0.3, 3]
+      ],
+      "allowDuplication" : true
+    } ]
+  ],
+  // Leaf & Twig Harvest from Poor to Excellent
+  "wt-leafntwig-poor-harvest" : [
+    [0, {
+	  "fill" : [
+	    {"pool" : "wt-leaf-poor-harvest"},
+	    {"pool" : "wt-twig-poor-harvest"}
+	  ],
+      "pool" : [
+		{"weight" : 0.7, "item" : [ "wt-deadleaf", 6 ]},
+		{"weight" : 0.6, "item" : [ "wt-deadleaf", 5 ]},
+		{"weight" : 0.5, "item" : [ "wt-deadleaf", 4 ]},
+		
+		{"weight" : 0.4, "item" : [ "wt-freshlycutends", 1 ]},		
+		
+		{"weight" : 0.6, "item" : [ "wt-sturdybranch", 1 ]}
+      ],
+      "poolRounds" : [
+        [0.8, 0],
+		[0.7, 1],
+		[0.5, 2]
+      ],
+      "allowDuplication" : true
+    } ]
+  ],
+  "wt-leafntwig-fair-harvest" : [
+    [0, {
+	  "fill" : [
+	    {"pool" : "wt-leaf-fair-harvest"},
+	    {"pool" : "wt-twig-fair-harvest"}
+	  ],
+      "pool" : [
+	    {"weight" : 0.4, "pool" : "wt-leaf-poor-harvest-harvest"},
+		{"weight" : 0.5, "pool" : "wt-twig-poor-harvest-harvest"},
+	  
+		{"weight" : 0.4, "item" : [ "wt-deadleaf", 4 ]},
+		{"weight" : 0.5, "item" : [ "wt-deadleaf", 5 ]},
+		{"weight" : 0.3, "item" : [ "wt-deadleaf", 6 ]},		
+		
+		{"weight" : 0.6, "item" : [ "wt-sturdybranch", 1 ]}
+      ],
+      "poolRounds" : [
+        [0.8, 1],
+		[0.7, 2],
+		[0.5, 3]
+      ],
+      "allowDuplication" : true
+    } ]
+  ],
+  "wt-leafntwig-average-harvest" : [
+    [0, {
+	  "fill" : [
+	    {"pool" : "wt-leaf-average-harvest"},
+	    {"pool" : "wt-twig-average-harvest"}
+	  ],
+      "pool" : [
+	    {"weight" : 0.5, "pool" : "wt-leaf-fair-harvest"},
+		{"weight" : 0.5, "pool" : "wt-twig-fair-harvest"},
+	  
+		{"weight" : 0.4, "item" : [ "wt-deadleaf", 4 ]},
+		{"weight" : 0.3, "item" : [ "wt-deadleaf", 5 ]},
+		{"weight" : 0.2, "item" : [ "wt-deadleaf", 6 ]},
+		
+		{"weight" : 0.4, "item" : [ "wt-stem", 1 ]},
+		{"weight" : 0.6, "item" : [ "wt-sturdybranch", 2 ]},
+		{"weight" : 0.4, "item" : [ "wt-freshlycutends", 1 ]}
+      ],
+      "poolRounds" : [
+        [0.8, 1],
+		[0.8, 2],
+		[0.5, 3]
+      ],
+      "allowDuplication" : true
+    } ]
+  ],
+  "wt-leafntwig-good-harvest" : [
+    [0, {
+	  "fill" : [
+	    {"pool" : "wt-leaf-good-harvest"},
+	    {"pool" : "wt-twig-good-harvest"}
+	  ],
+      "pool" : [
+	    {"weight" : 0.5, "pool" : "wt-leaf-fair-harvest"},
+		{"weight" : 0.5, "pool" : "wt-twig-fair-harvest"},
+	  
+		{"weight" : 0.4, "item" : [ "wt-deadleaf", 4 ]},
+		{"weight" : 0.3, "item" : [ "wt-deadleaf", 5 ]},
+		{"weight" : 0.2, "item" : [ "wt-deadleaf", 6 ]},
+		
+		{"weight" : 0.4, "item" : [ "wt-stem", 1 ]},
+		{"weight" : 0.7, "item" : [ "wt-sturdybranch", 3 ]},
+		{"weight" : 0.4, "item" : [ "wt-freshlycutends", 1 ]}
+      ],
+      "poolRounds" : [
+        [0.7, 1],
+		[0.8, 2],
+		[0.6, 3]
+      ],
+      "allowDuplication" : true
+    } ]
+  ],
+  "wt-leafntwig-excellent-harvest" : [
+    [0, {
+	  "fill" : [
+	    {"pool" : "wt-leaf-excellent-harvest"},
+	    {"pool" : "wt-twig-excellent-harvest"}
+	  ],
+      "pool" : [
+	    {"weight" : 0.5, "pool" : "wt-leaf-good-harvest"},
+		{"weight" : 0.5, "pool" : "wt-twig-good-harvest"},
+	  
+		{"weight" : 0.4, "item" : [ "wt-deadleaf", 4 ]},
+		{"weight" : 0.3, "item" : [ "wt-deadleaf", 5 ]},
+		{"weight" : 0.2, "item" : [ "wt-deadleaf", 6 ]},
+		
+		{"weight" : 0.4, "item" : [ "wt-stem", 1 ]},
+		{"weight" : 0.8, "item" : [ "wt-sturdybranch", 4 ]},
+		{"weight" : 0.4, "item" : [ "wt-freshlycutends", 2 ]}
+      ],
+      "poolRounds" : [
+        [0.7, 1],
+		[0.8, 2],
+		[0.6, 3]
+      ],
+      "allowDuplication" : true
+    } ]
+  ],
+  
+  "wt-saplingHarvest" : [
+    [0, {
+      "pool" : [
+        {"weight" : 0.8, "pool" : "wt-leafntwig-average-harvest"},
+        {"weight" : 0.6, "pool" : "wt-leafntwig-good-harvest"},
+		{"weight" : 0.4, "pool" : "wt-leafntwig-excellent-harvest"},
+        {"weight" : 0.3, "item" : [ "wt-sapling-cutend", 1 ]}
+      ],
+      "poolRounds" : [
+        [0.5, 1],
+		[0.4, 2]
+      ],
+      "allowDuplication" : false
+    } ]
+  ],
+  "wt-normalFoliage" : [
+    [0, {
+	  "fill" : [
+        {"item" : "wt-leaf"},
+		{"item" : "wt-twig"}
+      ],
+      "pool" : [		
+        {"weight" : 0.5, "item" : [ "wt-leaf", 2 ]}
+      ],
+      "poolRounds" : [
+        [0.5, 1],
+		[0.4, 0]
+      ],
+	  "levelVariance" : [0, 0],
+      "allowDuplication" : true
+    } ]
+  ],
+  "wt-leafyFoliage" : [
+    [0, {
+	  "fill" : [
+        {"item" : "wt-leaf"},
+		{"item" : [ "wt-twig", 2 ]}
+      ],
+      "pool" : [		
+        {"weight" : 0.5, "item" : [ "wt-leaf", 2 ]},
+        {"weight" : 0.4, "item" : [ "wt-leaf", 4 ]},
+		{"weight" : 0.3, "item" : [ "wt-leaf", 6 ]}
+      ],
+      "poolRounds" : [
+        [0.5, 1],
+		[0.5, 2],
+		[0.4, 0]
+      ],
+	  "levelVariance" : [0, 0],
+      "allowDuplication" : true
+    } ]
+  ],
+  "wt-deadFoliage" : [
+    [0, {
+      "pool" : [
+        {"weight" : 0.5, "item" : [ "wt-twig", 2 ]},
+        {"weight" : 0.4, "item" : [ "wt-twig", 4 ]},
+		{"weight" : 0.3, "item" : [ "wt-twig", 6 ]}
+      ],
+      "poolRounds" : [
+        [0.5, 1],
+		[0.5, 2],
+		[0.4, 0]
+      ],
+	  "levelVariance" : [0, 0],
+      "allowDuplication" : true
+    } ]
+  ]
+}

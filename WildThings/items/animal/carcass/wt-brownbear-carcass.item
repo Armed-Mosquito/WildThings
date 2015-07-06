@@ -1,0 +1,10 @@
+{
+  "itemName" : "wt-brownbear-carcass",
+  "rarity" : "Common",
+  "inventoryIcon" : "wt-brownbear-carcass.png",
+  "maxStack" : 1,
+  "description" : "This carcass needs to be quartered up using a Jointing Kit.",
+  "shortdescription" : "Brown Bear Carcass",
+  "learnBlueprintsOnPickup" : [ ],
+  "pickupQuestTemplates" : [ ]
+}

@@ -1,0 +1,49 @@
+{
+  "objectName" : "wt-juicepress",
+  "printable" : false,
+  "rarity" : "Uncommon",
+  "description" : "Juice many things.",
+  "shortdescription" : "Juice Press",
+  "maxStack" : 1,
+  "race" : "generic",
+  "price" : 100,
+  "category" : "Crafting Station",
+  "objectType" : "container",
+  
+  "maximumLiquidLevel" : 0.2,
+  
+  "learnBlueprintsOnPickup" : [ ],
+  "pickupQuestTemplates" : [ ],
+
+  "apexDescription" : "This can be used to exract juices from different plants and fruits.",
+  "avianDescription" : "This can be used to exract juices from different plants and fruits.",
+  "floranDescription" : "This can be used to exract juices from different plants and fruits.",
+  "glitchDescription" : "This can be used to exract juices from different plants and fruits.",
+  "humanDescription" : "This can be used to exract juices from different plants and fruits.",
+  "hylotlDescription" : "This can be used to exract juices from different plants and fruits.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "wt-juicepress.png:<color>",
+
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+	  "requireTilledAnchors" : false,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "statusEffects" : [ ],
+
+  "recipeGroup" : "wt-juicepress",
+  "openSounds" : [ "/sfx/projectiles/spit.wav" ],
+  "slotCount" : 2,
+  "uiConfig" : "/interface/objectcrafting/wt-onestep.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+}
